@@ -1,0 +1,174 @@
+0x3F403297	0x3297	DROM	uart_event_task
+0x3F403407	0x3407	DROM	uart_intr_config(uart->num, &uart_intr)
+0x3F403498	0x3498	DROM	uart_flush_input(uart->num)
+0x3F4034B4	0x34B4	DROM	uart_driver_install(uart_nr, rx_buffer_size, tx_buffer_size, 20, &(uart->uart_event_queue), 0)
+0x3F403513	0x3513	DROM	uart_param_config(uart_nr, &uart_config)
+0x3F40353C	0x353C	DROM	uart_set_pin(uart_nr, txPin, rxPin, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE)
+0x3F403588	0x3588	DROM	uart_set_line_inverse(uart_nr, UART_SIGNAL_TXD_INV | UART_SIGNAL_RXD_INV)
+0x3F403618	0x3618	DROM	uartFlushTxOnly
+0x3F403628	0x3628	DROM	uartBegin
+0x3F403632	0x3632	DROM	gpio_ll_iomux_func_sel
+0x3F403F48	0x3F48	DROM	gpio
+0x3F403F64	0x3F64	DROM	GPIO number error
+0x3F404036	0x4036	DROM	/IDF/components/hal/esp32/include/hal/gpio_ll.h
+0x3F40411E	0x411E	DROM	GPIO output gpio_num error
+0x3F4041E5	0x41E5	DROM	GPIO interrupt type error
+0x3F4041FF	0x41FF	DROM	GPIO pull mode error
+0x3F40423C	0x423C	DROM	E (%u) %s: GPIO_PIN mask error 
+0x3F40425D	0x425D	DROM	E (%u) %s: GPIO can only be used as input mode
+0x3F4042A6	0x42A6	DROM	/IDF/components/driver/gpio.c
+0x3F404374	0x4374	DROM	gpio_ll_iomux_in
+0x3F404385	0x4385	DROM	gpio_ll_iomux_func_sel
+0x3F40439C	0x439C	DROM	gpio_config
+0x3F4043A8	0x43A8	DROM	gpio_od_disable
+0x3F4043B8	0x43B8	DROM	gpio_od_enable
+0x3F4043C7	0x43C7	DROM	gpio_ll_output_disable
+0x3F4043DE	0x43DE	DROM	gpio_output_disable
+0x3F4043F2	0x43F2	DROM	gpio_output_enable
+0x3F404405	0x4405	DROM	gpio_input_disable
+0x3F404418	0x4418	DROM	gpio_ll_input_enable
+0x3F40442D	0x442D	DROM	gpio_input_enable
+0x3F40443F	0x443F	DROM	gpio_set_direction
+0x3F404452	0x4452	DROM	gpio_set_pull_mode
+0x3F404465	0x4465	DROM	gpio_set_level
+0x3F404474	0x4474	DROM	gpio_intr_disable
+0x3F404486	0x4486	DROM	gpio_intr_enable_on_core
+0x3F40449F	0x449F	DROM	gpio_intr_enable
+0x3F4044B0	0x44B0	DROM	gpio_set_intr_type
+0x3F4044C3	0x44C3	DROM	gpio_pulldown_dis
+0x3F4044D5	0x44D5	DROM	gpio_ll_pulldown_en
+0x3F4044E9	0x44E9	DROM	gpio_pulldown_en
+0x3F4044FA	0x44FA	DROM	gpio_pullup_dis
+0x3F40450A	0x450A	DROM	gpio_ll_pullup_en
+0x3F40451C	0x451C	DROM	gpio_pullup_en
+0x3F404540	0x4540	DROM	/IDF/components/driver/i2c.c
+0x3F404561	0x4561	DROM	E (%u) %s: i2c command link allocation error: the buffer provided is too small.
+0x3F4045B2	0x45B2	DROM	E (%u) %s: i2c command link malloc error
+0x3F404603	0x4603	DROM	E (%u) %s: %s(%d): i2c number error
+0x3F404628	0x4628	DROM	E (%u) %s: %s(%d): i2c driver install error
+0x3F404655	0x4655	DROM	E (%u) %s: %s(%d): i2c timing value error
+0x3F404680	0x4680	DROM	E (%u) %s: %s(%d): i2c null address error
+0x3F4046AB	0x46AB	DROM	E (%u) %s: %s(%d): i2c buffer size too small for slave mode
+0x3F4046E8	0x46E8	DROM	E (%u) %s: i2c driver malloc error
+0x3F40470C	0x470C	DROM	E (%u) %s: i2c ringbuffer error
+0x3F40472D	0x472D	DROM	E (%u) %s: i2c semaphore error
+0x3F40474D	0x474D	DROM	E (%u) %s: i2c driver install error
+0x3F404772	0x4772	DROM	E (%u) %s: %s(%d): sda gpio number error
+0x3F40479C	0x479C	DROM	E (%u) %s: %s(%d): scl gpio number error
+0x3F4047C6	0x47C6	DROM	E (%u) %s: %s(%d): this i2c pin does not support internal pull-up
+0x3F404809	0x4809	DROM	E (%u) %s: %s(%d): scl and sda gpio numbers are the same
+0x3F404843	0x4843	DROM	E (%u) %s: %s(%d): i2c mode error
+0x3F404866	0x4866	DROM	E (%u) %s: %s(%d): i2c clock choice is invalid, please check flag and frequency
+0x3F4048B7	0x48B7	DROM	E (%u) %s: %s(%d): i2c command link error
+0x3F4048E2	0x48E2	DROM	E (%u) %s: %s(%d): i2c driver not installed
+0x3F40496D	0x496D	DROM	i2c_master_cmd_begin
+0x3F404982	0x4982	DROM	i2c_master_write_byte
+0x3F404998	0x4998	DROM	i2c_master_write
+0x3F4049A9	0x49A9	DROM	i2c_master_stop
+0x3F4049B9	0x49B9	DROM	i2c_cmd_link_append
+0x3F4049CD	0x49CD	DROM	i2c_master_start
+0x3F4049DE	0x49DE	DROM	gpio_ll_iomux_func_sel
+0x3F4049F5	0x49F5	DROM	i2c_set_pin
+0x3F404A01	0x4A01	DROM	i2c_isr_register
+0x3F404A12	0x4A12	DROM	i2c_set_timeout
+0x3F404A22	0x4A22	DROM	i2c_param_config
+0x3F404A33	0x4A33	DROM	i2c_reset_rx_fifo
+0x3F404A45	0x4A45	DROM	i2c_reset_tx_fifo
+0x3F404A57	0x4A57	DROM	i2c_driver_delete
+0x3F404A69	0x4A69	DROM	i2c_master_cmd_begin_static
+0x3F404A85	0x4A85	DROM	i2c_driver_install
+0x3F404D04	0x4D04	DROM	rtc_gpio_pulldown_dis
+0x3F404D33	0x4D33	DROM	rtc_gpio_pulldown_en
+0x3F404D60	0x4D60	DROM	rtc_gpio_pullup_dis
+0x3F404D8B	0x4D8B	DROM	rtc_gpio_pullup_en
+0x3F404D9E	0x4D9E	DROM	rtc_gpio_deinit
+0x3F404DC7	0x4DC7	DROM	E (%u) %s: %s(%d): uart_num error
+0x3F404E84	0x4E84	DROM	E (%u) %s: %s(%d): uart driver error
+0x3F404FF6	0x4FF6	DROM	/IDF/components/driver/uart.c
+0x3F405034	0x5034	DROM	E (%u) %s: %s(%d): uart size error
+0x3F405058	0x5058	DROM	E (%u) %s: %s(%d): uart data null
+0x3F4050E9	0x50E9	DROM	E (%u) %s: %s(%d): uart rx buffer length error
+0x3F405119	0x5119	DROM	E (%u) %s: %s(%d): uart tx buffer length error
+0x3F405149	0x5149	DROM	E (%u) %s: UART driver malloc error
+0x3F40516E	0x516E	DROM	E (%u) %s: UART driver already installed
+0x3F4051D7	0x51D7	DROM	E (%u) %s: call uart_driver_install API first
+0x3F405238	0x5238	DROM	uart_set_rx_timeout
+0x3F40524C	0x524C	DROM	uart_set_rx_full_threshold
+0x3F405267	0x5267	DROM	uart_driver_delete
+0x3F40527A	0x527A	DROM	uart_driver_install
+0x3F40528E	0x528E	DROM	uart_flush_input
+0x3F40529F	0x529F	DROM	uart_get_tx_buffer_free_size
+0x3F4052BC	0x52BC	DROM	uart_get_buffered_data_len
+0x3F4052D7	0x52D7	DROM	uart_reenable_intr_mask
+0x3F4052EF	0x52EF	DROM	uart_read_bytes
+0x3F4052FF	0x52FF	DROM	uart_write_bytes
+0x3F405310	0x5310	DROM	uart_wait_tx_done
+0x3F405322	0x5322	DROM	uart_wait_tx_done
+0x3F405334	0x5334	DROM	uart_intr_config
+0x3F405345	0x5345	DROM	uart_param_config
+0x3F405357	0x5357	DROM	gpio_ll_iomux_func_sel
+0x3F40536E	0x536E	DROM	uart_set_pin
+0x3F40537B	0x537B	DROM	uart_isr_register
+0x3F40538D	0x538D	DROM	uart_enable_tx_intr
+0x3F4053A1	0x53A1	DROM	uart_pattern_queue_reset
+0x3F4053BA	0x53BA	DROM	uart_disable_intr_mask
+0x3F4053D1	0x53D1	DROM	uart_set_line_inverse
+0x3F4053E7	0x53E7	DROM	uart_get_baudrate
+0x3F4053F9	0x53F9	DROM	uart_set_baudrate
+0x3F40540B	0x540B	DROM	uart_get_parity
+0x3F40541B	0x541B	DROM	uart_set_parity
+0x3F40542B	0x542B	DROM	uart_get_stop_bits
+0x3F40543E	0x543E	DROM	uart_set_stop_bits
+0x3F405451	0x5451	DROM	uart_get_word_length
+0x3F405466	0x5466	DROM	uart_set_word_length
+0x3F4054CF	0x54CF	DROM	phys_offs != SPI_FLASH_CACHE2PHYS_FAIL
+0x3F405720	0x5720	DROM	E (%u) %s: spi_flash_mmap failed: 0x%x
+0x3F405748	0x5748	DROM	mosi_len <= 32
+0x3F405791	0x5791	DROM	miso_len <= 32
+0x3F4057A0	0x57A0	DROM	miso_byte_num <= 4
+0x3F405B69	0x5B69	DROM	/IDF/components/spi_flash/partition.c
+0x3F405CE2	0x5CE2	DROM	/IDF/components/spi_flash/flash_mmap.c
+0x3F405D55	0x5D55	DROM	spi_flash_munmap
+0x3F405D66	0x5D66	DROM	spi_flash_mmap_pages
+0x3F405D7B	0x5D7B	DROM	E (%u) %s: unexpected spi flash error code: 0x%x
+0x3F405DE2	0x5DE2	DROM	/IDF/components/spi_flash/esp_flash_api.c
+0x3F405EF1	0x5EF1	DROM	spi_flash
+0x3F405F5F	0x5F5F	DROM	spi_flash
+0x3F405F7A	0x5F7A	DROM	/IDF/components/spi_flash/spi_flash_os_func_app.c
+0x3F405FAC	0x5FAC	DROM	spi1_flash_os_check_yield
+0x3F405FDF	0x5FDF	DROM	/IDF/components/spi_flash/cache_utils.c
+0x3F406055	0x6055	DROM	esp_ipc_call(other_cpuid, &spi_flash_op_block_func, (void *) other_cpuid)
+0x3F406118	0x6118	DROM	spi_flash_enable_interrupts_caches_and_other_cpu
+0x3F406149	0x6149	DROM	spi_flash_disable_interrupts_caches_and_other_cpu
+0x3F40617B	0x617B	DROM	spi_flash_init_lock
+0x3F4070F5	0x70F5	DROM	p@? p@?'p@?.p@?5p@?<p@?Cp@?Jp@?bus_cfg->scl_low > 0
+0x3F407129	0x7129	DROM	/IDF/components/hal/esp32/include/hal/i2c_ll.h
+0x3F407158	0x7158	DROM	scl_high > 13
+0x3F407166	0x7166	DROM	i2c_ll_set_bus_timing
+0x3F40721C	0x721C	DROM	/dev/uart
+0x3F4072ED	0x72ED	DROM	/IDF/components/vfs/vfs_uart.c
+0x3F407341	0x7341	DROM	uart_write
+0x3F40734C	0x734C	DROM	uart_return_char
+0x3F40735D	0x735D	DROM	uart_read
+0x3F407367	0x7367	DROM	uart_close
+0x3F407372	0x7372	DROM	uart_fstat
+0x3F40737D	0x737D	DROM	uart_fcntl
+0x3F407388	0x7388	DROM	uart_fsync
+0x3F40CA43	0xCA43	DROM	SPIRAM
+0x3F40D138	0xD138	DROM	result == core_id || result == SPINLOCK_FREE
+0x3F40D165	0xD165	DROM	/IDF/components/esp_hw_support/include/soc/spinlock.h
+0x3F40D19B	0xD19B	DROM	(result == SPINLOCK_FREE) == (lock->count == 0)
+0x3F40D209	0xD209	DROM	spinlock_release
+0x3F40D21A	0xD21A	DROM	spinlock_acquire
+0x3F40F664	0xF664	DROM	/IDF/components/esp_hw_support/include/soc/spinlock.h
+0x3F40F69C	0xF69C	DROM	result == core_id || result == SPINLOCK_FREE
+0x3F40F6CC	0xF6CC	DROM	(result == SPINLOCK_FREE) == (lock->count == 0)
+0x3F40F776	0xF776	DROM	spinlock_release
+0x3F40F787	0xF787	DROM	spinlock_acquire
+0x3F410D8B	0x10D8B	DROM	                             Uart ENV [%p], VHCI ENV [%p], PLF FUNCS [%p]
+0x3F410EF5	0x10EF5	DROM	huart.c
+0x3F410EFD	0x10EFD	DROM	uart_env_p != NULL
+0x3FFC3337	0xBB81F	DRAM2	@i2c_master_reset %d
+0x3FFC371F	0xBBC07	DRAM2	memspi
+0x3FFC383E	0xBBD26	DRAM2	/IDF/components/spi_flash/spi_flash_chip_generic.c
+0x3FFC38C5	0xBBDAD	DRAM2	spi_flash_chip_generic_get_write_protect

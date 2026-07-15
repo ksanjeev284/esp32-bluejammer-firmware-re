@@ -1,0 +1,2 @@
+Entry 0x40082F0C file@0xBEF14
+36 81 00 a1 c7 f5 25 8e 13 a2 a0 00 81 de f5 e0 08 00 a0 4a 20 a2 a0 01 81 db f5 e0 08 00 a1 cd f5 0c 0b c1 cb f5 a0 cc c0 a5 e3 0d 26 54 0d a1 cb f5 0c 0b c1 c9 f5 a0 cc c0 a5 e2 0d 81 d2 f5 e0 08 00 16 2a 00 a5 ee ff 25 12 0d 81 d0 f5 e0 08 00 25 12 0d 81 b9 f5 e0 08 00 31 b3 f5 0c 12 8b a1 c0 20 00 22 43 00 c0 20 00 81 c9 f5 e0 08 00 22 01 12 f6 22 30 31 65 f5 28 03 ac 52 65 67

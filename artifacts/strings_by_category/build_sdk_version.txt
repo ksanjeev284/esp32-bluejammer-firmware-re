@@ -1,0 +1,5 @@
+0x3F400030	0x30	DROM	esp-idf: v4.4.5 ac5d805d0e
+0x3F400050	0x50	DROM	arduino-lib-builder
+0x3F400090	0x90	DROM	v4.4.5
+0x3F403382	0x3382	DROM	/C:\Users\emens\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.10/tools/sdk/esp32/include/hal/esp32/include/hal/gpio_ll.h
+0x3F40342F	0x342F	DROM	C:\Users\emens\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.10\cores\esp32\esp32-hal-uart.c

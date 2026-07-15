@@ -1,0 +1,24 @@
+0x3F400E16	0xE16	DROM	                                          Firmware : Combo-Channel-Select (BT-BLE-WiFi-RC)                                          
+0x3F404866	0x4866	DROM	E (%u) %s: %s(%d): i2c clock choice is invalid, please check flag and frequency
+0x3F4067E7	0x67E7	DROM	rtc_clk_xtal_freq_get() != RTC_XTAL_FREQ_AUTO
+0x3F4090BB	0x90BB	DROM	raw pcb recv callback altered pbuf payload pointer without eating packet
+0x3F40A974	0xA974	DROM	no packet queues allowed!
+0x3F40AA07	0xAA07	DROM	icmp_input: moving r->payload to icmp header failed
+0x3F40AA6A	0xAA6A	DROM	icmp_input: restoring original p->payload failed
+0x3F40AD42	0xAD42	DROM	icmpv6 packet not a direct response
+0x3F40AEF2	0xAEF2	DROM	nd6_get_next_hop_entry
+0x3F40E5E3	0xE5E3	DROM	ESP_ERR_ESP_TLS_UNSUPPORTED_PROTOCOL_FAMILY
+0x3F40E74E	0xE74E	DROM	ESP_ERR_MBEDTLS_SSL_CONF_ALPN_PROTOCOLS_FAILED
+0x3F40E8CB	0xE8CB	DROM	ESP_ERR_WOLFSSL_SSL_CONF_ALPN_PROTOCOLS_FAILED
+0x3F40F519	0xF519	DROM	apb_ticks_per_us % TICKS_PER_US == 0 && "APB frequency (in MHz) should be divisible by TICK_PER_US"
+0x3F40F5F4	0xF5F4	DROM	esp_timer_impl_update_apb_freq
+0x3F410D03	0x10D03	DROM	Coex register Wi-Fi channel change btdm cb faild
+0x3F411AAA	0x11AAA	DROM	scan channel select mode user input error
+0x3F411AF5	0x11AF5	DROM	%s HCI packet count mismatch (%d, %d)
+0x3F411CAA	0x11CAA	DROM	param->pk_payload_type < PAYL_END
+0x3F412413	0x12413	DROM	ADCADC_NUM_1 channel error
+0x3F41526D	0x1526D	DROM	I (%d) %s: Start to find channel...
+0x3F4171F1	0x171F1	DROM	invalid channel info
+0x3F417206	0x17206	DROM	invalid channel
+0x3FFC3082	0xBB56A	DRAM2	E (%u) %s: invalid frequency
+0x3FFC30A0	0xBB588	DRAM2	E (%u) %s: unsupported frequency configuration

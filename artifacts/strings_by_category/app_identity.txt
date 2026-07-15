@@ -1,0 +1,3 @@
+0x3F400E16	0xE16	DROM	                                          Firmware : Combo-Channel-Select (BT-BLE-WiFi-RC)                                          
+0x3F40154E	0x154E	DROM	                                         https://github.com/EmenstaNougat/ESP32-BlueJammer                                          
+0x3F401714	0x1714	DROM	by @emensta

@@ -1,0 +1,1631 @@
+0x3F400030	esp-idf: v4.4.5 ac5d805d0e
+0x3F400050	arduino-lib-builder
+0x3F400080	Jun 12 2023
+0x3F4002C4	Hardware Serial Peripheral Interface started !!! HSPI nRF24 module initialized SUCCESSFULLY! ############################################################
+0x3F40044A	!!! Hardware Serial Peripheral Interface start failure! HSPI nRF24 module could NOT be initialized! #####################################################
+0x3F400608	Variable Serial Peripheral Interface started !!! VSPI nRF24 module initialized SUCCESSFULLY! ############################################################
+0x3F400793	!!! Variable Serial Peripheral Interface start failure! VSPI nRF24 module could NOT be initialized! #####################################################
+0x3F40082D	bitmapboot
+0x3F400E16	                                          Firmware : Combo-Channel-Select (BT-BLE-WiFi-RC)                                          
+0x3F4014C9	                                                    !Educational purposes only!                                                     
+0x3F40154E	                                         https://github.com/EmenstaNougat/ESP32-BlueJammer                                          
+0x3F4015D3	                                               I'm not responsible for your actions!                                                
+0x3F401658	RadioTask
+0x3F401662	State 1: Bluetooth
+0x3F401675	bitmap1
+0x3F40167D	State 2: Bluetooth Low Energy
+0x3F40169B	bitmap2
+0x3F4016A3	State 3: WiFi
+0x3F4016B1	bitmap3
+0x3F4016B9	State 4: RC
+0x3F4016C5	bitmap4
+0x3F4016CD	State 0: Idle & Status
+0x3F4016F0	Connected
+0x3F4016FA	SSD1306 allocation failed
+0x3F401714	by @emensta
+0x3F4024C6	;spgfw33
+0x3F4024E6	;s3gfw33
+0x3F402645	cngs1
+0x3F402655	cngs3
+0x3F4027B0	esp32-
+0x3F4027B7	%s%02X%02X%02X
+0x3F4027C6	arduino_events
+0x3F402875	>[O[>>kOk>
+0x3F40292C	db6IV P
+0x3F402960	>QIE>
+0x3F40296A	rIIIF!AIM3
+0x3F402979	'EEE9<JII1A!
+0x3F402988	6III6FII)
+0x3F4029B0	>A]YN|
+0x3F4029BB	III6>AAA"
+0x3F4029C5	AAA>
+0x3F4029CA	IIIA
+0x3F4029D3	>AAQs
+0x3F4029FB	>AAA>
+0x3F402A0D	)F&III2
+0x3F402A32	aYIMC
+0x3F402A55	 TTx@
+0x3F402A5B	(DD88DDD(8DD(
+0x3F402A69	8TTT
+0x3F402A9A	x8DDD8
+0x3F402AAF	HTTT$
+0x3F402AD1	|DdTLD
+0x3F402AF5	:@@ z8TTUY!UUyA"TTxB!UTx@ TUy@
+0x3F402B18	9UUUY9TTTY9UTTX
+0x3F402B40	|TUE
+0x3F402B45	 TT|T|
+0x3F402B4E	I2III2:DDD:2JHH0:AA!z:B@ x
+0x3F402B6C	}=BBB==@@@=<$
+0x3F402B7A	$$H~ICf+/
+0x3F402B90	 TTyA
+0x3F402B97	D}A0HHJ28@@"z
+0x3F402CD0	8DD8D
+0x3F402CD6	JJJ4~
+0x3F402CE4	cUIAc8DD<
+0x3F402D05	rL0JMM00HxH0
+0x3F402D12	bZF=>III
+0x3F402D1F	~*****DD_DD@QJD@@DJQ@
+0x3F403297	uart_event_task
+0x3F403407	uart_intr_config(uart->num, &uart_intr)
+0x3F403498	uart_flush_input(uart->num)
+0x3F4034B4	uart_driver_install(uart_nr, rx_buffer_size, tx_buffer_size, 20, &(uart->uart_event_queue), 0)
+0x3F403513	uart_param_config(uart_nr, &uart_config)
+0x3F40353C	uart_set_pin(uart_nr, txPin, rxPin, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE)
+0x3F403588	uart_set_line_inverse(uart_nr, UART_SIGNAL_TXD_INV | UART_SIGNAL_RXD_INV)
+0x3F403618	uartFlushTxOnly
+0x3F403628	uartBegin
+0x3F403632	gpio_ll_iomux_func_sel
+0x3F403649	loopTask
+0x3F403AFF	xRemLen >= sizeof(ItemHeader_t)
+0x3F403B9D	*pvItem2 < *pvItem1
+0x3F403C48	xBufferSize > 0
+0x3F403C58	xBufferType < RINGBUF_TYPE_MAX
+0x3F403D54	xRingbufferGetMaxItemSize
+0x3F403D6E	vRingbufferDelete
+0x3F403D80	vRingbufferReturnItemFromISR
+0x3F403D9D	vRingbufferReturnItem
+0x3F403DB3	xRingbufferReceiveUpToFromISR
+0x3F403DD1	prvReceiveGenericFromISR
+0x3F403DEA	xRingbufferReceiveFromISR
+0x3F403E04	prvReceiveGeneric
+0x3F403E16	xRingbufferReceive
+0x3F403E29	xRingbufferSendFromISR
+0x3F403E40	xRingbufferSend
+0x3F403E50	prvGetFreeSize
+0x3F403E5F	prvCheckItemFitsDefault
+0x3F403E77	prvSendItemDoneNoSplit
+0x3F403E8E	prvAcquireItemNoSplit
+0x3F403EA4	prvGetItemDefault
+0x3F403EB6	prvReturnItemDefault
+0x3F403ECB	prvCopyItemAllowSplit
+0x3F403EE1	prvCheckItemFitsByteBuffer
+0x3F403EFC	prvCopyItemByteBuf
+0x3F403F0F	prvGetItemByteBuf
+0x3F403F21	prvReturnItemByteBuf
+0x3F403F36	xRingbufferCreate
+0x3F403F48	gpio
+0x3F403F64	GPIO number error
+0x3F40411E	GPIO output gpio_num error
+0x3F4041E5	GPIO interrupt type error
+0x3F4041FF	GPIO pull mode error
+0x3F404374	gpio_ll_iomux_in
+0x3F40439C	gpio_config
+0x3F4043A8	gpio_od_disable
+0x3F4043B8	gpio_od_enable
+0x3F4043C7	gpio_ll_output_disable
+0x3F4043DE	gpio_output_disable
+0x3F4043F2	gpio_output_enable
+0x3F404405	gpio_input_disable
+0x3F404418	gpio_ll_input_enable
+0x3F40442D	gpio_input_enable
+0x3F40443F	gpio_set_direction
+0x3F404452	gpio_set_pull_mode
+0x3F404465	gpio_set_level
+0x3F404474	gpio_intr_disable
+0x3F404486	gpio_intr_enable_on_core
+0x3F40449F	gpio_intr_enable
+0x3F4044B0	gpio_set_intr_type
+0x3F4044C3	gpio_pulldown_dis
+0x3F4044D5	gpio_ll_pulldown_en
+0x3F4044E9	gpio_pulldown_en
+0x3F4044FA	gpio_pullup_dis
+0x3F40450A	gpio_ll_pullup_en
+0x3F40451C	gpio_pullup_en
+0x3F40496D	i2c_master_cmd_begin
+0x3F404982	i2c_master_write_byte
+0x3F404998	i2c_master_write
+0x3F4049A9	i2c_master_stop
+0x3F4049B9	i2c_cmd_link_append
+0x3F4049CD	i2c_master_start
+0x3F4049F5	i2c_set_pin
+0x3F404A01	i2c_isr_register
+0x3F404A12	i2c_set_timeout
+0x3F404A22	i2c_param_config
+0x3F404A33	i2c_reset_rx_fifo
+0x3F404A45	i2c_reset_tx_fifo
+0x3F404A57	i2c_driver_delete
+0x3F404A69	i2c_master_cmd_begin_static
+0x3F404A85	i2c_driver_install
+0x3F404A98	periph < PERIPH_MODULE_MAX
+0x3F404AD8	periph_module_reset
+0x3F404AEC	periph_module_disable
+0x3F404B02	periph_module_enable
+0x3F404B17	RTCIO
+0x3F404CEA	rtcio_ll_pulldown_disable
+0x3F404D04	rtc_gpio_pulldown_dis
+0x3F404D1A	rtcio_ll_pulldown_enable
+0x3F404D33	rtc_gpio_pulldown_en
+0x3F404D48	rtcio_ll_pullup_disable
+0x3F404D60	rtc_gpio_pullup_dis
+0x3F404D74	rtcio_ll_pullup_enable
+0x3F404D8B	rtc_gpio_pullup_en
+0x3F404D9E	rtc_gpio_deinit
+0x3F404DAE	rtcio_ll_function_select
+0x3F405238	uart_set_rx_timeout
+0x3F40524C	uart_set_rx_full_threshold
+0x3F405267	uart_driver_delete
+0x3F40527A	uart_driver_install
+0x3F40528E	uart_flush_input
+0x3F40529F	uart_get_tx_buffer_free_size
+0x3F4052BC	uart_get_buffered_data_len
+0x3F4052D7	uart_reenable_intr_mask
+0x3F4052EF	uart_read_bytes
+0x3F4052FF	uart_write_bytes
+0x3F405310	uart_wait_tx_done
+0x3F405334	uart_intr_config
+0x3F405345	uart_param_config
+0x3F40536E	uart_set_pin
+0x3F40537B	uart_isr_register
+0x3F40538D	uart_enable_tx_intr
+0x3F4053A1	uart_pattern_queue_reset
+0x3F4053BA	uart_disable_intr_mask
+0x3F4053D1	uart_set_line_inverse
+0x3F4053E7	uart_get_baudrate
+0x3F4053F9	uart_set_baudrate
+0x3F40540B	uart_get_parity
+0x3F40541B	uart_set_parity
+0x3F40542B	uart_get_stop_bits
+0x3F40543E	uart_set_stop_bits
+0x3F405451	uart_get_word_length
+0x3F405466	uart_set_word_length
+0x3F40547B	esp_ota_ops
+0x3F4055E5	esp_ota_get_running_partition
+0x3F405603	esp_ota_get_app_partition_count
+0x3F405623	boot_comm
+0x3F4056E5	bootloader_mmap
+0x3F405748	mosi_len <= 32
+0x3F405791	miso_len <= 32
+0x3F4057A0	miso_byte_num <= 4
+0x3F4057B3	bootloader_flash_execute_command_common
+0x3F4057DB	esp_image
+0x3F405A0D	Calculated hash
+0x3F405A4E	Expected hash
+0x3F405AB0	bootloader_sha256_finish
+0x3F405AC9	bootloader_sha256_data
+0x3F405AE0	partition
+0x3F405BB2	esp_partition_mmap
+0x3F405BC5	esp_partition_erase_range
+0x3F405BDF	esp_partition_write_raw
+0x3F405BF7	esp_partition_read_raw
+0x3F405C0E	esp_partition_write
+0x3F405C22	esp_partition_read
+0x3F405C35	esp_partition_get
+0x3F405C47	esp_partition_next
+0x3F405D09	s_mmap_page_refcnt[i] > 0
+0x3F405D55	spi_flash_munmap
+0x3F405D66	spi_flash_mmap_pages
+0x3F405DD1	len_remain < len
+0x3F405E0C	len_remain < length
+0x3F405EA3	bus_acquired
+0x3F405EB0	esp_flash_write_encrypted
+0x3F405ECA	esp_flash_write
+0x3F405EDA	esp_flash_erase_region
+0x3F405EF1	spi_flash
+0x3F405FAC	spi1_flash_os_check_yield
+0x3F406007	esp_task_stack_is_sane_cache_disabled()
+0x3F406055	esp_ipc_call(other_cpuid, &spi_flash_op_block_func, (void *) other_cpuid)
+0x3F406118	spi_flash_enable_interrupts_caches_and_other_cpu
+0x3F406149	spi_flash_disable_interrupts_caches_and_other_cpu
+0x3F40617B	spi_flash_init_lock
+0x3F406193	findItem(nsIndex, datatype, key, findPage, item)
+0x3F4061F1	esp_err_t nvs::Storage::writeItem(uint8_t, nvs::ItemType, const char*, const void*, size_t)
+0x3F4062CB	@mPageList.back().getSeqNumber(lastSeqNo)
+0x3F406326	esp_err_t nvs::PageManager::load(nvs::Partition*, uint32_t, uint32_t)
+0x3F40636C	pthread
+0x3F40649E	pthread_mutex_unlock
+0x3F4064B3	pthread_mutex_destroy
+0x3F4064C9	pthread_cancel
+0x3F406514	pthread_local_storage_thread_deleted_callback
+0x3F406542	task_wdt
+0x3F406654	esp_intr_alloc(ETS_TG0_WDT_LEVEL_INTR_SOURCE, 0, task_wdt_isr, NULL, &twdt_config->intr_handle)
+0x3F4066D9	esp_register_freertos_idle_hook_for_cpu(idle_hook_cb, i)
+0x3F406712	esp_task_wdt_add
+0x3F406723	esp_task_wdt_init
+0x3F406735	cpu_start
+0x3F406850	esp_clk_init
+0x3F4068B7	esp_reset_reason_set_hint
+0x3F4068E8	Backtrace:
+0x3F4068F7	 0x%08X:0x%08X
+0x3F406906	 |<-CORRUPTED
+0x3F406914	 |<-CONTINUES
+0x3F406922	core_id<portNUM_PROCESSORS
+0x3F40696C	esp_crosscore_int_send
+0x3F406983	esp_crosscore_int_init
+0x3F4069AB	?Guru Meditation Error: Core 
+0x3F4069C9	 panic'ed (
+0x3F4069D9	Setting breakpoint at 0x
+0x3F4069F2	 and returning...
+0x3F406A08	ELF file SHA256: 
+0x3F406A1A	Re-entered core dump! Exception happened during core dump!
+0x3F406A57	Rebooting...
+0x3F406AC1	/dev/console/
+0x3F406B15	do_core_init
+0x3F406B2B	@Unknown
+0x3F406B36	Brownout detector was triggered
+0x3F406B5F	Memory dump at 0x
+0x3F406B71	Debug exception reason: 
+0x3F406B8A	SingleStep 
+0x3F406B96	HwBreakpoint 
+0x3F406BA4	Stack canary watchpoint triggered (
+0x3F406BCB	Watchpoint 0 triggered 
+0x3F406BE3	BREAK instr 
+0x3F406BF0	BREAKN instr 
+0x3F406BFE	DebugIntr 
+0x3F406C09	 register dump:
+0x3F406C19	 was running in ISR context:
+0x3F406C38	EPC1    : 0x
+0x3F406C45	  EPC2    : 0x
+0x3F406C54	  EPC3    : 0x
+0x3F406C63	  EPC4    : 0x
+0x3F406D14	SAR     
+0x3F406D1D	EXCCAUSE
+0x3F406D26	EXCVADDR
+0x3F406D2F	LBEG    
+0x3F406D38	LEND    
+0x3F406D41	LCOUNT  
+0x3F406D4C	rl@?{l@?
+0x3F406D99	m@?&m@?/m@?8m@?Am@?Exception was unhandled.
+0x3F406DC5	Unknown reason
+0x3F406DD4	Unhandled debug exception
+0x3F406DEE	Double exception
+0x3F406DFF	Unhandled kernel exception
+0x3F406E1A	Coprocessor exception
+0x3F406E30	Interrupt wdt timeout on CPU0
+0x3F406E4E	Interrupt wdt timeout on CPU1
+0x3F406E6C	Cache disabled but cached memory region accessed
+0x3F406E9D	IllegalInstruction
+0x3F406EB0	Syscall
+0x3F406EB8	InstructionFetchError
+0x3F406ECE	LoadStoreError
+0x3F406EDD	Level1Interrupt
+0x3F406EED	Alloca
+0x3F406EF4	IntegerDivideByZero
+0x3F406F08	PCValue
+0x3F406F10	Privileged
+0x3F406F1B	LoadStoreAlignment
+0x3F406F2E	InstrPDAddrError
+0x3F406F3F	LoadStorePIFDataError
+0x3F406F55	InstrPIFAddrError
+0x3F406F67	LoadStorePIFAddrError
+0x3F406F7D	InstTLBMiss
+0x3F406F89	InstTLBMultiHit
+0x3F406F99	InstFetchPrivilege
+0x3F406FAC	InstrFetchProhibited
+0x3F406FC1	LoadStoreTLBMiss
+0x3F406FD2	LoadStoreTLBMultihit
+0x3F406FE7	LoadStorePrivilege
+0x3F406FFA	LoadProhibited
+0x3F407009	StoreProhibited
+0x3F407019	Cp0Dis
+0x3F407020	Cp1Dis
+0x3F407027	Cp2Dis
+0x3F40702E	Cp3Dis
+0x3F407035	Cp4Dis
+0x3F40703C	Cp5Dis
+0x3F407043	Cp6Dis
+0x3F40704A	Cp7Dis
+0x3F407065	n@?0n@?Nn@?ln@?
+0x3F407099	o@?Eh@?Eh@?.o@??o@?Uo@?go@?}o@?
+0x3F4070BD	o@?Eh@?
+0x3F4070C5	o@?Eh@?Eh@?Eh@?
+0x3F4070E9	p@?Eh@?Eh@?
+0x3F4070F5	p@? p@?'p@?.p@?5p@?<p@?Cp@?Jp@?bus_cfg->scl_low > 0
+0x3F407158	scl_high > 13
+0x3F407166	i2c_ll_set_bus_timing
+0x3F40720D	translate_path
+0x3F40721C	/dev/uart
+0x3F407229	/dev/console
+0x3F407341	uart_write
+0x3F40734C	uart_return_char
+0x3F40735D	uart_read
+0x3F407367	uart_close
+0x3F407372	uart_fstat
+0x3F40737D	uart_fcntl
+0x3F407388	uart_fsync
+0x3F407443	?ETH_EVENT
+0x3F40744E	esp_netif_handlers
+0x3F40747F	connected action: dhcpc failed
+0x3F40749E	esp_event_send_internal in esp_netif_action_connected
+0x3F4074F2	esp_netif_action_connected
+0x3F40750D	s_list_lock
+0x3F407547	s_esp_netif_counter > 0
+0x3F40755F	esp_netif_objects
+0x3F4075A3	esp_netif_remove_from_list
+0x3F4075BE	esp_netif_list_unlock
+0x3F4075D4	IP_EVENT
+0x3F4075EC	OT_DEF
+0x3F4075F3	openthread
+0x3F4075FE	SLP_DEF
+0x3F407606	slip
+0x3F40760B	PPP_DEF
+0x3F407617	ETH_DEF
+0x3F407623	WIFI_AP_DEF
+0x3F40762F	WIFI_STA_DEF
+0x3F407684	esp_netif_lwip
+0x3F407701	espressif
+0x3F407856	esp_netif->driver_transmit: %p, esp_netif->driver_handle:%p, esp_netif->lwip_input_fn: %p, esp_netif->lwip_init_fn:%p
+0x3F4078CD	esp_netif_config_sanity_check(esp_netif)
+0x3F407978	esp_netif_lwip_add(esp_netif)
+0x3F407B06	SLIP
+0x3F407B87	esp_netif_start_api
+0x3F407B9B	esp_netif_new
+0x3F407BBB	@sys_evt
+0x3F407D1F	event_loop
+0x3F407D77	event_handler
+0x3F407DF7	handler_ctx
+0x3F407E4C	esp_event_post_to
+0x3F407E5E	esp_event_handler_unregister_with_internal
+0x3F407E89	esp_event_handler_register_with_internal
+0x3F407EB2	esp_event_loop_run
+0x3F407EC5	event_send
+0x3F407FA7	@EAP deinit
+0x3F407FB3	Pairwise key expansion
+0x3F407FCA	(size_t) (pos - rsn_ie) <= rsn_ie_len
+0x3F408025	(size_t) (pos - wpa_ie) <= wpa_ie_len
+0x3F40804B	wpa_gen_wpa_ie_wpa
+0x3F40805E	wpa_gen_wpa_ie_rsn
+0x3F408080	PMK Name
+0x3F408089	pmksa_timeout_timer
+0x3F40809D	smartconfig
+0x3F4080D4	SC_EVENT
+0x3F4081CF	sc_ack_send_task
+0x3F408215	wifi
+0x3F40821A	mesh
+0x3F40821F	ESPNOW
+0x3F408226	wifi_init
+0x3F4082D3	WIFI_EVENT
+0x3F4082DE	wifi_init_default
+0x3F4083E5	esp_netif_create_default_wifi_sta
+0x3F408407	esp_netif_create_default_wifi_ap
+0x3F408428	wifi_netif
+0x3F408598	no socket given
+0x3F4085A8	this should be checked internally
+0x3F4085CA	invalid copylen, len would underflow
+0x3F4085EF	invalid copylen
+0x3F4085FF	unknown event
+0x3F40860D	Unknown socket option
+0x3F408672	sock->fd_used > 0
+0x3F40869D	nready >= 0
+0x3F4086A9	sock->select_waiting > 0
+0x3F4086CE	Unhandled netconn type in SO_BINDTODEVICE
+0x3F4086F8	Invalid netif index
+0x3F408723	lwip_setsockopt_impl
+0x3F408738	lwip_setsockopt_callback
+0x3F408751	lwip_sockopt_to_ipopt
+0x3F408767	lwip_getsockopt_callback
+0x3F408780	lwip_unlink_select_cb
+0x3F408796	sock_inc_used_locked
+0x3F4087AB	lwip_select
+0x3F4087B7	event_callback
+0x3F4087C6	lwip_recvfrom_udp_raw
+0x3F4087DC	lwip_sock_make_addr
+0x3F4087F0	lwip_recv_tcp
+0x3F4087FE	lwip_close
+0x3F408809	done_socket
+0x3F408815	free_socket_locked
+0x3F408828	alloc_socket
+0x3F408835	sock_inc_used
+0x3F408843	tcpip_thread: invalid message
+0x3F40888A	Invalid mbox
+0x3F408897	semaphore not initialized
+0x3F4088B1	failed to create tcpip_thread mbox
+0x3F4088D8	tcpip_thread_handle_msg
+0x3F4088F0	tcpip_thread
+0x3F4088FD	tcpip_init
+0x3F408908	tcpip_api_call
+0x3F408917	tcpip_send_msg_wait_sem
+0x3F40892F	tcpip_try_callback
+0x3F408942	tcpip_callback
+0x3F408951	tcpip_inpkt
+0x3F408978	malloc() must return aligned memory
+0x3F4089E9	mem_free
+0x3F4089F2	mem_malloc
+0x3F4089FD	memp_malloc: memp properly aligned
+0x3F408A49	memp_free: mem properly aligned
+0x3F408A69	do_memp_free_pool
+0x3F408A7B	do_memp_malloc_pool
+0x3F408AFC	netif_poll: invalid netif
+0x3F408B6D	netif->loop_cnt_current underflow
+0x3F408BB7	netif_loopif_init: invalid netif
+0x3F408BD8	netif_issue_reports: invalid netif
+0x3F408BFB	invalid pointer
+0x3F408C0B	netif already added
+0x3F408C1F	too many netifs, max. supported number is 255
+0x3F408C4D	netif_loop_output: invalid netif
+0x3F408C6E	netif_loop_output: invalid pbuf
+0x3F408CC8	invalid index
+0x3F408CD6	netif_ip6_addr_set: invalid netif
+0x3F408CF8	netif_ip6_addr_set: invalid addr6
+0x3F408D1A	netif_get_ip6_addr_match: invalid netif
+0x3F408D42	netif_get_ip6_addr_match: invalid ip6addr
+0x3F408D6C	netif_get_ip6_addr_match
+0x3F408D85	netif_ip6_addr_set_state
+0x3F408D9E	netif_ip6_addr_set_parts
+0x3F408DB7	netif_ip6_addr_set
+0x3F408DCA	netif_poll
+0x3F408DD5	netif_loop_output
+0x3F408DE7	netif_issue_reports
+0x3F408DFB	netif_do_set_ipaddr
+0x3F408E0F	netif_add
+0x3F408E19	netif_loopif_init
+0x3F408E54	invalid pbuf_type
+0x3F408E66	pbuf_free: p->ref > 0
+0x3F408E9D	invalid pbuf type
+0x3F408EAF	PBUF_POOL_BUFSIZE must be bigger than MEM_ALIGNMENT
+0x3F408EE3	pbuf_alloc: erroneous type
+0x3F408F4A	pbuf ref overflow
+0x3F408F89	offset_to <= p_to->len
+0x3F408FA0	offset_from <= p_from->len
+0x3F408FBB	pbuf_take: invalid pbuf
+0x3F408FD3	did not copy all data
+0x3F408FE9	check pbuf_skip result
+0x3F409000	pbuf_copy failed
+0x3F409011	pbuf_clone
+0x3F40901C	pbuf_take_at
+0x3F409029	pbuf_take
+0x3F409033	pbuf_copy_partial_pbuf
+0x3F40904A	pbuf_cat
+0x3F409053	pbuf_ref
+0x3F40905C	pbuf_free
+0x3F409066	pbuf_remove_header
+0x3F409079	pbuf_add_header_impl
+0x3F40908E	pbuf_realloc
+0x3F40909B	pbuf_alloc_reference
+0x3F4090B0	pbuf_alloc
+0x3F4090BB	raw pcb recv callback altered pbuf payload pointer without eating packet
+0x3F40912C	Can't restore header we just removed!
+0x3F409152	Checksum must fit into first pbuf
+0x3F409174	raw_sendto_if_src
+0x3F409186	raw_input
+0x3F409190	tcp_free: LISTEN
+0x3F4091EA	tcp_update_rcv_ann_wnd: invalid pcb
+0x3F40920E	new_rcv_ann_wnd <= 0xffff
+0x3F409228	don't call tcp_recved for listen-pcbs
+0x3F40924E	tcp_seg_copy: invalid seg
+0x3F409268	invalid socket state for recv callback
+0x3F40928F	invalid socket state for sent callback
+0x3F4092B6	invalid socket state for err callback
+0x3F4092DC	invalid socket state for poll
+0x3F4092FA	tcp_next_iss: invalid pcb
+0x3F409314	tcp_eff_send_mss_netif: invalid dst_ip
+0x3F40933B	tcp_pcb_remove: invalid pcb
+0x3F409357	tcp_pcb_remove: invalid pcblist
+0x3F409377	unsent segments leaking
+0x3F40938F	unacked segments leaking
+0x3F4093A8	ooseq segments leaking
+0x3F4093BF	don't call tcp_abort/tcp_abandon for listen-pcbs
+0x3F4093F0	tcp_netif_ip_addr_changed_pcblist: invalid old_addr
+0x3F409424	tcp_close_shutdown: invalid pcb
+0x3F409444	pcb->flags & TF_RXCLOSED
+0x3F40945D	tcp_free_listen: !LISTEN
+0x3F4094F7	tcp_slowtimr: persist ticking with in-flight data
+0x3F409529	tcp_slowtimr: persist ticking with empty send buffer
+0x3F40962F	tcp_netif_ip_addr_changed_pcblist
+0x3F409651	tcp_eff_send_mss_netif
+0x3F409668	tcp_next_iss
+0x3F409675	tcp_pcb_remove
+0x3F409684	tcp_poll
+0x3F40968D	tcp_err
+0x3F409695	tcp_sent
+0x3F40969E	tcp_recv
+0x3F4096A7	tcp_seg_copy
+0x3F4096B4	tcp_slowtmr
+0x3F4096C0	tcp_recved
+0x3F4096CB	tcp_update_rcv_ann_wnd
+0x3F4096E2	tcp_abandon
+0x3F4096EE	tcp_close_shutdown_fin
+0x3F409705	tcp_free_listen
+0x3F409715	tcp_close_shutdown
+0x3F409728	tcp_backlog_accepted
+0x3F40973D	tcp_free
+0x3F40976C	tcp_oos_insert_segment: invalid cseg
+0x3F4097BC	tcp_parseopt: invalid pcb
+0x3F4097D6	tcp_input_delayed_close: invalid pcb
+0x3F4097FB	pcb->snd_queuelen >= pbuf_clen(next->p)
+0x3F409823	tcp_receive: valid queue length
+0x3F409843	tcp_receive: invalid pcb
+0x3F40985C	tcp_receive: wrong state
+0x3F409885	insane offset!
+0x3F409894	pbuf too short!
+0x3F4098A4	tcp_receive: segment not trimmed correctly to rcv_wnd
+0x3F4098DB	tcp_receive: segment not trimmed correctly to ooseq queue
+0x3F409916	tcp_receive: tcplen > rcv_wnd
+0x3F409935	tcp_receive: ooseq tcplen > rcv_wnd
+0x3F40995A	tcp_input: invalid pbuf
+0x3F409AC7	pcb->snd_queuelen > 0
+0x3F409ADD	no segment to free
+0x3F409B28	tcp_input_delayed_close
+0x3F409B40	tcp_oos_insert_segment
+0x3F409B57	tcp_free_acked_segments
+0x3F409B6F	tcp_receive
+0x3F409B7B	tcp_process
+0x3F409B87	tcp_parseopt
+0x3F409B94	tcp_input
+0x3F409B9E	tcp_create_segment: invalid pcb
+0x3F409BEA	tcp_create_segment: invalid pbuf
+0x3F409C0B	p->tot_len >= optlen
+0x3F409C20	check that first pbuf can hold struct tcp_hdr
+0x3F409C4E	tcp_output_control_segment: invalid pbuf
+0x3F409C77	tcp_output_segment_busy: invalid seg
+0x3F409C9C	tcp_output_alloc_header: invalid pcb
+0x3F409CC1	tcp_output_fill_options: invalid pbuf
+0x3F409CE7	tcp_write: pbufs on queue => at least one queue non-empty
+0x3F409D21	tcp_write: no pbufs on queue => both queues empty
+0x3F409D53	mss_local is too small
+0x3F409D6A	inconsistent oversize vs. space
+0x3F409D8A	inconsistent oversize vs. len
+0x3F409DA8	unsent_oversize mismatch (pcb->unsent is NULL)
+0x3F409DD7	need unchained pbuf
+0x3F409DFC	tcp_write: valid queue length
+0x3F409E1A	tcp_split_unsent_seg: invalid pcb
+0x3F409E3C	Can't split segment into length 0
+0x3F409E5E	split <= mss
+0x3F409E6B	useg->len > 0
+0x3F409E79	tcp_enqueue_flags: need either TCP_SYN or TCP_FIN in flags (programmer violates API)
+0x3F409ECE	tcp_enqueue_flags: invalid pcb
+0x3F409EED	tcp_enqueue_flags: check that first pbuf can hold optlen
+0x3F409F26	seg->tcphdr not aligned
+0x3F409F3E	tcp_enqueue_flags: invalid segment length
+0x3F409F68	tcp_enqueue_flags: invalid queue length
+0x3F409F90	tcp_send_fin: invalid pcb
+0x3F409FAA	tcp_rexmit_rto_prepare: invalid pcb
+0x3F409FCE	tcp_rexmit: invalid pcb
+0x3F409FE6	tcp_rexmit_fast: invalid pcb
+0x3F40A003	tcp_rst: invalid local_ip
+0x3F40A01D	tcp_rst: invalid remote_ip
+0x3F40A038	tcp_send_empty_ack: invalid pcb
+0x3F40A058	tcp_output: invalid pcb
+0x3F40A070	don't call tcp_output for listen-pcbs
+0x3F40A096	RST not expected here!
+0x3F40A0AD	options not filled
+0x3F40A0C0	tcp_rexmit_rto_commit: invalid pcb
+0x3F40A0E3	tcp_rexmit_rto: invalid pcb
+0x3F40A0FF	tcp_keepalive: invalid pcb
+0x3F40A11A	tcp_zero_window_probe: invalid pcb
+0x3F40A13D	tcp_zero_window_probe
+0x3F40A153	tcp_keepalive
+0x3F40A161	tcp_output_alloc_header
+0x3F40A179	tcp_send_empty_ack
+0x3F40A18C	tcp_output_control_segment
+0x3F40A1A7	tcp_output_fill_options
+0x3F40A1BF	tcp_output_alloc_header_common
+0x3F40A1DE	tcp_rst
+0x3F40A1E6	tcp_rexmit_fast
+0x3F40A1F6	tcp_rexmit
+0x3F40A201	tcp_rexmit_rto
+0x3F40A210	tcp_rexmit_rto_commit
+0x3F40A226	tcp_rexmit_rto_prepare
+0x3F40A23D	tcp_output_segment_busy
+0x3F40A255	tcp_output_segment
+0x3F40A268	tcp_output
+0x3F40A273	tcp_enqueue_flags
+0x3F40A285	tcp_send_fin
+0x3F40A292	tcp_split_unsent_seg
+0x3F40A2A7	tcp_create_segment
+0x3F40A2BA	tcp_pbuf_prealloc
+0x3F40A2CC	tcp_write_checks
+0x3F40A2DD	tcp_write
+0x3F40A351	Timeout time too long, max is LWIP_UINT32_MAX/4 msecs
+0x3F40A387	sys_timeout
+0x3F40A393	sys_timeout_abs
+0x3F40A3D3	@udp_input_local_match: invalid pcb
+0x3F40A41F	udp_input_local_match: invalid netif
+0x3F40A444	udp_input: invalid pbuf
+0x3F40A45C	udp_input: invalid netif
+0x3F40A475	pbuf_remove_header failed
+0x3F40A490	check that first pbuf can hold struct udp_hdr
+0x3F40A4BE	udp_sendto_if_src
+0x3F40A4D0	udp_input_local_match
+0x3F40A4E6	udp_input
+0x3F40A4F0	dhcp_option_short: options_out_len + 2 <= DHCP_OPTIONS_LEN
+0x3F40A559	dhcp_option: options_out_len + 2 + option_len <= DHCP_OPTIONS_LEN
+0x3F40A59B	dhcp_option_byte: options_out_len < DHCP_OPTIONS_LEN
+0x3F40A5D0	dhcp_option_long: options_out_len + 4 <= DHCP_OPTIONS_LEN
+0x3F40A60A	dhcp_pcb_refcount(): refcount error
+0x3F40A62E	dhcp_inc_pcb_refcount(): memory leak
+0x3F40A653	dhcp_create_msg: check that first pbuf can hold struct dhcp_msg
+0x3F40A693	DHCP: hostname is too long!
+0x3F40A6AF	invalid server address type
+0x3F40A6CB	check decode_idx
+0x3F40A6E9	netif already has a struct dhcp set
+0x3F40A70D	invalid dhcp->state
+0x3F40A721	dhcp_network_changed
+0x3F40A736	dhcp_parse_reply
+0x3F40A747	dhcp_recv
+0x3F40A751	dhcp_inc_pcb_refcount
+0x3F40A767	dhcp_dec_pcb_refcount
+0x3F40A77D	dhcp_cleanup
+0x3F40A78A	dhcp_set_struct
+0x3F40A79A	dhcp_option_long
+0x3F40A7AB	dhcp_option_hostname
+0x3F40A7C0	dhcp_option_byte
+0x3F40A7D1	dhcp_option
+0x3F40A7DD	dhcp_option_short
+0x3F40A7EF	dhcp_create_msg
+0x3F40A881	check that first pbuf can hold struct etharp_hdr
+0x3F40A8B2	netif->hwaddr_len must be the same as ETH_HWADDR_LEN for etharp!
+0x3F40A936	arp_table[arp_idx].state >= ETHARP_STATE_STABLE
+0x3F40A966	type overflow
+0x3F40A974	no packet queues allowed!
+0x3F40A98E	etharp_query
+0x3F40A99B	etharp_output_to_arp_index
+0x3F40A9B6	etharp_output
+0x3F40A9C4	etharp_raw
+0x3F40A9CF	etharp_update_arp_entry
+0x3F40A9E7	etharp_find_entry
+0x3F40A9F9	free_etharp_q
+0x3F40AA07	icmp_input: moving r->payload to icmp header failed
+0x3F40AA6A	icmp_input: restoring original p->payload failed
+0x3F40AA9C	check that first pbuf can hold icmp message
+0x3F40AAC8	icmp_send_response
+0x3F40AADB	icmp_input
+0x3F40AAE6	igmp_send: check that first pbuf can hold struct igmp_msg
+0x3F40AB4E	igmp_lookup_group: first group must be allsystems
+0x3F40AB80	igmp_lookup_group: all except first group must not be allsystems
+0x3F40ABC1	igmp_send
+0x3F40ABCB	igmp_lookup_group
+0x3F40AC16	check that first pbuf can hold struct ip_hdr
+0x3F40AC43	ip4_output_if_opt_src
+0x3F40AC8C	this needs a pbuf in one piece!
+0x3F40ACDE	ip4_frag
+0x3F40ACE7	check that first pbuf can hold icmp6 header
+0x3F40AD42	icmpv6 packet not a direct response
+0x3F40AD66	icmp6_send_response_with_addrs_and_netif
+0x3F40AD8F	icmp6_send_response
+0x3F40ADD0	check that first pbuf can hold struct ip6_hdr
+0x3F40ADFE	ip6_output_if_src
+0x3F40AE28	p->tot_len >= IP6_HLEN
+0x3F40AE71	ip6_frag
+0x3F40AEB4	bad valid lifetime
+0x3F40AEC7	selected router must have a neighbor entry
+0x3F40AEF2	nd6_get_next_hop_entry
+0x3F40AF09	nd6_find_route
+0x3F40AF18	nd6_free_q
+0x3F40AF23	nd6_process_autoconfig_prefix
+0x3F40AF41	netif->hwaddr_len must be 6 for ethernet_output!
+0x3F40AFA0	ethernet_output
+0x3F40AFBC	failed to take the mutex
+0x3F40B008	failed to give the mutex
+0x3F40B021	initial_count invalid (neither 0 nor 1)
+0x3F40B049	sys_sem_new: initial give failed
+0x3F40B06A	sys_sem_signal: sane return value
+0x3F40B08C	taking semaphore failed
+0x3F40B0A4	mbox post failed
+0x3F40B0B5	mbox fetch failed
+0x3F40B0C7	mbox quence not empty
+0x3F40B0DD	lwip_arch
+0x3F40B178	sys_thread_tcpip
+0x3F40B189	sys_mbox_free
+0x3F40B197	sys_arch_mbox_tryfetch
+0x3F40B1AE	sys_arch_mbox_fetch
+0x3F40B1C2	sys_mbox_post
+0x3F40B1D0	sys_arch_sem_wait
+0x3F40B1E2	sys_sem_signal
+0x3F40B1F1	sys_sem_new
+0x3F40B1FD	sys_mutex_unlock
+0x3F40B20E	sys_mutex_lock
+0x3F40B21D	dhcp_state
+0x3F40B256	wlanif_init
+0x3F40B262	esp_vfs_register_fd_range(&vfs, NULL, LWIP_SOCKET_OFFSET, MAX_FDS)
+0x3F40B2CF	esp_vfs_lwip_sockets_register
+0x3F40B2ED	dhcps_start(): could not obtain pcb
+0x3F40B311	dhcps: Illegal subnet mask.
+0x3F40B39D	kill_oldest_dhcps_pool
+0x3F40B3B6	Scfreeing conn without freeing pcb
+0x3F40B404	conn has no recvmbox
+0x3F40B419	conn->acceptmbox shouldn't exist
+0x3F40B43A	do_write failed to write all bytes
+0x3F40B45D	netconn_write_vectors_partly
+0x3F40B47A	netconn_recv_data
+0x3F40B48C	netconn_new_with_proto_and_callback
+0x3F40B4B0	recv_udp must have a pcb argument
+0x3F40B4FD	recv_udp must have an argument
+0x3F40B51C	recv_udp: recv for wrong pcb!
+0x3F40B53A	invalid conn
+0x3F40B547	this is for tcp netconns only
+0x3F40B565	conn must be in state NETCONN_CLOSE
+0x3F40B589	pcb already closed
+0x3F40B59C	Closing a listen pcb may not fail!
+0x3F40B5BF	recv_tcp must have a pcb argument
+0x3F40B5E1	recv_tcp must have an argument
+0x3F40B618	recv_tcp: recv for wrong pcb!
+0x3F40B643	unhandled error
+0x3F40B653	inavlid op_completed_sem
+0x3F40B69C	conn->current_msg->msg.w.offset < conn->current_msg->msg.w.len
+0x3F40B6DB	conn->current_msg->msg.w.vector_cnt > 0
+0x3F40B703	lwip_netconn_do_writemore: invalid length!
+0x3F40B73A	netconn_alloc: undefined netconn_type
+0x3F40B760	PCB must be deallocated outside this function
+0x3F40B78E	recvmbox must be deallocated before calling this function
+0x3F40B7C8	acceptmbox must be deallocated before calling this function
+0x3F40B804	netconn marked closed
+0x3F40B81A	netconn state error
+0x3F40B84D	already writing or closing
+0x3F40B87C	invalid netconn_type
+0x3F40B8B5	lwip_netconn_do_close
+0x3F40B8CB	lwip_netconn_do_getaddr
+0x3F40B8E3	lwip_netconn_do_write
+0x3F40B8F9	lwip_netconn_do_delconn
+0x3F40B911	netconn_drain
+0x3F40B91F	netconn_free
+0x3F40B92C	netconn_alloc
+0x3F40B93A	recv_tcp
+0x3F40B943	sent_tcp
+0x3F40B94C	lwip_netconn_do_close_internal
+0x3F40B96B	lwip_netconn_do_writemore
+0x3F40B985	poll_tcp
+0x3F40B98E	lwip_netconn_err_to_msg
+0x3F40B9A6	err_tcp
+0x3F40B9AE	recv_udp
+0x3F40B9B7	lwip_netconn_is_err_msg
+0x3F40BA18	check that first pbuf can hold size
+0x3F40BA66	netbuf_alloc
+0x3F40BAD7	get_cached_log_level
+0x3F40BAEC	esp_log_level_set
+0x3F40BAFE	esp_ptr_in_diram_dram((void *)dstart)
+0x3F40BB45	esp_ptr_in_diram_dram((void *)dend)
+0x3F40BC03	old_size > 0
+0x3F40BC10	heap_caps_calloc
+0x3F40BC21	heap_caps_realloc
+0x3F40BC33	heap_caps_free
+0x3F40BC42	heap_caps_realloc_base
+0x3F40BC59	heap_caps_realloc_default
+0x3F40BC73	heap_caps_malloc_default
+0x3F40BC8C	dram_alloc_to_iram_addr
+0x3F40BCA4	heap_caps_malloc
+0x3F40BCB5	heap_size <= HEAP_SIZE_MAX
+0x3F40BCF6	heap_idx <= num_heaps
+0x3F40BD22	SLIST_EMPTY(&registered_heaps)
+0x3F40BD55	heap_caps_init
+0x3F40BD64	register_heap
+0x3F40BD72	CORRUPT HEAP: multi_heap.c:%d detected at 0x%08x
+0x3F40BDA4	start_ptr
+0x3F40BDDD	multi_heap_realloc_impl
+0x3F40BDF5	multi_heap_register_impl
+0x3F40BE0E	used
+0x3F40BE14	%p %s size: %x (%p)
+0x3F40BE29	tlsf_add_pool: Memory must be aligned by %u bytes.
+0x3F40BE5D	tlsf_add_pool: Memory size must be between %u and %u bytes.
+0x3F40C05C	tlsf_create: Memory must be aligned to %u bytes.
+0x3F40C18A	block_size(block) >= size
+0x3F40C443	block_trim_used
+0x3F40C453	tlsf_realloc
+0x3F40C460	block_merge_next
+0x3F40C471	block_absorb
+0x3F40C47E	block_merge_prev
+0x3F40C48F	tlsf_free
+0x3F40C499	block_split
+0x3F40C4A5	block_trim_free
+0x3F40C4B5	search_suitable_block
+0x3F40C4CB	block_locate_free
+0x3F40C4DD	control_construct
+0x3F40C4EF	remove_free_block
+0x3F40C501	insert_free_block
+0x3F40C513	CORRUPT HEAP: Bad head at %p. Expected 0x%08x got 0x%08x
+0x3F40C54D	CORRUPT HEAP: Bad tail at %p. Expected 0x%08x got 0x%08x
+0x3F40C5C0	multi_heap_get_allocated_size
+0x3F40C5DE	multi_heap_realloc
+0x3F40C5F1	multi_heap_free
+0x3F40C601	reserved[i].start <= reserved[i].end
+0x3F40C656	reserved[i + 1].start > reserved[i].start
+0x3F40C680	memory_layout
+0x3F40C6EF	s_prepare_reserved_regions
+0x3F40C9D0	D/IRAM
+0x3F40C9D7	PID2IRAM
+0x3F40C9E0	PID3IRAM
+0x3F40C9E9	PID4IRAM
+0x3F40C9F2	PID5IRAM
+0x3F40C9FB	PID6IRAM
+0x3F40CA04	PID7IRAM
+0x3F40CA0D	PID2DRAM
+0x3F40CA16	PID3DRAM
+0x3F40CA1F	PID4DRAM
+0x3F40CA28	PID5DRAM
+0x3F40CA31	PID6DRAM
+0x3F40CA3A	PID7DRAM
+0x3F40CA43	SPIRAM
+0x3F40CA4A	RTCRAM
+0x3F40D1CB	lock->count < 0xFF
+0x3F40D1F5	lock->count < 0x100
+0x3F40D209	spinlock_release
+0x3F40D21A	spinlock_acquire
+0x3F40D26B	esp_fill_random
+0x3F40D2FA	esp_intr_disable
+0x3F40D30B	esp_intr_free
+0x3F40D319	is_vect_desc_usable
+0x3F40D32D	find_desc_for_source
+0x3F40D342	system_api
+0x3F40D485	esp_efuse_mac_get_default
+0x3F40D54B	rtcio_ll_force_hold_disable
+0x3F40D567	slowclk_cycles < 32767
+0x3F40D5B3	rtc_time
+0x3F40D659	rtc_clk_cal_internal
+0x3F40D66E	Unhandled interrupt %d on cpu %d!
+0x3F40D691	ERROR
+0x3F40D697	ESP_FAIL
+0x3F40D6A0	ESP_ERR_NO_MEM
+0x3F40D6AF	ESP_ERR_INVALID_ARG
+0x3F40D6C3	ESP_ERR_INVALID_STATE
+0x3F40D6D9	ESP_ERR_INVALID_SIZE
+0x3F40D6EE	ESP_ERR_NOT_FOUND
+0x3F40D700	ESP_ERR_NOT_SUPPORTED
+0x3F40D716	ESP_ERR_TIMEOUT
+0x3F40D726	ESP_ERR_INVALID_RESPONSE
+0x3F40D73F	ESP_ERR_INVALID_CRC
+0x3F40D753	ESP_ERR_INVALID_VERSION
+0x3F40D76B	ESP_ERR_INVALID_MAC
+0x3F40D77F	ESP_ERR_NOT_FINISHED
+0x3F40D794	ESP_ERR_NVS_BASE
+0x3F40D7A5	ESP_ERR_NVS_NOT_INITIALIZED
+0x3F40D7C1	ESP_ERR_NVS_NOT_FOUND
+0x3F40D7D7	ESP_ERR_NVS_TYPE_MISMATCH
+0x3F40D7F1	ESP_ERR_NVS_READ_ONLY
+0x3F40D807	ESP_ERR_NVS_NOT_ENOUGH_SPACE
+0x3F40D824	ESP_ERR_NVS_INVALID_NAME
+0x3F40D83D	ESP_ERR_NVS_INVALID_HANDLE
+0x3F40D858	ESP_ERR_NVS_REMOVE_FAILED
+0x3F40D872	ESP_ERR_NVS_KEY_TOO_LONG
+0x3F40D88B	ESP_ERR_NVS_PAGE_FULL
+0x3F40D8A1	ESP_ERR_NVS_INVALID_STATE
+0x3F40D8BB	ESP_ERR_NVS_INVALID_LENGTH
+0x3F40D8D6	ESP_ERR_NVS_NO_FREE_PAGES
+0x3F40D8F0	ESP_ERR_NVS_VALUE_TOO_LONG
+0x3F40D90B	ESP_ERR_NVS_PART_NOT_FOUND
+0x3F40D926	ESP_ERR_NVS_NEW_VERSION_FOUND
+0x3F40D944	ESP_ERR_NVS_XTS_ENCR_FAILED
+0x3F40D960	ESP_ERR_NVS_XTS_DECR_FAILED
+0x3F40D97C	ESP_ERR_NVS_XTS_CFG_FAILED
+0x3F40D997	ESP_ERR_NVS_XTS_CFG_NOT_FOUND
+0x3F40D9B5	ESP_ERR_NVS_ENCR_NOT_SUPPORTED
+0x3F40D9D4	ESP_ERR_NVS_KEYS_NOT_INITIALIZED
+0x3F40D9F5	ESP_ERR_NVS_CORRUPT_KEY_PART
+0x3F40DA12	ESP_ERR_NVS_CONTENT_DIFFERS
+0x3F40DA2E	ESP_ERR_NVS_WRONG_ENCRYPTION
+0x3F40DA4B	ESP_ERR_ULP_BASE
+0x3F40DA5C	ESP_ERR_ULP_SIZE_TOO_BIG
+0x3F40DA75	ESP_ERR_ULP_INVALID_LOAD_ADDR
+0x3F40DA93	ESP_ERR_ULP_DUPLICATE_LABEL
+0x3F40DAAF	ESP_ERR_ULP_UNDEFINED_LABEL
+0x3F40DACB	ESP_ERR_ULP_BRANCH_OUT_OF_RANGE
+0x3F40DAEB	ESP_ERR_OTA_BASE
+0x3F40DAFC	ESP_ERR_OTA_PARTITION_CONFLICT
+0x3F40DB1B	ESP_ERR_OTA_SELECT_INFO_INVALID
+0x3F40DB3B	ESP_ERR_OTA_VALIDATE_FAILED
+0x3F40DB57	ESP_ERR_OTA_SMALL_SEC_VER
+0x3F40DB71	ESP_ERR_OTA_ROLLBACK_FAILED
+0x3F40DB8D	ESP_ERR_OTA_ROLLBACK_INVALID_STATE
+0x3F40DBB0	ESP_ERR_EFUSE
+0x3F40DBBE	ESP_OK_EFUSE_CNT
+0x3F40DBCF	ESP_ERR_EFUSE_CNT_IS_FULL
+0x3F40DBE9	ESP_ERR_EFUSE_REPEATED_PROG
+0x3F40DC05	ESP_ERR_CODING
+0x3F40DC14	ESP_ERR_NOT_ENOUGH_UNUSED_KEY_BLOCKS
+0x3F40DC39	ESP_ERR_DAMAGED_READING
+0x3F40DC51	ESP_ERR_IMAGE_BASE
+0x3F40DC64	ESP_ERR_IMAGE_FLASH_FAIL
+0x3F40DC7D	ESP_ERR_IMAGE_INVALID
+0x3F40DC93	ESP_ERR_WIFI_BASE
+0x3F40DCA5	ESP_ERR_WIFI_NOT_INIT
+0x3F40DCBB	ESP_ERR_WIFI_NOT_STARTED
+0x3F40DCD4	ESP_ERR_WIFI_NOT_STOPPED
+0x3F40DCED	ESP_ERR_WIFI_IF
+0x3F40DCFD	ESP_ERR_WIFI_MODE
+0x3F40DD0F	ESP_ERR_WIFI_STATE
+0x3F40DD22	ESP_ERR_WIFI_CONN
+0x3F40DD34	ESP_ERR_WIFI_NVS
+0x3F40DD45	ESP_ERR_WIFI_MAC
+0x3F40DD56	ESP_ERR_WIFI_SSID
+0x3F40DD68	ESP_ERR_WIFI_PASSWORD
+0x3F40DD7E	ESP_ERR_WIFI_TIMEOUT
+0x3F40DD93	ESP_ERR_WIFI_WAKE_FAIL
+0x3F40DDAA	ESP_ERR_WIFI_WOULD_BLOCK
+0x3F40DDC3	ESP_ERR_WIFI_NOT_CONNECT
+0x3F40DDDC	ESP_ERR_WIFI_POST
+0x3F40DDEE	ESP_ERR_WIFI_INIT_STATE
+0x3F40DE06	ESP_ERR_WIFI_STOP_STATE
+0x3F40DE1E	ESP_ERR_WIFI_NOT_ASSOC
+0x3F40DE35	ESP_ERR_WIFI_TX_DISALLOW
+0x3F40DE4E	ESP_ERR_WIFI_REGISTRAR
+0x3F40DE65	ESP_ERR_WIFI_WPS_TYPE
+0x3F40DE7B	ESP_ERR_WIFI_WPS_SM
+0x3F40DE8F	ESP_ERR_ESPNOW_BASE
+0x3F40DEA3	ESP_ERR_ESPNOW_NOT_INIT
+0x3F40DEBB	ESP_ERR_ESPNOW_ARG
+0x3F40DECE	ESP_ERR_ESPNOW_NO_MEM
+0x3F40DEE4	ESP_ERR_ESPNOW_FULL
+0x3F40DEF8	ESP_ERR_ESPNOW_NOT_FOUND
+0x3F40DF11	ESP_ERR_ESPNOW_INTERNAL
+0x3F40DF29	ESP_ERR_ESPNOW_EXIST
+0x3F40DF3E	ESP_ERR_ESPNOW_IF
+0x3F40DF50	ESP_ERR_DPP_FAILURE
+0x3F40DF64	ESP_ERR_DPP_TX_FAILURE
+0x3F40DF7B	ESP_ERR_DPP_INVALID_ATTR
+0x3F40DF94	ESP_ERR_MESH_BASE
+0x3F40DFA6	ESP_ERR_MESH_WIFI_NOT_START
+0x3F40DFC2	ESP_ERR_MESH_NOT_INIT
+0x3F40DFD8	ESP_ERR_MESH_NOT_CONFIG
+0x3F40DFF0	ESP_ERR_MESH_NOT_START
+0x3F40E007	ESP_ERR_MESH_NOT_SUPPORT
+0x3F40E020	ESP_ERR_MESH_NOT_ALLOWED
+0x3F40E039	ESP_ERR_MESH_NO_MEMORY
+0x3F40E050	ESP_ERR_MESH_ARGUMENT
+0x3F40E066	ESP_ERR_MESH_EXCEED_MTU
+0x3F40E07E	ESP_ERR_MESH_TIMEOUT
+0x3F40E093	ESP_ERR_MESH_DISCONNECTED
+0x3F40E0AD	ESP_ERR_MESH_QUEUE_FAIL
+0x3F40E0C5	ESP_ERR_MESH_QUEUE_FULL
+0x3F40E0DD	ESP_ERR_MESH_NO_PARENT_FOUND
+0x3F40E0FA	ESP_ERR_MESH_NO_ROUTE_FOUND
+0x3F40E116	ESP_ERR_MESH_OPTION_NULL
+0x3F40E12F	ESP_ERR_MESH_OPTION_UNKNOWN
+0x3F40E14B	ESP_ERR_MESH_XON_NO_WINDOW
+0x3F40E166	ESP_ERR_MESH_INTERFACE
+0x3F40E17D	ESP_ERR_MESH_DISCARD_DUPLICATE
+0x3F40E19C	ESP_ERR_MESH_DISCARD
+0x3F40E1B1	ESP_ERR_MESH_VOTING
+0x3F40E1C5	ESP_ERR_MESH_XMIT
+0x3F40E1D7	ESP_ERR_MESH_QUEUE_READ
+0x3F40E1EF	ESP_ERR_MESH_PS
+0x3F40E1FF	ESP_ERR_MESH_RECV_RELEASE
+0x3F40E219	ESP_ERR_ESP_NETIF_BASE
+0x3F40E230	ESP_ERR_ESP_NETIF_INVALID_PARAMS
+0x3F40E251	ESP_ERR_ESP_NETIF_IF_NOT_READY
+0x3F40E270	ESP_ERR_ESP_NETIF_DHCPC_START_FAILED
+0x3F40E295	ESP_ERR_ESP_NETIF_DHCP_ALREADY_STARTED
+0x3F40E2BC	ESP_ERR_ESP_NETIF_DHCP_ALREADY_STOPPED
+0x3F40E2E3	ESP_ERR_ESP_NETIF_NO_MEM
+0x3F40E2FC	ESP_ERR_ESP_NETIF_DHCP_NOT_STOPPED
+0x3F40E31F	ESP_ERR_ESP_NETIF_DRIVER_ATTACH_FAILED
+0x3F40E346	ESP_ERR_ESP_NETIF_INIT_FAILED
+0x3F40E364	ESP_ERR_ESP_NETIF_DNS_NOT_CONFIGURED
+0x3F40E389	ESP_ERR_ESP_NETIF_MLD6_FAILED
+0x3F40E3A7	ESP_ERR_ESP_NETIF_IP6_ADDR_FAILED
+0x3F40E3C9	ESP_ERR_ESP_NETIF_DHCPS_START_FAILED
+0x3F40E3EE	ESP_ERR_FLASH_BASE
+0x3F40E401	ESP_ERR_FLASH_OP_FAIL
+0x3F40E417	ESP_ERR_FLASH_OP_TIMEOUT
+0x3F40E430	ESP_ERR_FLASH_NOT_INITIALISED
+0x3F40E44E	ESP_ERR_FLASH_UNSUPPORTED_HOST
+0x3F40E46D	ESP_ERR_FLASH_UNSUPPORTED_CHIP
+0x3F40E48C	ESP_ERR_FLASH_PROTECTED
+0x3F40E4A4	ESP_ERR_HTTP_BASE
+0x3F40E4B6	ESP_ERR_HTTP_MAX_REDIRECT
+0x3F40E4D0	ESP_ERR_HTTP_CONNECT
+0x3F40E4E5	ESP_ERR_HTTP_WRITE_DATA
+0x3F40E4FD	ESP_ERR_HTTP_FETCH_HEADER
+0x3F40E517	ESP_ERR_HTTP_INVALID_TRANSPORT
+0x3F40E536	ESP_ERR_HTTP_CONNECTING
+0x3F40E54E	ESP_ERR_HTTP_EAGAIN
+0x3F40E562	ESP_ERR_HTTP_CONNECTION_CLOSED
+0x3F40E581	ESP_ERR_ESP_TLS_BASE
+0x3F40E596	ESP_ERR_ESP_TLS_CANNOT_RESOLVE_HOSTNAME
+0x3F40E5BE	ESP_ERR_ESP_TLS_CANNOT_CREATE_SOCKET
+0x3F40E5E3	ESP_ERR_ESP_TLS_UNSUPPORTED_PROTOCOL_FAMILY
+0x3F40E60F	ESP_ERR_ESP_TLS_FAILED_CONNECT_TO_HOST
+0x3F40E636	ESP_ERR_ESP_TLS_SOCKET_SETOPT_FAILED
+0x3F40E65B	ESP_ERR_ESP_TLS_CONNECTION_TIMEOUT
+0x3F40E67E	ESP_ERR_ESP_TLS_SE_FAILED
+0x3F40E698	ESP_ERR_ESP_TLS_TCP_CLOSED_FIN
+0x3F40E6B7	ESP_ERR_MBEDTLS_CERT_PARTLY_OK
+0x3F40E6D6	ESP_ERR_MBEDTLS_CTR_DRBG_SEED_FAILED
+0x3F40E6FB	ESP_ERR_MBEDTLS_SSL_SET_HOSTNAME_FAILED
+0x3F40E723	ESP_ERR_MBEDTLS_SSL_CONFIG_DEFAULTS_FAILED
+0x3F40E74E	ESP_ERR_MBEDTLS_SSL_CONF_ALPN_PROTOCOLS_FAILED
+0x3F40E77D	ESP_ERR_MBEDTLS_X509_CRT_PARSE_FAILED
+0x3F40E7A3	ESP_ERR_MBEDTLS_SSL_CONF_OWN_CERT_FAILED
+0x3F40E7CC	ESP_ERR_MBEDTLS_SSL_SETUP_FAILED
+0x3F40E7ED	ESP_ERR_MBEDTLS_SSL_WRITE_FAILED
+0x3F40E80E	ESP_ERR_MBEDTLS_PK_PARSE_KEY_FAILED
+0x3F40E832	ESP_ERR_MBEDTLS_SSL_HANDSHAKE_FAILED
+0x3F40E857	ESP_ERR_MBEDTLS_SSL_CONF_PSK_FAILED
+0x3F40E87B	ESP_ERR_MBEDTLS_SSL_TICKET_SETUP_FAILED
+0x3F40E8A3	ESP_ERR_WOLFSSL_SSL_SET_HOSTNAME_FAILED
+0x3F40E8CB	ESP_ERR_WOLFSSL_SSL_CONF_ALPN_PROTOCOLS_FAILED
+0x3F40E8FA	ESP_ERR_WOLFSSL_CERT_VERIFY_SETUP_FAILED
+0x3F40E923	ESP_ERR_WOLFSSL_KEY_VERIFY_SETUP_FAILED
+0x3F40E94B	ESP_ERR_WOLFSSL_SSL_HANDSHAKE_FAILED
+0x3F40E970	ESP_ERR_WOLFSSL_CTX_SETUP_FAILED
+0x3F40E991	ESP_ERR_WOLFSSL_SSL_SETUP_FAILED
+0x3F40E9B2	ESP_ERR_WOLFSSL_SSL_WRITE_FAILED
+0x3F40E9D3	ESP_ERR_HTTPS_OTA_BASE
+0x3F40E9EA	ESP_ERR_HTTPS_OTA_IN_PROGRESS
+0x3F40EA08	ESP_ERR_PING_BASE
+0x3F40EA1A	ESP_ERR_PING_INVALID_PARAMS
+0x3F40EA36	ESP_ERR_PING_NO_MEM
+0x3F40EA4A	ESP_ERR_HTTPD_BASE
+0x3F40EA5D	ESP_ERR_HTTPD_HANDLERS_FULL
+0x3F40EA79	ESP_ERR_HTTPD_HANDLER_EXISTS
+0x3F40EA96	ESP_ERR_HTTPD_INVALID_REQ
+0x3F40EAB0	ESP_ERR_HTTPD_RESULT_TRUNC
+0x3F40EACB	ESP_ERR_HTTPD_RESP_HDR
+0x3F40EAE2	ESP_ERR_HTTPD_RESP_SEND
+0x3F40EAFA	ESP_ERR_HTTPD_ALLOC_MEM
+0x3F40EB12	ESP_ERR_HTTPD_TASK
+0x3F40EB25	ESP_ERR_HW_CRYPTO_BASE
+0x3F40EB3C	ESP_ERR_HW_CRYPTO_DS_HMAC_FAIL
+0x3F40EB5B	ESP_ERR_HW_CRYPTO_DS_INVALID_KEY
+0x3F40EB7C	ESP_ERR_HW_CRYPTO_DS_INVALID_DIGEST
+0x3F40EBA0	ESP_ERR_HW_CRYPTO_DS_INVALID_PADDING
+0x3F40EBC5	ESP_ERR_MEMPROT_BASE
+0x3F40EBDA	ESP_ERR_MEMPROT_MEMORY_TYPE_INVALID
+0x3F40EBFE	ESP_ERR_MEMPROT_SPLIT_ADDR_INVALID
+0x3F40EC21	ESP_ERR_MEMPROT_SPLIT_ADDR_OUT_OF_RANGE
+0x3F40EC49	ESP_ERR_MEMPROT_SPLIT_ADDR_UNALIGNED
+0x3F40EC6E	ESP_ERR_MEMPROT_UNIMGMT_BLOCK_INVALID
+0x3F40EC94	ESP_ERR_MEMPROT_WORLD_INVALID
+0x3F40ECB2	ESP_ERR_MEMPROT_AREA_INVALID
+0x3F40F376	@?esp_timer
+0x3F40F382	ETSTimer
+0x3F40F38B	esp_timer_create(&create_args, (esp_timer_handle_t*)&(ptimer->timer_arg))
+0x3F40F3D5	timer_initialized(ptimer)
+0x3F40F420	esp_timer_start_once(ESP_TIMER(ptimer), time_us)
+0x3F40F451	esp_timer_start_periodic(ESP_TIMER(ptimer), time_us)
+0x3F40F486	ets_timer_arm
+0x3F40F494	ets_timer_arm_us
+0x3F40F4A5	ets_timer_setfn
+0x3F40F57D	esp_timer_impl
+0x3F40F5B6	esp_intr_enable(s_timer_interrupt_handle)
+0x3F40F5E0	esp_timer_impl_init
+0x3F40F5F4	esp_timer_impl_update_apb_freq
+0x3F40F613	( uint32_t ) p >= frame->a1
+0x3F40F65C	lock
+0x3F40F73C	***ERROR*** A stack overflow in task 
+0x3F40F762	 has been detected.
+0x3F40F798	pxPortInitialiseStack
+0x3F40F7D4	esp_task_wdt_init(CONFIG_ESP_TASK_WDT_TIMEOUT_S, true)
+0x3F40F80B	esp_task_wdt_add(idle_0)
+0x3F40F824	main
+0x3F40F895	vApplicationGetIdleTaskMemory
+0x3F40F8B3	main_task
+0x3F40F8BD	esp_startup_start_app_common
+0x3F40F8DA	pxEventGroupBuffer
+0x3F40F935	xEventGroup
+0x3F40FA81	vEventGroupDelete
+0x3F40FA93	xEventGroupSetBits
+0x3F40FAA6	xEventGroupClearBits
+0x3F40FABB	xEventGroupWaitBits
+0x3F40FB53	uxQueueLength > ( UBaseType_t ) 0
+0x3F40FC7A	( sizeof( Queue_t ) + xQueueSizeInBytes ) > xQueueSizeInBytes
+0x3F40FCC8	uxInitialCount <= uxMaxCount
+0x3F40FE22	pxMutex
+0x3F40FF5C	vQueueDelete
+0x3F40FF69	uxQueueMessagesWaiting
+0x3F40FF80	xQueueReceiveFromISR
+0x3F40FF95	xQueueSemaphoreTake
+0x3F40FFA9	xQueueReceive
+0x3F40FFB7	xQueueGiveFromISR
+0x3F40FFC9	xQueueGenericSendFromISR
+0x3F40FFE2	prvNotifyQueueSetContainer
+0x3F40FFFD	xQueueGenericSend
+0x3F41000F	xQueueCreateCountingSemaphore
+0x3F41002D	xQueueCreateCountingSemaphoreStatic
+0x3F410051	xQueueTakeMutexRecursive
+0x3F41006A	xQueueGiveMutexRecursive
+0x3F410083	xQueueGenericCreate
+0x3F410097	xQueueGenericCreateStatic
+0x3F4100B1	xQueueGenericReset
+0x3F4100C4	pxTCB
+0x3F410141	xPortcheckValidStackMem(pxStackBuffer)
+0x3F4101B8	cpuid < 2
+0x3F41027B	pxEventList
+0x3F410287	pxUnblockedTCB
+0x3F410296	pxTimeOut
+0x3F4102A0	pxTicksToWait
+0x3F4102AE	( uxNewPriority < ( 25 ) )
+0x3F41033A	xNextTaskUnblockTime >= xTickCount
+0x3F410385	pxTCB->uxMutexesHeld
+0x3F4103C2	uxIndexToWait < 1
+0x3F4103D4	uxIndexToNotify < 1
+0x3F4103E8	xTaskToNotify
+0x3F4104BB	IDLE
+0x3F4104D2	prvTaskPriorityRaise
+0x3F4104E7	vTaskGenericNotifyGiveFromISR
+0x3F410505	ulTaskGenericNotifyTake
+0x3F41051D	vTaskPriorityDisinheritAfterTimeout
+0x3F410541	xTaskPriorityDisinherit
+0x3F410559	xTaskCheckForTimeOut
+0x3F41056E	vTaskRemoveFromUnorderedEventList
+0x3F410590	xTaskRemoveFromEventList
+0x3F4105A9	vTaskPlaceOnUnorderedEventList
+0x3F4105C8	vTaskPlaceOnEventList
+0x3F4105DE	taskSelectHighestPriorityTaskSMP
+0x3F410613	xTaskIncrementTick
+0x3F410626	xTaskGetIdleTaskHandleForCPU
+0x3F410643	pcTaskGetName
+0x3F410651	xTaskResumeAll
+0x3F410660	vTaskStartScheduler
+0x3F410674	vTaskSuspend
+0x3F410681	vTaskPrioritySet
+0x3F410692	vTaskDelay
+0x3F41069D	prvDeleteTCB
+0x3F4106AA	prvDeleteTLS
+0x3F4106B7	vTaskDelete
+0x3F4106C3	xTaskCreateStaticPinnedToCore
+0x3F4107CE	esp_newlib_locks_init
+0x3F4107E4	check_lock_nonzero
+0x3F4107F7	lock_release_generic
+0x3F41080C	lock_acquire_generic
+0x3F410821	_lock_close
+0x3F41082D	try_heap_caps_add_region(mem_start, mem_end)
+0x3F410882	esp_bt_controller_mem_release
+0x3F4108F8	wifi_prov_mgr
+0x3F410AFE	prov_stop_task
+0x3F410B7B	wifi_prov_mgr_event_handler_internal
+0x3F410BA0	wifi_prov_mgr_stop_service
+0x3F410BBB	wifi_prov_mgr_deinit
+0x3F410BD0	execute_event_cb
+0x3F410BE1	WIFI_PROV_EVENT
+0x3F410BF1	arch_main.c
+0x3F410BFD	BTDM ROM VERSION %04x
+0x3F410C14	BD_ADDR: %02X:%02X:%02X:%02X:%02X:%02X
+0x3F410C3C	BTDM CONTROLLER VERSION: %06x
+0x3F410C64	Apr 11 2023
+0x3F410C70	BTDM CONTROLLER DATE: %s %s
+0x3F410C8D	BTDM CPUID 0x%08X
+0x3F410CA0	Enable Classic BT
+0x3F410CB3	Enable Low Energy
+0x3F410CC6	Coex register bt cb faild
+0x3F410CE1	Coex register schm btdm cb faild
+0x3F410D03	Coex register Wi-Fi channel change btdm cb faild
+0x3F410D35	Disable Classic BT
+0x3F410D49	Disable Low Energy
+0x3F410D5D	Heap MSG [%p], Heap ENV [%p], Heap NORET [%p]
+0x3F410D8B	                             Uart ENV [%p], VHCI ENV [%p], PLF FUNCS [%p]
+0x3F410DD6	btController
+0x3F410DEB	SCHM PROC %02x %02x, %p
+0x3F410E04	coex_schm.c
+0x3F410E5F	@ea.c
+0x3F410E74	BBL6B
+0x3F410E81	BHLH
+0x3F410EEA	A?hci_tl.c
+0x3F410EF5	huart.c
+0x3F410F3A	ke_task.c
+0x3F410F44	lc_lmppdu.c
+0x3F410F50	elt->param
+0x3F410F5B	kltb
+0x3F410F60	Not support sniff attempt(%x) large than 0xFF, request with 0xFF
+0x3F410FA2	Not support sniff attempt(%x) large than 0xFF
+0x3F410FD1	Sync Link Number[%d], Mask other Sync Links, Param[0x%08x]
+0x3F41100D	lc_sniff.c
+0x3F411018	lc_task.c
+0x3F411022	Not support sniff attempt large than 0xFF, change %x to 0xFF
+0x3F4112F7	@ld_acl.c
+0x3F411631	ld_fm.c
+0x3F411639	link_id < MAX_NB_ACTIVE_ACL
+0x3F41175C	acl_par->nb_prog > 0
+0x3F4117EC	ld_inq.c
+0x3F411879	ld_sched.c
+0x3F411889	);llc.c
+0x3F411891	EE elt %p, ts %u, %d
+0x3F4118A7	lld_evt.c
+0x3F4118EB	CO First, elt %p
+0x3F4118FD	CO [%u], type %d, ts %u, ap %u %u, cs %d, met %u
+0x3F41192F	new_wait_elt
+0x3F41196B	set ble priority high. conhdl: 0x%x,evt_counter:%d,tx_pkg_cnt:%d
+0x3F4119AD	lld.c
+0x3F411AAA	scan channel select mode user input error
+0x3F411AEB	lld_pdu.c
+0x3F411AF5	%s HCI packet count mismatch (%d, %d)
+0x3F411B56	ram_lld_pdu_tx_flush
+0x3F411B6B	lld_pdu_get_tx_flush_nb
+0x3F411B83	llm_hci.c
+0x3F411BF4	llm_le_env.advertising_params
+0x3F411C12	llm.c
+0x3F411C18	llm_le_env.scanning_params
+0x3F411C33	co_list_extract(&llm_le_env.adv_list, element, 0)
+0x3F411C65	co_list_extract(&le_scan_duplicate_option.mesh_adv_list, element, 0)
+0x3F411CAA	param->pk_payload_type < PAYL_END
+0x3F411D3F	llm_util.c
+0x3F411D4A	ACL Link Number[%d], Mask other ACL Links
+0x3F411D75	lm_env.local_name
+0x3F411D87	lm_task.c
+0x3F411DF9	!memcmp(&param->bd_addr.addr[0], &lm_env.create_con_cmd->bd_addr.addr[0], BD_ADDR_LEN)
+0x3F411E50	NVDS MAGIC FAILED
+0x3F411ECF	@Set BREDR TX POWER min %d max %d
+0x3F411EF2	RF Init OK with coex
+0x3F411F08	BT BB INTR enabled!
+0x3F411F2C	rwble.c
+0x3F411F34	rwbt.c
+0x3F411F3B	lpcycles < 1000000
+0x3F411F4E	%s ENV %p, %d, MSG %p %d, NORET %p %d
+0x3F411F75	rwip.c
+0x3F411F7C	r_rwip_init
+0x3F411F88	Send Queue Failed
+0x3F411F9B	vhci.c
+0x3F411FA2	VHCI: Controller is not run
+0x3F412008	intc.c
+0x3F4120DA	num_reg <= (range_read_addr_blocks[blk].end - range_read_addr_blocks[blk].start) / sizeof(uint32_t)
+0x3F4121C6	efuse
+0x3F412207	bits_counter <= req_size
+0x3F4122F0	esp_efuse_utility_read_reg
+0x3F41230B	esp_efuse_utility_process
+0x3F412365	ipc%d
+0x3F41236B	ipc_task
+0x3F412374	esp_ipc_init
+0x3F4123B7	esp_ipc_isr_release_other_cpu
+0x3F412413	ADCADC_NUM_1 channel error
+0x3F41242E	wifi release called before acquire
+0x3F412451	adc2_wifi_release
+0x3F412463	adc_power_release
+0x3F4124BD	esp_core_dump_get_user_ram_info
+0x3F4124DD	checksum_size <= 32
+0x3F412523	Calculated checksum
+0x3F412537	Image checksum
+0x3F412546	esp_core_dump_image_check
+0x3F412560	CORE
+0x3F412565	ESP_CORE_DUMP_INFO
+0x3F412578	EXTRA_INFO
+0x3F412583	elf_write_core_dump_info
+0x3F41259C	elf_write_core_dump_user_data
+0x3F4125BA	elf_add_segment
+0x3F4125CA	elf_save_task
+0x3F4125D8	elf_write_segment_header
+0x3F4125F1	elf_process_note_segment
+0x3F41260A	elf_write_note
+0x3F412619	elf_add_note
+0x3F412626	elf_process_tasks_regs
+0x3F41263D	elf_write_tasks_data
+0x3F412652	elf_write_file_header
+0x3F412668	esp_core_dump_do_write_elf_pass
+0x3F412688	esp_core_dump_write_elf
+0x3F412741	esp_core_dump_get_task_regs_dump
+0x3F412762	esp_core_dump_get_stack
+0x3F41277A	cks_ctx
+0x3F412800	esp_core_dump_print_checksum
+0x3F41281D	esp_core_dump_checksum_finish
+0x3F41283B	esp_core_dump_checksum_update
+0x3F41285D	phy_init
+0x3F4128C1	cal_version
+0x3F4128CD	cal_mac
+0x3F4128D5	esp_efuse_mac_get_default(sta_mac)
+0x3F41299D	cal_data
+0x3F412AED	esp_phy_load_cal_and_init
+0x3F412B07	store_cal_data_to_nvs_handle
+0x3F412B24	load_cal_data_from_nvs_handle
+0x3F412B42	esp_phy_load_cal_data_from_nvs
+0x3F412B8D	NHB<84
+0x3F412DE4	Init Counter
+0x3F412DF1	Group key expansion
+0x3F412E05	IGTK key expansion
+0x3F412E3F	SAE Hunting and Pecking
+0x3F412E57	SAE Hash to Element
+0x3F412E6B	SAE Hash to Element u1 P1
+0x3F412E85	SAE Hash to Element u2 P2
+0x3F412E9F	SAE KCK and PMK
+0x3F412EE4	bc1E
+0x3F412F20	1/?cz&!t
+0x3F412FD6	5mmQ
+0x3F413004	I(fQ
+0x3F4130DB	LA\>Up
+0x3F413117	[^H_JI
+0x3F413148	h^j@GPm|_}
+0x3F413201	H:XV`
+0x3F41327B	w!FF
+0x3F4133F2	zA0u
+0x3F4133FE	Z}wSn
+0x3F413527	tjFi
+0x3F413742	vr8^T:l)U
+0x3F4138D2	DPV2A
+0x3F41397C	SHA1
+0x3F413985	SHA224
+0x3F41398C	SHA256
+0x3F413993	SHA384
+0x3F41399A	SHA512
+0x3F413A08	x->n >= num_words
+0x3F413A46	mem_block_to_mpi
+0x3F413B37	vRQ>
+0x3F413B66	8STs
+0x3F413BA0	LwH'
+0x3F413C65	D7q/;M
+0x3F413F22	engines_in_use <= 3
+0x3F413F7E	esp_sha_block
+0x3F413F8C	esp_sha_read_digest_state
+0x3F413FA6	sha_get_engine_state
+0x3F413FBB	esp_sha_lock_engine_common
+0x3F413FD6	Invalid coexist adapter function md5, internal: %s, idf: %s
+0x3F414013	coexist adapter function is NULL
+0x3F414034	coexist adapter function version error! Version %x is expected, but it is %x
+0x3F414082	coexist adapter function magic error! Magic %x is expected, but it is %x
+0x3F4140D4	0f80fa0
+0x3F4140DC	coexist_core.c
+0x3F4140EB	coexist_arbit.c
+0x3F4140FB	OS adapter function is NULL
+0x3F414117	OS adapter function version error! Version %d is expected, but it is %x
+0x3F414160	OS adapter function magic error! Magic %d is expected, but it is %x
+0x3F4141A5	Invalid OSI esp_wifi_os_adapter.h md5, internal: %s, idf: %s
+0x3F4141E3	Invalid WiFi esp_wifi_crypto_types.h md5, internal: %s, idf: %s
+0x3F414224	Invalid WiFi esp_wifi_types.h md5, internal: %s, idf: %s
+0x3F41425E	Invalid WiFi esp_wifi.h md5, internal: %s, idf: %s
+0x3F414292	config is NULL
+0x3F4142A1	WIFI_MESH_EVENT
+0x3F4142B9	a5d52e9
+0x3F4142C9	05c2f7f
+0x3F4142D7	ieee80211_crypto.c
+0x3F4142EA	%c (%d) %s:
+0x3F4142FD	bcn/probe
+0x3F414307	mgmt
+0x3F414310	amsdu
+0x3F414316	action
+0x3F41431D	deauth
+0x3F414324	assoc
+0x3F41432A	ap_tx
+0x3F414330	sta_tx
+0x3F41433B	reorder
+0x3F414343	ps_uc1
+0x3F41434A	psq_uc
+0x3F414351	psq_mc
+0x3F414358	psq_tx
+0x3F41435F	ieee80211_hostap.c
+0x3F41437E	ieee80211_ht.c
+0x3F41439D	ieee80211_input.c
+0x3F4143AF	group cipher suite
+0x3F4143C2	pairwise cipher suite count
+0x3F4143DE	pairwise cipher suite
+0x3F4143F4	AKM suite count
+0x3F414404	AKM suite
+0x3F414412	PMKID count
+0x3F41441E	PMKID list
+0x3F414429	Group Mgmt cipher suite
+0x3F414470	ieee80211_ioctl.c
+0x3F414482	enabled
+0x3F41448A	disabled
+0x3F414499	wpa_crypto_funcs_init
+0x3F4144AF	opmode
+0x3F4144B6	sta.ssid
+0x3F4144BF	sta.authmode
+0x3F4144CC	sta.pswd
+0x3F4144D5	sta.pmk
+0x3F4144DD	sta.chan
+0x3F4144E6	auto.conn
+0x3F4144F0	bssid.set
+0x3F4144FA	sta.bssid
+0x3F414504	sta.lis_intval
+0x3F414513	sta.phym
+0x3F41451C	sta.phybw
+0x3F414526	sta.apsw
+0x3F41452F	sta.apinfo
+0x3F41453A	sta.scan_method
+0x3F41454A	sta.sort_method
+0x3F41455A	sta.minrssi
+0x3F414566	sta.minauth
+0x3F414572	sta.pmf_e
+0x3F41457C	sta.pmf_r
+0x3F414586	sta.btm_e
+0x3F414590	sta.rrm_e
+0x3F41459A	sta.mbo_e
+0x3F4145A4	ap.ssid
+0x3F4145AC	ap.passwd
+0x3F4145B6	ap.pmk
+0x3F4145BD	ap.chan
+0x3F4145C5	ap.authmode
+0x3F4145D1	ap.hidden
+0x3F4145DB	ap.max.conn
+0x3F4145E7	bcn.interval
+0x3F4145F4	ap.phym
+0x3F4145FC	ap.phybw
+0x3F414605	ap.sndchan
+0x3F414610	ap.pmf_e
+0x3F414619	ap.pmf_r
+0x3F414622	ap.p_cipher
+0x3F41462E	lorate
+0x3F414635	country
+0x3F41463D	ap.ftm_r
+0x3F414646	sta.trans_d
+0x3F414652	sta.sae_h2e
+0x3F41465E	sta.bss_retry
+0x3F41466C	ESP_%02X%02X%02X
+0x3F41467D	nvs.net80211
+0x3F4146EB	@ieee80211_output.c
+0x3F41473F	lrbg
+0x3F414744	lrbgn
+0x3F41474D	ieee80211_phy.c
+0x3F414927	ieee80211_scan.c
+0x3F414938	unknown
+0x3F414940	from beacon
+0x3F41494C	from user
+0x3F414956	ieee80211_sta.c
+0x3F414966	scan
+0x3F414977	sleep
+0x3F41499E	@?fIA?
+0x3F4149A5	CA?$CA?kIA?oIA?sIA?wIA?8IA?ieee80211_supplicant.c
+0x3F4149D7	Invalid supplicant md5, internal: %s, idf: %s
+0x3F414A42	ieee80211_send_beacon
+0x3F414A58	ieee80211_hostap_handle
+0x3F414A70	ieee80211_timer_connect
+0x3F414A88	ieee80211_scan_inter_chan
+0x3F414AA2	ieee80211_scan_enter_op_chan
+0x3F414ABF	ieee80211_csa
+0x3F414ACD	ieee80211_probe_send
+0x3F414AE2	ieee80211_beacon
+0x3F414AF3	ieee80211_handshake
+0x3F414B07	ieee80211_chm_dwell
+0x3F414B1B	ieee80211_auth
+0x3F414B2A	ieee80211_assoc
+0x3F414B3A	ieee80211_sta_try_sa_query
+0x3F414B55	ieee80211_sta_sa_query_timeout
+0x3F414B74	ieee80211_sta_retry_assoc
+0x3F414B8E	ieee80211_coexist
+0x3F414BA0	wl_chm.c
+0x3F414BA9	wl_cnx.c
+0x3F414BB2	active
+0x3F414BB9	passive
+0x3F414BCA	WEP-40
+0x3F414BD1	WEP-104
+0x3F414BD9	Open Auth
+0x3F414BE3	WPA-PSK
+0x3F414BEB	WPA2-ENT
+0x3F414BF4	WPA2-PSK
+0x3F414BFD	WPA2-CCKM
+0x3F414C07	WPA3-SAE
+0x3F414C10	WAPI-PSK
+0x3F414C19	WAPI-CERT
+0x3F414C25	KA?,k@?
+0x3F414C55	KA?ieee80211_action.c
+0x3F414C74	lmac.c
+0x3F414C93	@lmacTxDone
+0x3F414C9F	lmacTxFrame
+0x3F414CAB	lmacProcessTxError
+0x3F414CBE	lmacProcessTxRtsError
+0x3F414CD4	lmacProcessAckTimeout
+0x3F414CEA	lmacProcessCtsTimeout
+0x3F414D00	lmacProcessLongRetryFail
+0x3F414D19	lmacProcessShortRetryFail
+0x3F414D33	lmacProcessTxComplete
+0x3F414D49	lmacProcessCollision
+0x3F414D5E	lmacEndFrameExchangeSequence
+0x3F414D7B	lmacDiscardFrameExchangeSequence
+0x3F414D9C	lmacProcessTxSuccess
+0x3F414FD7	@trc.c
+0x3F41513C	rcReachRetryLimit
+0x3F41514E	rcGetRate
+0x3F415158	rcGetAmpduSched
+0x3F415168	wdev.c
+0x3F41516F	wDevProcessDirtyBuf
+0x3F415183	wDev_AppendRxBlocks
+0x3F415197	wdevProcessRxSucDataAll
+0x3F4151AF	wDev_ProcessRxSucData
+0x3F4151CB	sc_sniffer.c
+0x3F4151D8	smartconfig errno %d@%s %u
+0x3F4153C7	misc
+0x3F4153EC	__gnu_cxx::__concurrence_lock_error
+0x3F415410	__gnu_cxx::__concurrence_unlock_error
+0x3F415436	St9exception
+0x3F415445	UA?6TA?N9__gnu_cxx24__concurrence_lock_errorE
+0x3F415474	\UA?LTA?DTA?N9__gnu_cxx26__concurrence_unlock_errorE
+0x3F4154B1	TA?DTA?
+0x3F4154DF	@St9bad_alloc
+0x3F41552F	@std::bad_alloc
+0x3F415581	bad_function_call
+0x3F415593	St17bad_function_call
+0x3F4155B1	UA?DTA?
+0x3F415903	@0000000000000000                INF
+0x3F415934	0123456789abcdef
+0x3F415945	0123456789ABCDEF
+0x3F415BF3	@0000000000000000                Infinity
+0x3F415C21	REENT malloc succeeded
+0x3F415CA6	Balloc succeeded
+0x3F415CB7	POSIX
+0x3F415DEA	ASCII
+0x3F415F5C	vH7B
+0x3F415F8C	W4vC
+0x3F4166F7	@0000000000000000                wifi ipc: failed to post wifi task
+0x3F41673B	failed to post event=%d ret=%d
+0x3F41675A	wifi stop stage3: out of memory!
+0x3F41677B	wifi stop stage2: out of memory!
+0x3F41679C	wifi stop: out of memory!
+0x3F4167B6	wifi deinit internal: wifi not stop
+0x3F4167DA	alloc net80211 funcs fail
+0x3F4167F5	MIC mismatch for the Bcast Mgmt frame(res=%d)
+0x3F416823	MIC computation for BIP Failed(res=%d)
+0x3F41684A	BIP replay detected
+0x3F41685E	Invalid MMIE
+0x3F4169AC	age_reorder: null rap
+0x3F4169DE	rxa_eb mem fail tid=%d
+0x3F4169F5	rap mem fail tid=%d
+0x3F416A10	failed to start addba timer
+0x3F416A2C	addba index: unknow conn=%p
+0x3F416A48	tap to index: null conn
+0x3F416A60	tap to index: null bss
+0x3F416A77	addba response cb: status %d not success, no need to configure hardware
+0x3F416ABF	addba response cb: ap bss deleted
+0x3F416AE1	addba response cb: ap conn deleted
+0x3F416B04	addba response cb: bssid change from %02x:%02x:%02x:%02x:%02x:%02x to %02x:%02x:%02x:%02x:%02x:%02x
+0x3F416B68	addba response cb: sta bss deleted
+0x3F416B8B	addba response cb: sta conn deleted
+0x3F416BAF	addba response invalid param
+0x3F416BE8	alloc challenge: out of memory!
+0x3F416C0F	ioctl_process: invalid arg
+0x3F416C2A	invalid ipc cfg
+0x3F416C3A	wpa2 ent enable, invalid param(%p)
+0x3F416C5D	wifi stop stage error, stage=%d
+0x3F416C7E	In function %s, fail to register function!
+0x3F416CAB	invalid core id %d
+0x3F416CBE	rx ba window %d error
+0x3F416CD4	management short buf number %d is out of range
+0x3F416D03	tx buf type %d error
+0x3F416D18	dynamic tx buf number %d is out of range
+0x3F416D41	static tx buf number %d is out of range
+0x3F416D69	dynamic rx buf number %d is out of range
+0x3F416D92	static rx buf number %d is out of range
+0x3F416DBA	wpa crypto funcs expected size=%d version=%d, actual size=%d version=%d
+0x3F416E02	invalid magic number %x, call WIFI_INIT_CONFIG_DEFAULT to init config
+0x3F416E48	parameter config should not be NULL
+0x3F416E96	sta is connecting, return error
+0x3F416EB6	init nvs: failed, ret=%x
+0x3F416ECF	wifi nvs cfg alloc out of memory
+0x3F416EF0	nvs invalid min %d max %d
+0x3F416F0A	invalid wifi nvs key index %d
+0x3F416FA6	setup rate: out of memory!
+0x3F416FD6	null wpa_parse_wpa_ie
+0x3F417018	SAE H2E disabled
+0x3F417029	wpa_config_parse_string is null
+0x3F417057	Mem alloc fail for SA Q req
+0x3F41708F	Set status to INIT
+0x3F4170A2	Association comeback time (%d) mSec too long. max allowed 5000 mSec
+0x3F4170E6	Association refused temporarily, comeback time %d mSec
+0x3F417124	invalid ac=%d
+0x3F417132	wpa michael mic failure cb empty
+0x3F417168	fail to alloc timer, type=%d
+0x3F417185	fail to post timer, type=%d
+0x3F4171A1	timeout when WiFi un-init, type=%d
+0x3F4171C4	timeout but fail to get lock, type=%d
+0x3F4171F1	invalid channel info
+0x3F417206	invalid channel
+0x3F417232	cnx_bss_init: null bss
+0x3F417250	null wpa_sta_ap_set_rsnxe
+0x3F41726A	sta_scan: STA not exist!
+0x3F417283	ht2040 coex frame alloc fail
+0x3F4172A7	Failed to encrypt CCMP frame
+0x3F4172C4	CCMP replay detected: A1=%02x:%02x:%02x:%02x:%02x:%02x A2=%02x:%02x:%02x:%02x:%02x:%02x PN=%llu, RSC=%llu seq=%u
+0x3F417335	CCMP mgmt frame from %02x:%02x:%02x:%02x:%02x:%02x used non-zero reserved bit
+0x3F417383	Expected CCMP frame from %02x:%02x:%02x:%02x:%02x:%02x did not have ExtIV bit set to 1
+0x3F4173DA	ebuf_free: invalid type=%d
+0x3F4173F5	esf_buf_alloc: invalid type=%d
+0x3F417414	esf_buf_alloc_dynamic: invalid type=%d
+0x3F41743B	set vif: invalid index=%d
+0x3F417455	%s %s %u
+0x3F417559	Error! Should enable WiFi modem sleep when both WiFi and Bluetooth are enabled!!!!!!
+0x3F4175B6	create wifi task: failed to create task
+0x3F4175DE	create wifi task: failed to create sem
+0x3F417605	create wifi task: failed to create queue
+0x3F417673	invalid micahel mic failure cb
+0x3F4176A0	wifi assert: %d
+0x3F4176B7	update default trc: invalid ifx
+0x3F4176D7	trc init fail, no mem
+0x3F4176ED	rc_enable_trc fail, no mem
+0x3F417712	sched is null, if=%d tid=%d flags=%x
+0x3F417741	desc is null
+0x3F417762	rcGet11BHighestRateIdx: invalid max rate=%d
+0x3F41778E	rcGet11GHighestRateIdx: invalid max rate=%d
+0x3F4177BA	rcGet11NHighestRateIdx: invalid max rate=%d
+0x3F4177F0	dirty buf %08x: %08x, %08x: %08x
+0x3F41781C	Expected to init %d rx buffer, actual is %d
+0x3F417848	Failed to init rx desc space, buffer number=%d
+0x3F417895	promis buf: out of memory
+0x3F41B915	OyA?
+0x3F41B94D	SyA?
+0x3F41B9BD	cyA?
+0x3F41B9F5	syA?
+0x3F41C79D	HzA?
+0x3F41C829	hzA?
+0x3F41C87D	yzA?

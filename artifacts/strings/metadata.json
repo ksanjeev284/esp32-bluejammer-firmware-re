@@ -1,0 +1,120 @@
+{
+  "filename": "Combo-Channel-Select_BT-BLE-WiFi-RC.ino.bin",
+  "size_bytes": 877232,
+  "md5": "7dd270bbf3b947d0b68191ef5a2719ea",
+  "sha1": "fc1b7b5a7ea6bfd8ef866938600acb539034ef21",
+  "sha256": "2e26452fbbd72ee3c97ec94b5a4c0b4ac20800dfdae7ff7ff7029beed0a95a3c",
+  "first_64_hex": "e905022f0c2f0840ee0000000000000000ffff00000000012000403fb0cf01003254cdab0000000000000000000000006573702d6964663a2076342e342e3520",
+  "last_64_hex": "342020333030e4131020002d041df00000000000000000000000000000000013c009263fae8f73ee29383ac56bfed62e2eef4fca80c377e1ed41e4d01f55a8b0",
+  "image": {
+    "magic": "0xE9",
+    "valid_esp": true,
+    "segments": 5,
+    "spi_mode": 2,
+    "spi_mode_name": "DIO",
+    "flash_size_code": 2,
+    "flash_freq_code": 15,
+    "flash_size": "4MB",
+    "flash_freq": "80MHz",
+    "entry_point": "0x40082F0C",
+    "wp_pin": 238,
+    "chip_id": 0,
+    "min_chip_rev": 0,
+    "hash_appended": 1,
+    "extended_header_hex": "ee0000000000000000ffff0000000001"
+  },
+  "markers": {
+    "arduino-lib-builder": "file=0x50",
+    "esp-idf:": "file=0x30"
+  },
+  "app_desc": {
+    "file_offset": "0x20",
+    "va": "0x3F400020",
+    "version": "esp-idf: v4.4.5 ac5d805d0e",
+    "project_name": "arduino-lib-builder",
+    "compile_time": "16:41:45",
+    "compile_date": "Jun 12 2023",
+    "idf_ver": "v4.4.5",
+    "elf_sha256": "81292e8df6005ce011d594030ec5f8fd5c170b485f80594f315be1ef05ed7e3d"
+  },
+  "segments": [
+    {
+      "idx": 0,
+      "name": "DROM",
+      "file_off": 32,
+      "size": 118704,
+      "load": 1061158944,
+      "sha256": "f781a0e8442ec92a40e40ee058b90010bc0bb28c35aa9e136a1f4fc8099db1ae",
+      "entropy": 5.8007
+    },
+    {
+      "idx": 1,
+      "name": "DRAM1",
+      "file_off": 118744,
+      "size": 12352,
+      "load": 1073470304,
+      "sha256": "058f5e2b50687a737966ab343db7300bea86b59b9c7af11441c8e0a0cbeb54e1",
+      "entropy": 3.3141
+    },
+    {
+      "idx": 2,
+      "name": "IROM",
+      "file_off": 131104,
+      "size": 626784,
+      "load": 1074593824,
+      "sha256": "01da7ab99f2498eab7691c0fee98519cb837a42c7e9e74a8d5f6f02e3bdc5a4d",
+      "entropy": 7.1318
+    },
+    {
+      "idx": 3,
+      "name": "DRAM2",
+      "file_off": 757896,
+      "size": 12152,
+      "load": 1073482656,
+      "sha256": "f4542260b78fafbfa55a8df6486544e587044ca6b0cae4735c5c8fb356e151ff",
+      "entropy": 4.0755
+    },
+    {
+      "idx": 4,
+      "name": "IRAM",
+      "file_off": 770056,
+      "size": 107128,
+      "load": 1074266112,
+      "sha256": "2303bd3c437b7b4ff2a04b942be5b65b19d866409e7dc753fbcaa8e6d65ad73d",
+      "entropy": 6.9561
+    }
+  ],
+  "string_count": 8698,
+  "string_count_len_ge_8": 2677,
+  "irom_drom_string_ptr_count": 1290,
+  "idf_components_seen": [
+    "app_update",
+    "bootloader_support",
+    "bt",
+    "driver",
+    "efuse",
+    "esp_event",
+    "esp_hw_support",
+    "esp_ipc",
+    "esp_netif",
+    "esp_phy",
+    "esp_ringbuf",
+    "esp_system",
+    "esp_timer",
+    "esp_wifi",
+    "espcoredump",
+    "freertos",
+    "hal",
+    "heap",
+    "log",
+    "lwip",
+    "mbedtls",
+    "newlib",
+    "nvs_flash",
+    "pthread",
+    "spi_flash",
+    "vfs",
+    "wifi_provisioning",
+    "wpa_supplicant"
+  ]
+}

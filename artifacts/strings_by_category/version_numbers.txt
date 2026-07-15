@@ -1,0 +1,2 @@
+0x3F400030	0x30	DROM	esp-idf: v4.4.5 ac5d805d0e
+0x3F400090	0x90	DROM	v4.4.5

@@ -1,0 +1,461 @@
+{
+  "interesting_immediates": {
+    "79": {
+      "description": "BT classic channels",
+      "u32_count": 2,
+      "u32_sample_file": [
+        "0x1BE20",
+        "0x7598C"
+      ],
+      "u32_sample_va": [
+        "0x3F41BE20",
+        "0x4012598C"
+      ],
+      "u16_count": 32,
+      "u16_sample_file": [
+        "0x4B1B",
+        "0x6813",
+        "0x12576",
+        "0x12581",
+        "0x17AB6",
+        "0x1BE20",
+        "0x1F157",
+        "0x1F16B",
+        "0x23A2E",
+        "0x35D05",
+        "0x373E6",
+        "0x37F12",
+        "0x403EF",
+        "0x47053",
+        "0x474D4"
+      ]
+    },
+    "40": {
+      "description": "BLE channels",
+      "u32_count": 17,
+      "u32_sample_file": [
+        "0x11220",
+        "0x17F4C",
+        "0x190F4",
+        "0x1B850",
+        "0x1BFF0",
+        "0x1C400",
+        "0x1C65C",
+        "0x1D714",
+        "0x1ED46",
+        "0x1F030",
+        "0x7AF38",
+        "0x95390",
+        "0xA040A",
+        "0xA4817",
+        "0xB2A9B",
+        "0xB6D1D",
+        "0xC639C"
+      ],
+      "u32_sample_va": [
+        "0x3F411220",
+        "0x3F417F4C",
+        "0x3F4190F4",
+        "0x3F41B850",
+        "0x3F41BFF0",
+        "0x3F41C400",
+        "0x3F41C65C",
+        "0x3FFBE29C",
+        "0x3FFBF8CE",
+        "0x3FFBFBB8",
+        "0x4012AF38",
+        "0x40145390",
+        "0x4015040A",
+        "0x40154817",
+        "0x40162A9B",
+        "0x40166D1D",
+        "0x4008A394"
+      ],
+      "u16_count": 242,
+      "u16_sample_file": [
+        "0x69D3",
+        "0x6BC6",
+        "0x11220",
+        "0x17F4C",
+        "0x190F4",
+        "0x1B850",
+        "0x1BFF0",
+        "0x1C400",
+        "0x1C65C",
+        "0x1D714",
+        "0x1ED46",
+        "0x1EF42",
+        "0x1EFDA",
+        "0x1F030",
+        "0x254CD"
+      ]
+    },
+    "14": {
+      "description": "WiFi channels",
+      "u32_count": 26,
+      "u32_sample_file": [
+        "0x2081",
+        "0x2391",
+        "0xD014",
+        "0xD084",
+        "0x11198",
+        "0x1D644",
+        "0x1F208",
+        "0x58FAC",
+        "0x5F264",
+        "0x667F0",
+        "0x7E8D4",
+        "0x7EA2C",
+        "0x85BD9",
+        "0x88425",
+        "0x8C329",
+        "0x8CE80",
+        "0x9207D",
+        "0xA48D1",
+        "0xA5F34",
+        "0xA7DE8"
+      ],
+      "u32_sample_va": [
+        "0x3F402081",
+        "0x3F402391",
+        "0x3F40D014",
+        "0x3F40D084",
+        "0x3F411198",
+        "0x3FFBE1CC",
+        "0x3FFBFD90",
+        "0x40108FAC",
+        "0x4010F264",
+        "0x401167F0",
+        "0x4012E8D4",
+        "0x4012EA2C",
+        "0x40135BD9",
+        "0x40138425",
+        "0x4013C329",
+        "0x4013CE80",
+        "0x4014207D",
+        "0x401548D1",
+        "0x40155F34",
+        "0x40157DE8"
+      ],
+      "u16_count": 115,
+      "u16_sample_file": [
+        "0x18ED",
+        "0x18FD",
+        "0x2081",
+        "0x2391",
+        "0x360E",
+        "0xD014",
+        "0xD084",
+        "0x11198",
+        "0x14F1D",
+        "0x17968",
+        "0x1D644",
+        "0x1F195",
+        "0x1F208",
+        "0x20EDA",
+        "0x214A9"
+      ]
+    },
+    "125": {
+      "description": "nRF max channel / RC",
+      "u32_count": 4,
+      "u32_sample_file": [
+        "0x15EA8",
+        "0x17A5E",
+        "0x17AE4",
+        "0x1CAD0"
+      ],
+      "u32_sample_va": [
+        "0x3F415EA8",
+        "0x3F417A5E",
+        "0x3F417AE4",
+        "0x3F41CAD0"
+      ],
+      "u16_count": 18,
+      "u16_sample_file": [
+        "0x15EA8",
+        "0x17A5E",
+        "0x17AE4",
+        "0x1CAD0",
+        "0x204D1",
+        "0x20689",
+        "0x20A51",
+        "0x505B9",
+        "0x57A91",
+        "0x589D1",
+        "0x63C89",
+        "0x6B55D",
+        "0xB3C1A",
+        "0xBC52D",
+        "0xBC655"
+      ]
+    },
+    "126": {
+      "description": "nRF channel count 0-125",
+      "u32_count": 2,
+      "u32_sample_file": [
+        "0x263D",
+        "0x3169"
+      ],
+      "u32_sample_va": [
+        "0x3F40263D",
+        "0x3F403169"
+      ],
+      "u16_count": 13,
+      "u16_sample_file": [
+        "0x1A3",
+        "0x263D",
+        "0x2E69",
+        "0x3169",
+        "0x1388D",
+        "0x22F8B",
+        "0x22FBA",
+        "0x2FA89",
+        "0x41398",
+        "0x6B4EE",
+        "0x7C8BE",
+        "0xBC751",
+        "0xC91BF"
+      ]
+    },
+    "83": {
+      "description": "sometimes BT",
+      "u32_count": 2,
+      "u32_sample_file": [
+        "0x1836C",
+        "0x19464"
+      ],
+      "u32_sample_va": [
+        "0x3F41836C",
+        "0x3F419464"
+      ],
+      "u16_count": 101,
+      "u16_sample_file": [
+        "0x6920",
+        "0x693B",
+        "0xD8EE",
+        "0xDA2C",
+        "0xDC37",
+        "0xDD43",
+        "0xE1FD",
+        "0xE24F",
+        "0xEA06",
+        "0xEA34",
+        "0xEA94",
+        "0x106B5",
+        "0x1836C",
+        "0x19464",
+        "0x1F0EE"
+      ]
+    },
+    "37": {
+      "description": "BLE advertising primary",
+      "u32_count": 9,
+      "u32_sample_file": [
+        "0x35E9",
+        "0xCCCC",
+        "0x11208",
+        "0x1D6FC",
+        "0x20359",
+        "0x562EE",
+        "0x57770",
+        "0x87E55",
+        "0x9F2E8"
+      ],
+      "u32_sample_va": [
+        "0x3F4035E9",
+        "0x3F40CCCC",
+        "0x3F411208",
+        "0x3FFBE284",
+        "0x400D0359",
+        "0x401062EE",
+        "0x40107770",
+        "0x40137E55",
+        "0x4014F2E8"
+      ],
+      "u16_count": 197,
+      "u16_sample_file": [
+        "0x35E9",
+        "0xCCCC",
+        "0x11208",
+        "0x150C9",
+        "0x150D9",
+        "0x1D6FC",
+        "0x20359",
+        "0x234E4",
+        "0x23C2B",
+        "0x23CF4",
+        "0x23D1E",
+        "0x23F14",
+        "0x242C9",
+        "0x25F91",
+        "0x27837"
+      ]
+    },
+    "2400": {
+      "description": "MHz base",
+      "u32_count": 3,
+      "u32_sample_file": [
+        "0x35E0",
+        "0x20EC0",
+        "0x97E98"
+      ],
+      "u32_sample_va": [
+        "0x3F4035E0",
+        "0x400D0EC0",
+        "0x40147E98"
+      ],
+      "u16_count": 7,
+      "u16_sample_file": [
+        "0x35E0",
+        "0xC981",
+        "0x20EC0",
+        "0x63D99",
+        "0x63DCD",
+        "0x97E98",
+        "0xBF54B"
+      ]
+    },
+    "2402": {
+      "description": "BT start MHz",
+      "u32_count": 0,
+      "u32_sample_file": [],
+      "u32_sample_va": [],
+      "u16_count": 16,
+      "u16_sample_file": [
+        "0x34DAC",
+        "0x3CF30",
+        "0x4872F",
+        "0x49FA4",
+        "0x70299",
+        "0x76AE2",
+        "0x81256",
+        "0x8B53E",
+        "0x8D31C",
+        "0x8D325",
+        "0x91E7B",
+        "0x9ADFD",
+        "0x9E849",
+        "0xA287E",
+        "0xA5D02"
+      ]
+    },
+    "2480": {
+      "description": "BT end MHz",
+      "u32_count": 0,
+      "u32_sample_file": [],
+      "u32_sample_va": [],
+      "u16_count": 2,
+      "u16_sample_file": [
+        "0x872E0",
+        "0x9E86C"
+      ]
+    },
+    "2483": {
+      "description": "ISM edge",
+      "u32_count": 1,
+      "u32_sample_file": [
+        "0x8A90C"
+      ],
+      "u32_sample_va": [
+        "0x4013A90C"
+      ],
+      "u16_count": 3,
+      "u16_sample_file": [
+        "0x8A90C",
+        "0x91864",
+        "0xC3B86"
+      ]
+    },
+    "2525": {
+      "description": "RC upper",
+      "u32_count": 0,
+      "u32_sample_file": [],
+      "u32_sample_va": [],
+      "u16_count": 12,
+      "u16_sample_file": [
+        "0x2E129",
+        "0x37682",
+        "0x38CE4",
+        "0x4D2D5",
+        "0x4D7FA",
+        "0x51D88",
+        "0x74066",
+        "0xB22AA",
+        "0xB4AD1",
+        "0xBC14C",
+        "0xC1A26",
+        "0xC2F77"
+      ]
+    }
+  },
+  "sequential_u8_tables": [
+    {
+      "file_off": "0x1F188",
+      "va": "0x3FFBFD10",
+      "region": "DRAM1",
+      "start": 1,
+      "length": 14,
+      "preview": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "gpio_pin_byte_counts": {
+    "0": {
+      "u8_count": 99146
+    },
+    "4": {
+      "u8_count": 9851
+    },
+    "5": {
+      "u8_count": 5770
+    },
+    "12": {
+      "u8_count": 14951
+    },
+    "13": {
+      "u8_count": 1885
+    },
+    "14": {
+      "u8_count": 2348
+    },
+    "15": {
+      "u8_count": 1190
+    },
+    "16": {
+      "u8_count": 6478
+    },
+    "18": {
+      "u8_count": 3867
+    },
+    "19": {
+      "u8_count": 2599
+    },
+    "21": {
+      "u8_count": 2450
+    },
+    "22": {
+      "u8_count": 4486
+    },
+    "23": {
+      "u8_count": 1277
+    },
+    "27": {
+      "u8_count": 2935
+    }
+  }
+}

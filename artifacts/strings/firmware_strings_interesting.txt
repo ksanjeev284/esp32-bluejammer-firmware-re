@@ -1,0 +1,487 @@
+esp-idf: v4.4.5 ac5d805d0e
+Hardware Serial Peripheral Interface started !!! HSPI nRF24 module initialized SUCCESSFULLY! ############################################################
+!!! Hardware Serial Peripheral Interface start failure! HSPI nRF24 module could NOT be initialized! #####################################################
+Variable Serial Peripheral Interface started !!! VSPI nRF24 module initialized SUCCESSFULLY! ############################################################
+!!! Variable Serial Peripheral Interface start failure! VSPI nRF24 module could NOT be initialized! #####################################################
+                                          Firmware : Combo-Channel-Select (BT-BLE-WiFi-RC)                                          
+                                         https://github.com/EmenstaNougat/ESP32-BlueJammer                                          
+RadioTask
+State 1: Bluetooth
+State 2: Bluetooth Low Energy
+State 3: WiFi
+State 4: RC
+State 0: Idle & Status
+SSD1306 allocation failed
+/C:\Users\emens\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.10/tools/sdk/esp32/include/hal/esp32/include/hal/gpio_ll.h
+uart_intr_config(uart->num, &uart_intr)
+C:\Users\emens\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.10\cores\esp32\esp32-hal-uart.c
+uart_param_config(uart_nr, &uart_config)
+loopTask
+GPIO number error
+"(Cannot use SET_PERI_REG_MASK for DPORT registers use DPORT_SET_PERI_REG_MASK)" && (!((((GPIO_PIN_MUX_REG[gpio_num])) >= 0x3ff00000) && ((GPIO_PIN_MUX_REG[gpio_num])) <= 0x3ff13FFC))
+GPIO output gpio_num error
+"(Cannot use REG_SET_BIT for DPORT registers use DPORT_REG_SET_BIT)" && (!((((GPIO_PIN_MUX_REG[gpio_num])) >= 0x3ff00000) && ((GPIO_PIN_MUX_REG[gpio_num])) <= 0x3ff13FFC))
+GPIO interrupt type error
+GPIO pull mode error
+E (%u) %s: GPIO_PIN mask error 
+E (%u) %s: GPIO can only be used as input mode
+"(Cannot use SET_PERI_REG_MASK for DPORT registers use DPORT_SET_PERI_REG_MASK)" && (!((((GPIO_PIN_MUX_REG[gpio])) >= 0x3ff00000) && ((GPIO_PIN_MUX_REG[gpio])) <= 0x3ff13FFC))
+gpio_config
+E (%u) %s: i2c command link allocation error: the buffer provided is too small.
+E (%u) %s: i2c command link malloc error
+E (%u) %s: %s(%d): i2c number error
+E (%u) %s: %s(%d): i2c driver install error
+E (%u) %s: %s(%d): i2c timing value error
+E (%u) %s: %s(%d): i2c null address error
+E (%u) %s: i2c driver malloc error
+E (%u) %s: i2c ringbuffer error
+E (%u) %s: i2c semaphore error
+E (%u) %s: i2c driver install error
+E (%u) %s: %s(%d): sda gpio number error
+E (%u) %s: %s(%d): scl gpio number error
+E (%u) %s: %s(%d): i2c mode error
+E (%u) %s: %s(%d): i2c clock choice is invalid, please check flag and frequency
+E (%u) %s: %s(%d): i2c command link error
+i2c_param_config
+E (%u) %s: %s(%d): RTCIO number error
+rtc_gpio_deinit
+rtcio_ll_function_select
+E (%u) %s: %s(%d): uart_num error
+E (%u) %s: %s(%d): data bit error
+E (%u) %s: %s(%d): stop bit error
+E (%u) %s: %s(%d): rx flow thresh error
+E (%u) %s: %s(%d): hw_flowctrl mode error
+E (%u) %s: %s(%d): uart driver error
+E (%u) %s: %s(%d): empty intr threshold error
+E (%u) %s: %s(%d): tx_io_num error
+E (%u) %s: %s(%d): rx_io_num error
+E (%u) %s: %s(%d): rts_io_num error
+E (%u) %s: %s(%d): cts_io_num error
+E (%u) %s: %s(%d): uart size error
+E (%u) %s: %s(%d): break_num error
+E (%u) %s: rx_buffered_len error
+E (%u) %s: %s(%d): uart rx buffer length error
+E (%u) %s: %s(%d): uart tx buffer length error
+E (%u) %s: UART driver malloc error
+E (%u) %s: %s(%d): rx fifo full threshold value error
+uart_intr_config
+uart_param_config
+phys_offs != SPI_FLASH_CACHE2PHYS_FAIL
+E (%u) %s: spi_flash_mmap failed: 0x%x
+mosi_len <= 32
+/IDF/components/bootloader_support/src/bootloader_flash.c
+miso_len <= 32
+miso_byte_num <= 4
+bootloader_flash_execute_command_common
+E (%u) %s: Checksum failed. Calculated 0x%x read 0x%x
+E (%u) %s: image at 0x%x has invalid magic byte (nothing flashed here?)
+E (%u) %s: bootloader_flash_read failed at 0x%08x
+E (%u) %s: bootloader_mmap(0x%x, 0x%x) failed
+E (%u) %s: Image hash failed - image is corrupt
+/IDF/components/spi_flash/partition.c
+/IDF/components/spi_flash/flash_mmap.c
+spi_flash_munmap
+spi_flash_mmap_pages
+E (%u) %s: unexpected spi flash error code: 0x%x
+E (%u) %s: failed to get chip size
+/IDF/components/spi_flash/esp_flash_api.c
+E (%u) %s: flash encrypted write address must be 16 bytes aligned
+E (%u) %s: flash encrypted write length must be multiple of 16
+esp_flash_write_encrypted
+esp_flash_write
+esp_flash_erase_region
+spi_flash
+E (%u) %s: Detected size(%dk) smaller than the size in the binary image header(%dk). Probe failed.
+/IDF/components/spi_flash/spi_flash_os_func_app.c
+spi1_flash_os_check_yield
+s_flash_op_mutex != NULL
+/IDF/components/spi_flash/cache_utils.c
+s_flash_op_cpu == -1
+esp_ipc_call(other_cpuid, &spi_flash_op_block_func, (void *) other_cpuid)
+cpuid == s_flash_op_cpu
+!(xTaskGetSchedulerState() == taskSCHEDULER_NOT_STARTED && cpuid != 0)
+spi_flash_enable_interrupts_caches_and_other_cpu
+spi_flash_disable_interrupts_caches_and_other_cpu
+spi_flash_init_lock
+IDF/components/nvs_flash/src/nvs_storage.cpp
+IDF/components/nvs_flash/src/nvs_pagemanager.cpp
+E (%u) %s: Failed to allocate task args!
+E (%u) %s: Failed to allocate pthread data!
+E (%u) %s: Failed to create task!
+false && "Failed to lock threads list!"
+false && "Failed to release mutex!"
+false && "Failed to unlock mutex!"
+esp_intr_alloc(ETS_TG0_WDT_LEVEL_INTR_SOURCE, 0, task_wdt_isr, NULL, &twdt_config->intr_handle)
+esp_task_wdt_init
+E (%u) %s: Check that CONFIG_FREERTOS_UNICORE is enabled in menuconfig
+esp_clk_init
+esp_crosscore_int_init
+?Guru Meditation Error: Core 
+vfs_err == ESP_OK && "Failed to register vfs console"
+err == ESP_OK && "Failed to init pthread module!"
+flash_ret == ESP_OK
+do_core_init
+InstructionFetchError
+LoadStoreError
+InstrPDAddrError
+LoadStorePIFDataError
+InstrPIFAddrError
+LoadStorePIFAddrError
+connected action: dhcpc failed
+E (%u) %s: Failed to lock esp-netif list with %d
+E (%u) %s: dhcps cb: failed to post IP_EVENT_AP_STAIPASSIGNED (%x)
+E (%u) %s: set ip info: failed to post got ip event (%x)
+E (%u) %s: dhcp client start failed
+E (%u) %s: dhcpc cb: failed to post got ip event (%x)
+E (%u) %s: Cannot start esp_netif: Missing mandatory configuration:
+esp_netif->driver_transmit: %p, esp_netif->driver_handle:%p, esp_netif->lwip_input_fn: %p, esp_netif->lwip_init_fn:%p
+esp_netif_config_sanity_check(esp_netif)
+E (%u) %s: %s not supported, please enable it in lwIP component configuration
+E (%u) %s: ip lost timer: failed to post lost ip event (%x)
+E (%u) %s: esp netif cannot create tcpip_init semaphore
+E (%u) %s: esp netif api sync sem init fail
+E (%u) %s: esp netif api lock sem init fail
+E (%u) %s: %s: Failed to configure netif with config=%p (config or if_key is NULL or duplicate key)
+E (%u) %s: Failed to allocate %d bytes (fee heap size %d)
+E (%u) %s: Initial configuration of esp_netif failed with %d
+E (%u) %s: Post-attach callback of driver(%p) failed with %d
+E (%u) %s: alloc for new id node failed
+E (%u) %s: alloc mem for new base node failed
+E (%u) %s: event_loop_args was NULL
+E (%u) %s: event_loop was NULL
+E (%u) %s: alloc for event loop failed
+E (%u) %s: create event loop queue failed
+E (%u) %s: create event loop mutex failed
+E (%u) %s: create task for loop failed
+event_loop
+E (%u) %s: suspended task for loop %p
+E (%u) %s: alloc for new loop node failed
+esp_event_loop_run
+@EAP deinit
+smartconfig
+E (%u) %s: Send smartconfig ACK error: %d
+E (%u) %s: Creat udp socket failed
+E (%u) %s: setsockopt SO_BROADCAST failed
+E (%u) %s: setsockopt SO_REUSEADDR failed
+E (%u) %s: socket bind failed
+E (%u) %s: ACK parameter malloc fail
+E (%u) %s: Create sending smartconfig ACK task fail
+wifi_init
+E (%u) %s: Failed to deinit Wi-Fi driver (0x%x)
+E (%u) %s: Failed to init supplicant (0x%x)
+E (%u) %s: Failed to deinit Wi-Fi (0x%x)
+wifi_init_default
+E (%u) %s: esp_wifi_get_mac failed with %d
+E (%u) %s: esp_wifi_register_if_rxcb for if=%p failed with %d
+E (%u) %s: netstack cb reg failed with %d
+E (%u) %s: Failed to create wifi interface handle
+E (%u) %s: esp_wifi_internal_reg_rxcb for if=%d failed with %d
+select_cb->prev == NULL
+select_cb->prev != NULL
+sockets[i].select_waiting == 0
+sock->select_waiting > 0
+lwip_unlink_select_cb
+lwip_select
+semaphore not initialized
+failed to create tcpip_thread mbox
+tcpip_init
+netif->loop_cnt_current underflow
+netif_loopif_init: invalid netif
+netif_loop_output: invalid netif
+netif_loop_output: invalid pbuf
+netif_ip6_addr_set_state
+netif_loop_output
+netif_loopif_init
+pbuf_copy failed
+invalid socket state for recv callback
+invalid socket state for sent callback
+invalid socket state for err callback
+invalid socket state for poll
+tcp_slowtmr: active pcb->state != CLOSED
+tcp_slowtmr: active pcb->state != LISTEN
+tcp_slowtmr: active pcb->state != TIME-WAIT
+tcp_slowtmr: TIME-WAIT pcb->state == TIME-WAIT
+tcp_receive: wrong state
+tcp_input: active pcb->state != CLOSED
+tcp_input: active pcb->state != TIME-WAIT
+tcp_input: active pcb->state != LISTEN
+tcp_input: TIME-WAIT pcb->state == TIME-WAIT
+tcp_input: pcb->state != CLOSED
+pbuf_remove_header failed
+dhcp_pcb_refcount(): refcount error
+invalid dhcp->state
+arp_table[i].state == ETHARP_STATE_EMPTY
+arp_table[arp_idx].state >= ETHARP_STATE_STABLE
+icmp_input: moving r->payload to icmp header failed
+icmp_input: restoring original p->payload failed
+selected router must have a neighbor entry
+nd6_process_autoconfig_prefix
+failed to take the mutex
+failed to give the mutex
+initial_count invalid (neither 0 nor 1)
+sys_sem_new: initial give failed
+taking semaphore failed
+mbox post failed
+mbox fetch failed
+E (%u) %s: sys_init: failed to init lwip protect mutex
+E (%u) %s: thread_sem_init: out of memory
+dhcp_state
+wlanif_init
+do_write failed to write all bytes
+conn must be in state NETCONN_CLOSE
+Closing a listen pcb may not fail!
+unhandled error
+netconn state error
+/IDF/components/heap/heap_caps.c
+heap != NULL && "free() target pointer is outside heap areas"
+heap != NULL && "realloc() pointer is outside heap areas"
+heap_caps_calloc
+heap_caps_realloc
+heap_caps_free
+heap_caps_realloc_base
+heap_caps_realloc_default
+heap_caps_malloc_default
+heap_caps_malloc
+heap_size <= HEAP_SIZE_MAX
+/IDF/components/heap/heap_caps_init.c
+heap_idx <= num_heaps
+heap_idx == num_heaps
+SLIST_EMPTY(&registered_heaps)
+heaps_array != NULL
+heap_caps_init
+register_heap
+CORRUPT HEAP: multi_heap.c:%d detected at 0x%08x
+/IDF/components/heap/multi_heap.c
+heap != NULL
+multi_heap_realloc_impl
+multi_heap_register_impl
+/IDF/components/heap/heap_tlsf.c
+sl_map && "internal error - second level bitmap is null"
+/IDF/components/heap/multi_heap_poisoning.c
+multi_heap_get_allocated_size
+multi_heap_realloc
+multi_heap_free
+/IDF/components/heap/port/memory_layout_utils.c
+SPIRAM
+result == core_id || result == SPINLOCK_FREE
+(result == SPINLOCK_FREE) == (lock->count == 0)
+E (%u) %s: Base MAC address from BLK0 of EFUSE CRC error, efuse_crc = 0x%02x; calc_crc = 0x%02x
+ESP_ERR_INVALID_CRC
+timer_initialized(ptimer)
+apb_ticks_per_us % TICKS_PER_US == 0 && "APB frequency (in MHz) should be divisible by TICK_PER_US"
+E (%u) %s: esp_intr_alloc failed (0x%0x)
+esp_timer_impl_init
+pxPortInitialiseStack
+esp_task_wdt_init(CONFIG_ESP_TASK_WDT_TIMEOUT_S, true)
+!( ( xTaskGetSchedulerState() == ( ( BaseType_t ) 0 ) ) && ( xTicksToWait != 0 ) )
+uxInitialCount <= uxMaxCount
+xTaskGetSchedulerState() != ( ( BaseType_t ) 0 )
+xTaskGetSchedulerState() != ( ( BaseType_t ) 2 )
+taskSelectHighestPriorityTaskSMP
+lock != NULL && "Uninitialized lock used"
+esp_newlib_locks_init
+try_heap_caps_add_region(mem_start, mem_end)
+E (%u) %s: Failed to post event %d to default event loop
+E (%u) %s: Provisioning manager not initialized
+E (%u) %s: Failed to get count of scanned APs
+E (%u) %s: Failed to allocate memory for AP list
+E (%u) %s: Failed to get scanned AP records
+E (%u) %s: Failed to start scan
+E (%u) %s: STA Auth Error
+E (%u) %s: Failed to post event WIFI_PROV_END
+E (%u) %s: Failed to create prov_stop_task!
+E (%u) %s: Failed to post event WIFI_PROV_DEINIT
+wifi_prov_mgr_deinit
+Coex register bt cb faild
+Coex register schm btdm cb faild
+Coex register Wi-Fi channel change btdm cb faild
+Not support sniff attempt(%x) large than 0xFF, request with 0xFF
+Not support sniff attempt(%x) large than 0xFF
+lc_sniff.c
+Not support sniff attempt large than 0xFF, change %x to 0xFF
+scan channel select mode user input error
+scan_par->window != 0
+llm_le_env.scanning_params
+co_list_extract(&le_scan_duplicate_option.mesh_adv_list, element, 0)
+RF Init OK with coex
+r_rwip_init
+Send Queue Failed
+esp_ipc_init
+ADCADC_NUM_1 channel error
+/IDF/components/espcoredump/src/core_dump_flash.c
+phy_init
+E (%u) %s: %s: NVS has not been initialized. Call nvs_flash_init before starting WiFi/BT.
+cal_version
+IDF/components/esp_phy/src/phy_init.c
+E (%u) %s: %s: calibration data MAC check failed: expected %02x:%02x:%02x:%02x:%02x:%02x, found %02x:%02x:%02x:%02x:%02x:%02x
+E (%u) %s: %s: failed to get cal_data(0x%x)
+E (%u) %s: %s: store calibration data failed(0x%x)
+E (%u) %s: %s: store calibration mac failed(0x%x)
+E (%u) %s: %s: store calibration version failed(0x%x)
+E (%u) %s: %s: store calibration nvs commit failed(0x%x)
+E (%u) %s: failed to allocate memory for RF calibration data
+esp_phy_load_cal_and_init
+Init Counter
+uxSemaphoreGetCount(engine_state) == 0 && "SHA engine should be locked"
+esp_sha_read_digest_state
+sha_get_engine_state
+coexist adapter function version error! Version %x is expected, but it is %x
+coexist adapter function magic error! Magic %x is expected, but it is %x
+OS adapter function version error! Version %d is expected, but it is %x
+OS adapter function magic error! Magic %d is expected, but it is %x
+Invalid WiFi esp_wifi_crypto_types.h md5, internal: %s, idf: %s
+Invalid WiFi esp_wifi_types.h md5, internal: %s, idf: %s
+Invalid WiFi esp_wifi.h md5, internal: %s, idf: %s
+config is NULL
+deauth
+wpa_crypto_funcs_init
+sta.scan_method
+ieee80211_scan.c
+from beacon
+ieee80211_send_beacon
+ieee80211_scan_inter_chan
+ieee80211_scan_enter_op_chan
+ieee80211_beacon
+lmacProcessTxError
+lmacProcessTxRtsError
+lmacProcessLongRetryFail
+lmacProcessShortRetryFail
+sc_sniffer.c
+smartconfig errno %d@%s %u
+E (%d) %s: promis scan ret %d
+I (%d) %s: Start to find channel...
+I (%d) %s: scan status %d
+I (%d) %s: smartconfig restart
+E (%d) %s: config is NULL
+E (%d) %s: smartconfig busy
+I (%d) %s: SC version: %s
+E (%d) %s: set promiscuous fail
+E (%d) %s: Smartconfig type is not ESP_TOUCH_V2
+__gnu_cxx::__concurrence_lock_error
+__gnu_cxx::__concurrence_unlock_error
+UA?6TA?N9__gnu_cxx24__concurrence_lock_errorE
+\UA?LTA?DTA?N9__gnu_cxx26__concurrence_unlock_errorE
+@0000000000000000                Infinity
+@0000000000000000                wifi ipc: failed to post wifi task
+failed to post event=%d ret=%d
+wifi deinit internal: wifi not stop
+alloc net80211 funcs fail
+MIC computation for BIP Failed(res=%d)
+rxa_eb mem fail tid=%d
+rap mem fail tid=%d
+failed to start addba timer
+addba response cb: status %d not success, no need to configure hardware
+wifi stop stage error, stage=%d
+In function %s, fail to register function!
+rx ba window %d error
+tx buf type %d error
+wpa crypto funcs expected size=%d version=%d, actual size=%d version=%d
+invalid magic number %x, call WIFI_INIT_CONFIG_DEFAULT to init config
+parameter config should not be NULL
+sta is connecting, return error
+init nvs: failed, ret=%x
+setup rate: out of memory!
+wpa_config_parse_string is null
+Mem alloc fail for SA Q req
+wpa michael mic failure cb empty
+fail to alloc timer, type=%d
+fail to post timer, type=%d
+timeout when WiFi un-init, type=%d
+timeout but fail to get lock, type=%d
+invalid channel info
+invalid channel
+cnx_bss_init: null bss
+sta_scan: STA not exist!
+ht2040 coex frame alloc fail
+Failed to encrypt CCMP frame
+Error! Should enable WiFi modem sleep when both WiFi and Bluetooth are enabled!!!!!!
+create wifi task: failed to create task
+create wifi task: failed to create sem
+create wifi task: failed to create queue
+invalid micahel mic failure cb
+trc init fail, no mem
+rc_enable_trc fail, no mem
+Expected to init %d rx buffer, actual is %d
+Failed to init rx desc space, buffer number=%d
+@Stack smashing protect failure!
+ld_pscan.c
+ld_sscan.c
+scan_evt timeout
+PY0RC
+bCaRCb
+3+"RC
+)#)3RC
+:2RC<
+PX RC
+PXARC
+PXARC2
+PXARC6
+PXARC:
+PXARC>
+RC8BC9
+RC<BC=
+@U RC
+E (%u) %s: Core dump write binary failed with error=%d
+E (%u) %s: Failed to read core dump data size (%d)!
+E (%u) %s: Core dump data check failed:
+E (%u) %s: Failed to read checksum from core dump (%d)!
+E (%u) %s: Failed to read data from core dump (%d)!
+E (%u) %s: Invalid flash partition config!
+E (%u) %s: Core dump flash config is corrupted! CRC=0x%x instead of 0x%x
+E (%u) %s: Failed to flush cached data to flash (%d)!
+E (%u) %s: Failed to erase flash (%d)!
+E (%u) %s: Failed to write data to flash (%d)!
+E (%u) %s: Failed to write cached data to flash (%d)!
+esp_core_dump_flash
+E (%u) %s: Failed to end core dump (%d)!
+E (%u) %s: Failed to write core dump header (%d)!
+E (%u) %s: Failed to start core dump (%d)!
+E (%u) %s: Failed to prepare core dump storage (%d)!
+E (%u) %s: %s(%u): Version info writing failed. Returned (%d).
+E (%u) %s: %s(%u): memory regions writing error, returned (%d).
+E (%u) %s: %s(%u): ELF Size writing error, returned (%d).
+E (%u) %s: %s(%u): ELF header writing error, returned (%d).
+E (%u) %s: %s(%u): EXTRA_INFO note segment processing failure, returned(%d).
+E (%u) %s: %s(%u): Extra info note write failed. Returned (%d).
+E (%u) %s: %s(%u): Version info note write failed. Returned (%d).
+E (%u) %s: %s(%u): memory region write failed. Returned (%d).
+E (%u) %s: %s(%u): Interrupted task stack write failed, return (%d).
+E (%u) %s: %s(%u): Task %x, TCB write failed, return (%d).
+E (%u) %s: %s(%u): Tasks regs addition failed, return (%d).
+E (%u) %s: %s(%u): Task %x, stack write failed, return (%d).
+E (%u) %s: %s(%u): PR_STATUS note segment processing failure, returned(%d).
+E (%u) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+E (%u) %s: %s(%u): NOTE segment header write failure, returned (%d).
+E (%u) %s: Task (TCB:%x), (Stack:%x), stack processing failure = %d.
+E (%u) %s: Task (TCB:%x) processing failure = %d
+E (%u) %s: %s(%u): Write ELF note data failure, returned (%d)
+E (%u) %s: %s(%u): Write ELF note data failure (%d)
+E (%u) %s: %s(%u): Write ELF note name failure (%d)
+E (%u) %s: %s(%u): Write ELF note header failure (%d)
+E (%u) %s: %s(%u): Write ELF segment data failure (%d)
+E (%u) %s: %s(%u): Write ELF segment header failure (%d)
+E (%u) %s: %s(%u): Write ELF header failure (%d)
+E (%u) %s: Error while registers processing.
+[%u] CO: create fwn mutex error!
+[%u] CO: init coex schm error!
+[%u] CO: create bb reset mutex error!
+[%u] CO: create semaphore error!
+[%u] Error! Should enable WiFi modem sleep when both WiFi and Bluetooth are enabled!!!!!!
+[%u] CO: create schm semaphore error!
+[%u] Coex arbit init: no memory!
+[%u] CO: create arbit mux error!
+[%u] CO: create arbit mem mux error!
+E (%u) %s: invalid frequency
+E (%u) %s: unsupported frequency configuration
+%s failed: esp_err_t 0x%x
+assert failed: 
+set_chan error! %d
+error: pll_cal exceeds 2ms!!!
+phy_version: %d, %s, %s, %s
+TX_PWRCTRL_ATTEN, 
+@1,target_power,%d, %d, p_error,%d, correct_v,%d, error_accum, %d, tot_p,%d, coatt,%d, rf_g,%x,%x, txq_rate,%d, %d, chan,%d, rate_att,%d
+2,target_power,%d, p_error,%d, correct_v,%d, error_accum, %d, tot_p,%d, coatt,%d, rf_g,%x,%x, txq_rate,%d, %d, chan,%d, rate_att,%d
+E (%u) %s: configure host io mode failed - unsupported
+/IDF/components/spi_flash/spi_flash_chip_generic.c
+E (%u) %s: The flash you use doesn't support auto suspend, only 'XMC' is supported
+spi_flash_chip_generic_get_write_protect

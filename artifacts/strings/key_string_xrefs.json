@@ -1,0 +1,329 @@
+[
+  {
+    "needle": "Firmware : Combo-Channel-Select",
+    "found": true,
+    "string_file_off": "0xE40",
+    "string_va": "0x3F400E40",
+    "region": "DROM",
+    "pointer_xrefs": []
+  },
+  {
+    "needle": "https://github.com/EmenstaNougat/ESP32-BlueJammer",
+    "found": true,
+    "string_file_off": "0x1577",
+    "string_va": "0x3F401577",
+    "region": "DROM",
+    "pointer_xrefs": []
+  },
+  {
+    "needle": "HSPI nRF24 module initialized SUCCESSFULLY",
+    "found": true,
+    "string_file_off": "0x2F5",
+    "string_va": "0x3F4002F5",
+    "region": "DROM",
+    "pointer_xrefs": []
+  },
+  {
+    "needle": "VSPI nRF24 module initialized SUCCESSFULLY",
+    "found": true,
+    "string_file_off": "0x639",
+    "string_va": "0x3F400639",
+    "region": "DROM",
+    "pointer_xrefs": []
+  },
+  {
+    "needle": "HSPI nRF24 module could NOT",
+    "found": true,
+    "string_file_off": "0x482",
+    "string_va": "0x3F400482",
+    "region": "DROM",
+    "pointer_xrefs": []
+  },
+  {
+    "needle": "VSPI nRF24 module could NOT",
+    "found": true,
+    "string_file_off": "0x7CB",
+    "string_va": "0x3F4007CB",
+    "region": "DROM",
+    "pointer_xrefs": []
+  },
+  {
+    "needle": "Hardware Serial Peripheral Interface started",
+    "found": true,
+    "string_file_off": "0x2C4",
+    "string_va": "0x3F4002C4",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x2003C",
+        "va": "0x400D003C",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "Variable Serial Peripheral Interface started",
+    "found": true,
+    "string_file_off": "0x608",
+    "string_va": "0x3F400608",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x20064",
+        "va": "0x400D0064",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "State 1: Bluetooth",
+    "found": true,
+    "string_file_off": "0x1662",
+    "string_va": "0x3F401662",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x2010C",
+        "va": "0x400D010C",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "State 2: Bluetooth Low Energy",
+    "found": true,
+    "string_file_off": "0x167D",
+    "string_va": "0x3F40167D",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x20114",
+        "va": "0x400D0114",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "State 3: WiFi",
+    "found": true,
+    "string_file_off": "0x16A3",
+    "string_va": "0x3F4016A3",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x2011C",
+        "va": "0x400D011C",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "State 4: RC",
+    "found": true,
+    "string_file_off": "0x16B9",
+    "string_va": "0x3F4016B9",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x20124",
+        "va": "0x400D0124",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "State 0: Idle & Status",
+    "found": true,
+    "string_file_off": "0x16CD",
+    "string_va": "0x3F4016CD",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x2013C",
+        "va": "0x400D013C",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "RadioTask",
+    "found": true,
+    "string_file_off": "0x1658",
+    "string_va": "0x3F401658",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x200EC",
+        "va": "0x400D00EC",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "loopTask",
+    "found": true,
+    "string_file_off": "0x3649",
+    "string_va": "0x3F403649",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x204F0",
+        "va": "0x400D04F0",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "SSD1306 allocation failed",
+    "found": true,
+    "string_file_off": "0x16FA",
+    "string_va": "0x3F4016FA",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x20190",
+        "va": "0x400D0190",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "bitmapboot",
+    "found": true,
+    "string_file_off": "0x82D",
+    "string_va": "0x3F40082D",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x200A0",
+        "va": "0x400D00A0",
+        "region": "IROM"
+      },
+      {
+        "file_off": "0x20198",
+        "va": "0x400D0198",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "bitmap1",
+    "found": true,
+    "string_file_off": "0x1675",
+    "string_va": "0x3F401675",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x20110",
+        "va": "0x400D0110",
+        "region": "IROM"
+      },
+      {
+        "file_off": "0x201A4",
+        "va": "0x400D01A4",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "bitmap2",
+    "found": true,
+    "string_file_off": "0x169B",
+    "string_va": "0x3F40169B",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x20118",
+        "va": "0x400D0118",
+        "region": "IROM"
+      },
+      {
+        "file_off": "0x201AC",
+        "va": "0x400D01AC",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "bitmap3",
+    "found": true,
+    "string_file_off": "0x16B1",
+    "string_va": "0x3F4016B1",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x20120",
+        "va": "0x400D0120",
+        "region": "IROM"
+      },
+      {
+        "file_off": "0x201B4",
+        "va": "0x400D01B4",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "bitmap4",
+    "found": true,
+    "string_file_off": "0x16C5",
+    "string_va": "0x3F4016C5",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x20128",
+        "va": "0x400D0128",
+        "region": "IROM"
+      },
+      {
+        "file_off": "0x201BC",
+        "va": "0x400D01BC",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "Connected",
+    "found": true,
+    "string_file_off": "0x16F0",
+    "string_va": "0x3F4016F0",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x20164",
+        "va": "0x400D0164",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "by @emensta",
+    "found": true,
+    "string_file_off": "0x1714",
+    "string_va": "0x3F401714",
+    "region": "DROM",
+    "pointer_xrefs": [
+      {
+        "file_off": "0x201A0",
+        "va": "0x400D01A0",
+        "region": "IROM"
+      }
+    ]
+  },
+  {
+    "needle": "esp-idf: v4.4.5",
+    "found": true,
+    "string_file_off": "0x30",
+    "string_va": "0x3F400030",
+    "region": "DROM",
+    "pointer_xrefs": []
+  },
+  {
+    "needle": "arduino-lib-builder",
+    "found": true,
+    "string_file_off": "0x50",
+    "string_va": "0x3F400050",
+    "region": "DROM",
+    "pointer_xrefs": []
+  }
+]

@@ -1,0 +1,301 @@
+scanned 2664
+
+=== 0 hits=50 ===
+400d243c  movi.n a11,0x0  in radioTask
+400d244e  movi.n a12,0x0  in radioTask
+400d2472  movi.n a11,0x0  in radioTask
+400d2481  l8ui a12,a4,0x0  in radioTask
+400d24ec  movi.n a11,0x0  in radioTask
+400d24fe  movi.n a12,0x0  in radioTask
+400d2522  movi.n a11,0x0  in radioTask
+400d2531  l8ui a12,a2,0x0  in radioTask
+400d2545  l8ui a2,a6,0x0  in radioTask
+400d2548  extui a2,a2,0x0,0x8  in radioTask
+400d2573  l8ui a2,a6,0x0  in radioTask
+400d2576  extui a2,a2,0x0,0x8  in radioTask
+400d2645  l8ui a12,a2,0x0  in radioTask
+400d2655  l8ui a12,a2,0x0  in radioTask
+400d2666  l32i.n a2,a2,0x0  in radioTask
+400d2690  extui a11,a10,0x0,0x8  in radioTask
+400d26aa  extui a11,a10,0x0,0x8  in radioTask
+400d26bd  extui a11,a10,0x0,0x8  in radioTask
+400d26d5  extui a11,a10,0x0,0x8  in radioTask
+400d26ed  extui a11,a10,0x0,0x8  in radioTask
+400d2717  movi.n a10,0x0  in FUN_400d2714
+400d2732  movi.n a15,0x0  in FUN_400d2714
+400d2736  s32i.n a3,a1,0x0  in FUN_400d2714
+400d2754  movi.n a10,0x0  in FUN_400d2714
+400d282d  movi.n a13,0x0  in FUN_400d2714
+400d283b  s32i.n a13,a1,0x0  in FUN_400d2714
+400d284d  l32i.n a9,a8,0x0  in FUN_400d2844
+400d2854  s32i.n a9,a8,0x0  in FUN_400d2844
+400d2859  l32i.n a9,a8,0x0  in FUN_400d2844
+400d2863  s32i.n a9,a8,0x0  in FUN_400d2844
+400d2874  l8ui a11,a2,0x0  in statusLedBlink
+400d2879  l32i.n a8,a9,0x0  in statusLedBlink
+400d288e  l32i.n a8,a8,0x0  in statusLedBlink
+400d2890  l32i.n a13,a13,0x0  in statusLedBlink
+400d2892  l32i.n a12,a9,0x0  in statusLedBlink
+400d28ac  s32i a10,a9,0x0  in statusLedBlink
+400d28b2  s8i a11,a2,0x0  in statusLedBlink
+400d28b8  l8ui a2,a2,0x0  in statusLedBlink
+400d28c4  l32i.n a8,a9,0x0  in statusLedBlink
+400d28c6  l32i.n a2,a2,0x0  in statusLedBlink
+400d28ca  s32i.n a8,a9,0x0  in statusLedBlink
+400d28d1  s32i.n a2,a9,0x0  in statusLedBlink
+400d28de  l32i.n a2,a3,0x0  in enterState_BT
+400d28f1  movi a11,0x0  in enterState_BT
+400d28f4  s32i a2,a3,0x0  in enterState_BT
+400d2900  movi.n a11,0x0  in enterState_BT
+400d2902  s32i.n a10,a3,0x0  in enterState_BT
+400d2909  s32i.n a11,a3,0x0  in enterState_BT
+400d290e  s8i a11,a3,0x0  in enterState_BT
+400d2917  s32i.n a2,a3,0x0  in enterState_BT
+
+=== 2 hits=33 ===
+400d2378  movi.n a10,0x2  in radioTask
+400d2388  movi.n a11,0x2  in radioTask
+400d2668  beqi a2,0x2,0x400d26cd  in radioTask
+400d2928  beqi a2,0x2,0x400d2961  in enterState_BLE
+400d2931  movi.n a2,0x2  in enterState_BLE
+400d2ae8  movi.n a14,0x2  in FUN_400d2a24
+400d2af6  movi.n a14,0x2  in FUN_400d2a24
+400d2b08  movi.n a14,0x2  in FUN_400d2a24
+400d2b1a  movi.n a14,0x2  in FUN_400d2a24
+400d2b53  srai a3,a3,0x2  in FUN_400d2a24
+400d2c4b  bnei a8,0x2,0x400d2c51  in FUN_400d2bfc
+400d2cf7  beqi a8,0x2,0x400d2d21  in FUN_400d2bfc
+400d2d80  movi a11,0x2  in FUN_400d2d68
+400d2e54  movi.n a3,0x2  in FUN_400d2dac
+400d31be  movi.n a11,0x2  in FUN_400d3180
+400d31cd  movi.n a11,0x2  in FUN_400d3180
+400d3202  movi.n a8,0x2  in FUN_400d31fc
+400d3254  extui a3,a12,0x0,0x2  in FUN_400d3248
+400d3262  addi.n a12,a3,0x2  in FUN_400d3248
+400d326f  movi a3,0x2  in FUN_400d3248
+400d3339  bnei a3,0x2,0x400d3364  in FUN_400d3328
+400d33ec  movi.n a11,0x2  in FUN_400d337c
+400d3849  bnei a10,0x2,0x400d3854  in FUN_400d380c
+400d38fa  slli a8,a8,0x2  in FUN_400d38e8
+400d3963  bnei a4,0x2,0x400d397c  in ?
+400d3a28  bnei a4,0x2,0x400d3a30  in ?
+400d3a88  beqi a3,0x2,0x400d3a8e  in ?
+400d3aec  bnei a4,0x2,0x400d3af9  in ?
+400d3b29  bnei a4,0x2,0x400d3b38  in ?
+400d3b67  beqi a4,0x2,0x400d3b6d  in ?
+400d3b7e  l8ui a8,a11,0x2  in ?
+400d3b87  s8i a8,a3,0x2  in ?
+400d3f7a  slli a8,a2,0x2  in FUN_400d3f74
+
+=== 4 hits=50 ===
+400d2684  bnei a2,0x4,0x400d2671  in radioTask
+400d2725  s32i.n a3,a1,0x4  in FUN_400d2714
+400d29b8  beqi a2,0x4,0x400d29f1  in enterState_RC
+400d29c1  movi.n a2,0x4  in enterState_RC
+400d2af8  movi.n a13,0x4  in FUN_400d2a24
+400d2b0a  movi.n a13,0x4  in FUN_400d2a24
+400d2b1c  movi.n a13,0x4  in FUN_400d2a24
+400d2d0f  bnei a8,0x4,0x400d2d00  in FUN_400d2bfc
+400d2d3c  beqi a8,0x4,0x400d2d42  in FUN_400d2bfc
+400d2d72  movi.n a11,0x4  in FUN_400d2d68
+400d2f4f  l8ui a10,a2,0x4  in FUN_400d2f4c
+400d30c5  s8i a3,a2,0x4  in FUN_400d30a8
+400d3156  l8ui a10,a2,0x4  in FUN_400d3144
+400d3388  movi.n a11,0x4  in FUN_400d337c
+400d34c2  slli a3,a3,0x4  in FUN_400d34b0
+400d34cb  movi a11,0x4  in FUN_400d34b0
+400d3517  movi.n a11,0x4  in nrf_startConstCarrier
+400d35e8  s32i.n a8,a2,0x4  in spi_setBus
+400d35ff  l32i a8,a2,0x4  in spi_setPins
+400d362a  s32i.n a10,a2,0x4  in spi_setPins
+400d367d  l32i.n a10,a2,0x4  in spi_setPins
+400d3688  l32i.n a10,a2,0x4  in spi_setPins
+400d36b6  l32i a10,a2,0x4  in FUN_400d36a4
+400d36bf  l32i.n a10,a2,0x4  in FUN_400d36a4
+400d36cc  l32i a10,a2,0x4  in FUN_400d36a4
+400d36d5  l32i a10,a2,0x4  in FUN_400d36a4
+400d36e7  l32i.n a10,a2,0x4  in FUN_400d36e4
+400d36f7  l32i.n a10,a2,0x4  in FUN_400d36e4
+400d3702  l32i.n a10,a2,0x4  in FUN_400d36e4
+400d3711  l32i.n a10,a2,0x4  in FUN_400d36e4
+400d3718  s32i.n a8,a2,0x4  in FUN_400d36e4
+400d3742  l32i.n a10,a2,0x4  in FUN_400d3730
+400d3768  l32i.n a10,a2,0x4  in FUN_400d3730
+400d3784  l32i a10,a2,0x4  in FUN_400d3778
+400d379f  l32i a10,a2,0x4  in FUN_400d379c
+400d37e4  s32i.n a4,a2,0x4  in FUN_400d37d8
+400d3831  l32i a8,a2,0x4  in FUN_400d380c
+400d38df  addi.n a9,a9,0x4  in FUN_400d38cc
+400d3994  bnei a4,0x4,0x400d39a8  in ?
+400d3a4b  bnei a4,0x4,0x400d3a59  in ?
+400d3a5c  l32i a10,a11,0x4  in ?
+400d3b43  bnei a4,0x4,0x400d3b49  in ?
+400d3cb2  movi a11,0x4  in FUN_400d3b94
+400d3d2c  l32i a7,a4,0x4  in FUN_400d3ce4
+400d3d34  s32i.n a10,a4,0x4  in FUN_400d3ce4
+400d3da5  l32i.n a9,a8,0x4  in FUN_400d3ce4
+400d3dba  movi.n a4,0x4  in FUN_400d3ce4
+400d3f7f  l32i.n a8,a3,0x4  in FUN_400d3f74
+400d3f85  l32i.n a8,a4,0x4  in FUN_400d3f74
+400d3f8b  l32i.n a8,a5,0x4  in FUN_400d3f74
+
+=== 5 hits=19 ===
+400d23a2  movi.n a10,0x5  in radioTask
+400d23cc  movi.n a10,0x5  in radioTask
+400d2752  movi.n a11,0x5  in FUN_400d2714
+400d285b  blti a9,0x5,0x400d2865  in FUN_400d2844
+400d2d70  movi.n a12,0x5  in FUN_400d2d68
+400d2f3b  l8ui a10,a2,0x5  in FUN_400d2f38
+400d2f52  l8ui a2,a2,0x5  in FUN_400d2f4c
+400d30c0  movi a8,0x5  in FUN_400d30a8
+400d30c8  s8i a4,a2,0x5  in FUN_400d30a8
+400d30e9  movi.n a11,0x5  in nrf_setChannel
+400d3159  l8ui a8,a2,0x5  in FUN_400d3144
+400d3164  l8ui a10,a2,0x5  in FUN_400d3144
+400d337f  movi a10,0x5  in FUN_400d337c
+400d33fa  movi.n a11,0x5  in FUN_400d337c
+400d3532  movi.n a13,0x5  in nrf_startConstCarrier
+400d3665  movi a4,0x5  in spi_setPins
+400d37dd  movi.n a11,0x5  in FUN_400d37d8
+400d39a8  bnei a4,0x5,0x400d39b8  in ?
+400d3b1e  bnei a4,0x5,0x400d3b29  in ?
+
+=== 12 hits=43 ===
+400d2398  movi.n a12,0xc  in radioTask
+400d2ac0  movi.n a14,0xc  in FUN_400d2a24
+400d2b6c  addi.n a10,a1,0xc  in FUN_400d2a24
+400d2b7c  addi.n a10,a1,0xc  in FUN_400d2a24
+400d2b8f  l32i.n a5,a1,0xc  in FUN_400d2a24
+400d2bb2  addi.n a11,a1,0xc  in FUN_400d2a24
+400d2bc5  addi.n a10,a1,0xc  in FUN_400d2a24
+400d2be0  addi.n a10,a1,0xc  in FUN_400d2a24
+400d2e81  movi.n a12,0xc  in FUN_400d2dac
+400d2f66  s16i a8,a1,0xc  in FUN_400d2f60
+400d2f6e  l32i.n a12,a1,0xc  in FUN_400d2f60
+400d2fa7  s8i a10,a2,0xc  in FUN_400d2f90
+400d2fdf  s8i a10,a2,0xc  in FUN_400d2fcc
+400d3010  s8i a10,a2,0xc  in FUN_400d2ff8
+400d304a  s8i a10,a2,0xc  in FUN_400d3034
+400d3070  l8ui a2,a2,0xc  in FUN_400d3060
+400d3088  l8ui a2,a2,0xc  in FUN_400d3078
+400d328e  s8i a10,a2,0xc  in FUN_400d327c
+400d341b  movi.n a12,0xc  in FUN_400d337c
+400d348c  movi.n a3,0xc  in FUN_400d3460
+400d3529  addi.n a6,a1,0xc  in nrf_startConstCarrier
+400d3547  addi.n a12,a1,0xc  in nrf_startConstCarrier
+400d35dc  s8i a9,a2,0xc  in spi_setBus
+400d3651  movi.n a4,0xc  in spi_setPins
+400d366e  s8i a3,a2,0xc  in spi_setPins
+400d369d  s8i a6,a2,0xc  in spi_setPins
+400d36b3  l8ui a12,a2,0xc  in FUN_400d36a4
+400d36d2  l8ui a11,a2,0xc  in FUN_400d36a4
+400d3733  s32i.n a4,a1,0xc  in FUN_400d3730
+400d3760  l8ui a13,a1,0xc  in FUN_400d3730
+400d37e8  s32i a4,a2,0xc  in FUN_400d37d8
+400d3847  l32i.n a10,a2,0xc  in FUN_400d380c
+400d3917  s32i a10,a1,0xc  in FUN_400d3908
+400d3930  addi.n a11,a1,0xc  in FUN_400d3908
+400d39e2  bnei a4,0xc,0x400d39ea  in ?
+400d39fb  movi.n a12,0xc  in ?
+400d3a05  movi.n a3,0xc  in ?
+400d3a62  s32i a11,a1,0xc  in ?
+400d3a6f  l32i.n a11,a1,0xc  in ?
+400d3d67  s32i.n a4,a1,0xc  in FUN_400d3ce4
+400d3e4f  addi.n a10,a1,0xc  in FUN_400d3e38
+400d3e57  l32i.n a2,a1,0xc  in FUN_400d3e38
+400d3f81  s32i.n a6,a1,0xc  in FUN_400d3f74
+
+=== 13 hits=7 ===
+400d2396  movi.n a13,0xd  in radioTask
+400d30ae  s8i a8,a2,0xd  in FUN_400d30a8
+400d3101  s8i a8,a2,0xd  in FUN_400d30f0
+400d3109  l8ui a12,a2,0xd  in FUN_400d30f0
+400d365b  movi.n a4,0xd  in spi_setPins
+400d3763  l8ui a12,a1,0xd  in FUN_400d3730
+400d39ea  movi.n a10,0xd  in ?
+
+=== 14 hits=6 ===
+400d2392  movi.n a11,0xe  in radioTask
+400d26e5  movi.n a10,0xe  in radioTask
+400d26f8  movi.n a10,0xe  in radioTask
+400d3641  movi.n a4,0xe  in spi_setPins
+400d3a00  movi.n a12,0xe  in ?
+400d3b6d  movi a3,0xe  in ?
+
+=== 15 hits=6 ===
+400d2394  movi.n a14,0xf  in radioTask
+400d2a04  movi.n a12,0xf  in FUN_400d29f8
+400d34b3  movi a12,0xf  in FUN_400d34b0
+400d3668  movi a3,0xf  in spi_setPins
+400d39f7  movi.n a3,0xf  in ?
+400d3a0e  movi.n a12,0xf  in ?
+
+=== 16 hits=23 ===
+400d2a06  movi.n a11,0x10  in FUN_400d29f8
+400d2a6f  s32i.n a5,a2,0x10  in FUN_400d2a24
+400d2a99  s32i.n a5,a2,0x10  in FUN_400d2a24
+400d2ae2  movi.n a13,0x10  in FUN_400d2a24
+400d2b3b  s32i.n a5,a2,0x10  in FUN_400d2a24
+400d2baa  s16i a3,a2,0x10  in FUN_400d2a24
+400d2e51  s16i a3,a4,0x10  in FUN_400d2dac
+400d322c  movi.n a12,0x10  in FUN_400d3220
+400d3536  movi.n a11,0x10  in nrf_startConstCarrier
+400d35c4  movi.n a11,0x10  in FUN_400d3590
+400d35ea  s32i.n a8,a2,0x10  in spi_setBus
+400d3611  l32i a8,a2,0x10  in spi_setPins
+400d361c  s32i.n a10,a2,0x10  in spi_setPins
+400d361e  l32i.n a11,a2,0x10  in spi_setPins
+400d374f  l32i.n a8,a2,0x10  in FUN_400d3730
+400d375d  s32i a10,a2,0x10  in FUN_400d3730
+400d3766  l32i.n a11,a2,0x10  in FUN_400d3730
+400d37f4  s32i.n a10,a2,0x10  in FUN_400d37d8
+400d383a  s32i.n a8,a2,0x10  in FUN_400d380c
+400d3840  l32i.n a8,a2,0x10  in FUN_400d380c
+400d39f4  bnei a4,0x10,0x400d3a00  in ?
+400d3a83  movi.n a3,0x10  in ?
+400d3d7c  movi.n a4,0x10  in FUN_400d3ce4
+
+=== 18 hits=5 ===
+400d23c2  movi.n a11,0x12  in radioTask
+400d2baf  s16i a3,a2,0x12  in FUN_400d2a24
+400d2e56  s16i a3,a4,0x12  in FUN_400d2dac
+400d3649  movi.n a3,0x12  in spi_setPins
+400d3a3a  movi.n a3,0x12  in ?
+
+=== 19 hits=6 ===
+400d23c0  movi.n a12,0x13  in radioTask
+400d31b4  addi a12,a2,0x13  in FUN_400d3180
+400d35c1  addi a12,a2,0x13  in FUN_400d3590
+400d3653  movi.n a3,0x13  in spi_setPins
+400d3a43  movi.n a3,0x13  in ?
+400d3cd3  movi a14,0x13  in FUN_400d3b94
+
+=== 21 hits=3 ===
+400d23bc  movi.n a14,0x15  in radioTask
+400d2a10  movi.n a12,0x15  in FUN_400d29f8
+400d3a33  movi.n a3,0x15  in ?
+
+=== 22 hits=2 ===
+400d2a12  movi a11,0x16  in FUN_400d29f8
+400d3a4e  movi.n a3,0x16  in ?
+
+=== 23 hits=4 ===
+400d23be  movi.n a13,0x17  in radioTask
+400d3106  movi a4,0x17  in FUN_400d30f0
+400d365d  movi.n a3,0x17  in spi_setPins
+400d3a8e  movi.n a3,0x17  in ?
+
+=== 27 hits=13 ===
+400d274a  movi.n a10,0x1b  in FUN_400d2714
+400d28af  movi a10,0x1b  in statusLedBlink
+400d2907  movi.n a10,0x1b  in enterState_BT
+400d294f  movi.n a10,0x1b  in enterState_BLE
+400d2997  movi.n a10,0x1b  in enterState_WiFi
+400d29df  movi.n a10,0x1b  in enterState_RC
+400d2b89  l8ui a3,a1,0x1b  in FUN_400d2a24
+400d3190  l8ui a8,a2,0x1b  in FUN_400d3180
+400d32a3  l8ui a8,a2,0x1b  in FUN_400d32a0
+400d32be  s8i a8,a2,0x1b  in FUN_400d32a0
+400d32e3  l8ui a8,a2,0x1b  in FUN_400d32c4
+400d33d0  s8i a3,a2,0x1b  in FUN_400d337c
+400d3ab7  movi.n a3,0x1b  in ?

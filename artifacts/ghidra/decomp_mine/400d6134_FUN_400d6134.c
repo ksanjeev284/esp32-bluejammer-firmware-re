@@ -1,0 +1,10 @@
+// 400d6134 FUN_400d6134
+
+void FUN_400d6134(void)
+
+{
+  FUN_400d6084(DAT_400d037c,PTR_DAT_400d0378);
+  return;
+}
+
+

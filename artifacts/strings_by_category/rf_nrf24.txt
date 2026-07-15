@@ -1,0 +1,5 @@
+0x3F4002C4	0x2C4	DROM	Hardware Serial Peripheral Interface started !!! HSPI nRF24 module initialized SUCCESSFULLY! ############################################################
+0x3F40044A	0x44A	DROM	!!! Hardware Serial Peripheral Interface start failure! HSPI nRF24 module could NOT be initialized! #####################################################
+0x3F400608	0x608	DROM	Variable Serial Peripheral Interface started !!! VSPI nRF24 module initialized SUCCESSFULLY! ############################################################
+0x3F400793	0x793	DROM	!!! Variable Serial Peripheral Interface start failure! VSPI nRF24 module could NOT be initialized! #####################################################
+0x3F401658	0x1658	DROM	RadioTask

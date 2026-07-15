@@ -1,0 +1,153 @@
+0x3F401662	0x1662	DROM	State 1: Bluetooth
+0x3F40167D	0x167D	DROM	State 2: Bluetooth Low Energy
+0x3F4016A3	0x16A3	DROM	State 3: WiFi
+0x3F4043A8	0x43A8	DROM	gpio_od_disable
+0x3F4043B8	0x43B8	DROM	gpio_od_enable
+0x3F4043C7	0x43C7	DROM	gpio_ll_output_disable
+0x3F4043DE	0x43DE	DROM	gpio_output_disable
+0x3F4043F2	0x43F2	DROM	gpio_output_enable
+0x3F404405	0x4405	DROM	gpio_input_disable
+0x3F404418	0x4418	DROM	gpio_ll_input_enable
+0x3F40442D	0x442D	DROM	gpio_input_enable
+0x3F404474	0x4474	DROM	gpio_intr_disable
+0x3F404486	0x4486	DROM	gpio_intr_enable_on_core
+0x3F40449F	0x449F	DROM	gpio_intr_enable
+0x3F404AEC	0x4AEC	DROM	periph_module_disable
+0x3F404B02	0x4B02	DROM	periph_module_enable
+0x3F404CEA	0x4CEA	DROM	rtcio_ll_pulldown_disable
+0x3F404D1A	0x4D1A	DROM	rtcio_ll_pulldown_enable
+0x3F404D48	0x4D48	DROM	rtcio_ll_pullup_disable
+0x3F404D74	0x4D74	DROM	rtcio_ll_pullup_enable
+0x3F404F8A	0x4F8A	DROM	!(is_rs485_mode && disabled && uart_hal_get_intraw_mask(&(uart_context[uart_num].hal)) & UART_INTR_TX_DONE)
+0x3F4052D7	0x52D7	DROM	uart_reenable_intr_mask
+0x3F40538D	0x538D	DROM	uart_enable_tx_intr
+0x3F4053BA	0x53BA	DROM	uart_disable_intr_mask
+0x3F405570	0x5570	DROM	E (%u) %s: Rollback is not possible, do not have any suitable apps in slots
+0x3F405AEA	0x5AEA	DROM	E (%u) %s: No MD5 found in partition table
+0x3F405B16	0x5B16	DROM	E (%u) %s: Partition table MD5 mismatch
+0x3F406007	0x6007	DROM	esp_task_stack_is_sane_cache_disabled()
+0x3F406118	0x6118	DROM	spi_flash_enable_interrupts_caches_and_other_cpu
+0x3F406149	0x6149	DROM	spi_flash_disable_interrupts_caches_and_other_cpu
+0x3F40679F	0x679F	DROM	E (%u) %s: Check that CONFIG_FREERTOS_UNICORE is enabled in menuconfig
+0x3F406DEE	0x6DEE	DROM	Double exception
+0x3F406E6C	0x6E6C	DROM	Cache disabled but cached memory region accessed
+0x3F407623	0x7623	DROM	WIFI_AP_DEF
+0x3F40762F	0x762F	DROM	WIFI_STA_DEF
+0x3F407929	0x7929	DROM	E (%u) %s: %s not supported, please enable it in lwIP component configuration
+0x3F407ED0	0x7ED0	DROM	E (%u) %s: invalid wifi event id %d
+0x3F408215	0x8215	DROM	wifi
+0x3F408226	0x8226	DROM	wifi_init
+0x3F4082D3	0x82D3	DROM	WIFI_EVENT
+0x3F4082DE	0x82DE	DROM	wifi_init_default
+0x3F4082F0	0x82F0	DROM	E (%u) %s: esp_wifi_get_mac failed with %d
+0x3F40831C	0x831C	DROM	E (%u) %s: esp_wifi_register_if_rxcb for if=%p failed with %d
+0x3F408386	0x8386	DROM	E (%u) %s: Failed to create wifi interface handle
+0x3F4083B9	0x83B9	DROM	/IDF/components/esp_wifi/src/wifi_default.c
+0x3F4083E5	0x83E5	DROM	esp_netif_create_default_wifi_sta
+0x3F408407	0x8407	DROM	esp_netif_create_default_wifi_ap
+0x3F408428	0x8428	DROM	wifi_netif
+0x3F408433	0x8433	DROM	E (%u) %s: No memory to create a wifi interface handle
+0x3F4084C0	0x84C0	DROM	E (%u) %s: Unknown wifi interface id if=%d
+0x3F4084EC	0x84EC	DROM	E (%u) %s: esp_wifi_internal_reg_rxcb for if=%d failed with %d
+0x3F40A841	0xA841	DROM	arp_table[i].q == NULL
+0x3F40A858	0xA858	DROM	arp_table[i].state == ETHARP_STATE_EMPTY
+0x3F40A936	0xA936	DROM	arp_table[arp_idx].state >= ETHARP_STATE_STABLE
+0x3F40C4B5	0xC4B5	DROM	search_suitable_block
+0x3F40D2FA	0xD2FA	DROM	esp_intr_disable
+0x3F40D319	0xD319	DROM	is_vect_desc_usable
+0x3F40D54B	0xD54B	DROM	rtcio_ll_force_hold_disable
+0x3F40D5BC	0xD5BC	DROM	E (%u) %s: slowclk_cycles value too large, possible overflow
+0x3F40DC93	0xDC93	DROM	ESP_ERR_WIFI_BASE
+0x3F40DCA5	0xDCA5	DROM	ESP_ERR_WIFI_NOT_INIT
+0x3F40DCBB	0xDCBB	DROM	ESP_ERR_WIFI_NOT_STARTED
+0x3F40DCD4	0xDCD4	DROM	ESP_ERR_WIFI_NOT_STOPPED
+0x3F40DCED	0xDCED	DROM	ESP_ERR_WIFI_IF
+0x3F40DCFD	0xDCFD	DROM	ESP_ERR_WIFI_MODE
+0x3F40DD0F	0xDD0F	DROM	ESP_ERR_WIFI_STATE
+0x3F40DD22	0xDD22	DROM	ESP_ERR_WIFI_CONN
+0x3F40DD34	0xDD34	DROM	ESP_ERR_WIFI_NVS
+0x3F40DD45	0xDD45	DROM	ESP_ERR_WIFI_MAC
+0x3F40DD56	0xDD56	DROM	ESP_ERR_WIFI_SSID
+0x3F40DD68	0xDD68	DROM	ESP_ERR_WIFI_PASSWORD
+0x3F40DD7E	0xDD7E	DROM	ESP_ERR_WIFI_TIMEOUT
+0x3F40DD93	0xDD93	DROM	ESP_ERR_WIFI_WAKE_FAIL
+0x3F40DDAA	0xDDAA	DROM	ESP_ERR_WIFI_WOULD_BLOCK
+0x3F40DDC3	0xDDC3	DROM	ESP_ERR_WIFI_NOT_CONNECT
+0x3F40DDDC	0xDDDC	DROM	ESP_ERR_WIFI_POST
+0x3F40DDEE	0xDDEE	DROM	ESP_ERR_WIFI_INIT_STATE
+0x3F40DE06	0xDE06	DROM	ESP_ERR_WIFI_STOP_STATE
+0x3F40DE1E	0xDE1E	DROM	ESP_ERR_WIFI_NOT_ASSOC
+0x3F40DE35	0xDE35	DROM	ESP_ERR_WIFI_TX_DISALLOW
+0x3F40DE4E	0xDE4E	DROM	ESP_ERR_WIFI_REGISTRAR
+0x3F40DE65	0xDE65	DROM	ESP_ERR_WIFI_WPS_TYPE
+0x3F40DE7B	0xDE7B	DROM	ESP_ERR_WIFI_WPS_SM
+0x3F40DFA6	0xDFA6	DROM	ESP_ERR_MESH_WIFI_NOT_START
+0x3F40F519	0xF519	DROM	apb_ticks_per_us % TICKS_PER_US == 0 && "APB frequency (in MHz) should be divisible by TICK_PER_US"
+0x3F40F5B6	0xF5B6	DROM	esp_intr_enable(s_timer_interrupt_handle)
+0x3F410882	0x10882	DROM	esp_bt_controller_mem_release
+0x3F4108C8	0x108C8	DROM	/IDF/components/wifi_provisioning/src/manager.c
+0x3F4108F8	0x108F8	DROM	wifi_prov_mgr
+0x3F410ACF	0x10ACF	DROM	E (%u) %s: Failed to post event WIFI_PROV_END
+0x3F410B3A	0x10B3A	DROM	E (%u) %s: Failed to post event WIFI_PROV_DEINIT
+0x3F410B7B	0x10B7B	DROM	wifi_prov_mgr_event_handler_internal
+0x3F410BA0	0x10BA0	DROM	wifi_prov_mgr_stop_service
+0x3F410BBB	0x10BBB	DROM	wifi_prov_mgr_deinit
+0x3F410BE1	0x10BE1	DROM	WIFI_PROV_EVENT
+0x3F410CA0	0x10CA0	DROM	Enable Classic BT
+0x3F410CB3	0x10CB3	DROM	Enable Low Energy
+0x3F410CC6	0x10CC6	DROM	Coex register bt cb faild
+0x3F410CE1	0x10CE1	DROM	Coex register schm btdm cb faild
+0x3F410D03	0x10D03	DROM	Coex register Wi-Fi channel change btdm cb faild
+0x3F410D35	0x10D35	DROM	Disable Classic BT
+0x3F410D49	0x10D49	DROM	Disable Low Energy
+0x3F410E04	0x10E04	DROM	coex_schm.c
+0x3F41196B	0x1196B	DROM	set ble priority high. conhdl: 0x%x,evt_counter:%d,tx_pkg_cnt:%d
+0x3F411B8D	0x11B8D	DROM	( ( ( (en_cmd->enable) << (LLM_RPA_RENEW_TIMER_EN_LSB) ) & ( ~(LLM_RPA_RENEW_TIMER_EN_MASK) ) ) ) == 0
+0x3F411EF2	0x11EF2	DROM	RF Init OK with coex
+0x3F411F08	0x11F08	DROM	BT BB INTR enabled!
+0x3F411F2C	0x11F2C	DROM	rwble.c
+0x3F41242E	0x1242E	DROM	wifi release called before acquire
+0x3F412451	0x12451	DROM	adc2_wifi_release
+0x3F412866	0x12866	DROM	E (%u) %s: %s: NVS has not been initialized. Call nvs_flash_init before starting WiFi/BT.
+0x3F413FD6	0x13FD6	DROM	Invalid coexist adapter function md5, internal: %s, idf: %s
+0x3F414013	0x14013	DROM	coexist adapter function is NULL
+0x3F414034	0x14034	DROM	coexist adapter function version error! Version %x is expected, but it is %x
+0x3F414082	0x14082	DROM	coexist adapter function magic error! Magic %x is expected, but it is %x
+0x3F4140DC	0x140DC	DROM	coexist_core.c
+0x3F4140EB	0x140EB	DROM	coexist_arbit.c
+0x3F4141A5	0x141A5	DROM	Invalid OSI esp_wifi_os_adapter.h md5, internal: %s, idf: %s
+0x3F4141E3	0x141E3	DROM	Invalid WiFi esp_wifi_crypto_types.h md5, internal: %s, idf: %s
+0x3F414224	0x14224	DROM	Invalid WiFi esp_wifi_types.h md5, internal: %s, idf: %s
+0x3F41425E	0x1425E	DROM	Invalid WiFi esp_wifi.h md5, internal: %s, idf: %s
+0x3F4142A1	0x142A1	DROM	WIFI_MESH_EVENT
+0x3F414482	0x14482	DROM	enabled
+0x3F41448A	0x1448A	DROM	disabled
+0x3F414B8E	0x14B8E	DROM	ieee80211_coexist
+0x3F4166F7	0x166F7	DROM	@0000000000000000                wifi ipc: failed to post wifi task
+0x3F41675A	0x1675A	DROM	wifi stop stage3: out of memory!
+0x3F41677B	0x1677B	DROM	wifi stop stage2: out of memory!
+0x3F41679C	0x1679C	DROM	wifi stop: out of memory!
+0x3F4167B6	0x167B6	DROM	wifi deinit internal: wifi not stop
+0x3F416C3A	0x16C3A	DROM	wpa2 ent enable, invalid param(%p)
+0x3F416C5D	0x16C5D	DROM	wifi stop stage error, stage=%d
+0x3F416E02	0x16E02	DROM	invalid magic number %x, call WIFI_INIT_CONFIG_DEFAULT to init config
+0x3F416ECF	0x16ECF	DROM	wifi nvs cfg alloc out of memory
+0x3F416F0A	0x16F0A	DROM	invalid wifi nvs key index %d
+0x3F417018	0x17018	DROM	SAE H2E disabled
+0x3F4171A1	0x171A1	DROM	timeout when WiFi un-init, type=%d
+0x3F417283	0x17283	DROM	ht2040 coex frame alloc fail
+0x3F417559	0x17559	DROM	Error! Should enable WiFi modem sleep when both WiFi and Bluetooth are enabled!!!!!!
+0x3F4175B6	0x175B6	DROM	create wifi task: failed to create task
+0x3F4175DE	0x175DE	DROM	create wifi task: failed to create sem
+0x3F417605	0x17605	DROM	create wifi task: failed to create queue
+0x3F41762E	0x1762E	DROM	create wifi task: failed to create queue
+0x3F4176A0	0x176A0	DROM	wifi assert: %d
+0x3F4176ED	0x176ED	DROM	rc_enable_trc fail, no mem
+0x3FFC1A7E	0xB9F66	DRAM2	[%u] CO: init coex schm error!
+0x3FFC1AE7	0xB9FCF	DRAM2	[%u] Error! Should enable WiFi modem sleep when both WiFi and Bluetooth are enabled!!!!!!
+0x3FFC1C14	0xBA0FC	DRAM2	[%u] Coex arbit init: no memory!
+0x3FFC315E	0xBB646	DRAM2	<cached disabled>
+0x3FFC34BC	0xBB9A4	DRAM2	BT_PA_GAIN, 
+0x3FFC34CC	0xBB9B4	DRAM2	BT_DIG_ATTEN, 
+0x3FFC34DC	0xBB9C4	DRAM2	BT_TX_BB, 0x%x
+0x3FFC34EC	0xBB9D4	DRAM2	bt_txpwr_atten, %d

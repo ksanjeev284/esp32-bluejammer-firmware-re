@@ -1,0 +1,307 @@
+0x3F4016FA	0x16FA	DROM	SSD1306 allocation failed
+0x3F403F64	0x3F64	DROM	GPIO number error
+0x3F40411E	0x411E	DROM	GPIO output gpio_num error
+0x3F4041E5	0x41E5	DROM	GPIO interrupt type error
+0x3F4041FF	0x41FF	DROM	GPIO pull mode error
+0x3F40423C	0x423C	DROM	E (%u) %s: GPIO_PIN mask error 
+0x3F404561	0x4561	DROM	E (%u) %s: i2c command link allocation error: the buffer provided is too small.
+0x3F4045B2	0x45B2	DROM	E (%u) %s: i2c command link malloc error
+0x3F404603	0x4603	DROM	E (%u) %s: %s(%d): i2c number error
+0x3F404628	0x4628	DROM	E (%u) %s: %s(%d): i2c driver install error
+0x3F404655	0x4655	DROM	E (%u) %s: %s(%d): i2c timing value error
+0x3F404680	0x4680	DROM	E (%u) %s: %s(%d): i2c null address error
+0x3F4046E8	0x46E8	DROM	E (%u) %s: i2c driver malloc error
+0x3F40470C	0x470C	DROM	E (%u) %s: i2c ringbuffer error
+0x3F40472D	0x472D	DROM	E (%u) %s: i2c semaphore error
+0x3F40474D	0x474D	DROM	E (%u) %s: i2c driver install error
+0x3F404772	0x4772	DROM	E (%u) %s: %s(%d): sda gpio number error
+0x3F40479C	0x479C	DROM	E (%u) %s: %s(%d): scl gpio number error
+0x3F404843	0x4843	DROM	E (%u) %s: %s(%d): i2c mode error
+0x3F4048B7	0x48B7	DROM	E (%u) %s: %s(%d): i2c command link error
+0x3F404B1D	0x4B1D	DROM	E (%u) %s: %s(%d): RTCIO number error
+0x3F404DC7	0x4DC7	DROM	E (%u) %s: %s(%d): uart_num error
+0x3F404DEA	0x4DEA	DROM	E (%u) %s: %s(%d): data bit error
+0x3F404E0D	0x4E0D	DROM	E (%u) %s: %s(%d): stop bit error
+0x3F404E30	0x4E30	DROM	E (%u) %s: %s(%d): rx flow thresh error
+0x3F404E59	0x4E59	DROM	E (%u) %s: %s(%d): hw_flowctrl mode error
+0x3F404E84	0x4E84	DROM	E (%u) %s: %s(%d): uart driver error
+0x3F404EAA	0x4EAA	DROM	E (%u) %s: %s(%d): empty intr threshold error
+0x3F404ED9	0x4ED9	DROM	E (%u) %s: %s(%d): tx_io_num error
+0x3F404EFD	0x4EFD	DROM	E (%u) %s: %s(%d): rx_io_num error
+0x3F404F21	0x4F21	DROM	E (%u) %s: %s(%d): rts_io_num error
+0x3F404F46	0x4F46	DROM	E (%u) %s: %s(%d): cts_io_num error
+0x3F405034	0x5034	DROM	E (%u) %s: %s(%d): uart size error
+0x3F40507B	0x507B	DROM	E (%u) %s: %s(%d): break_num error
+0x3F4050C7	0x50C7	DROM	E (%u) %s: rx_buffered_len error
+0x3F4050E9	0x50E9	DROM	E (%u) %s: %s(%d): uart rx buffer length error
+0x3F405119	0x5119	DROM	E (%u) %s: %s(%d): uart tx buffer length error
+0x3F405149	0x5149	DROM	E (%u) %s: UART driver malloc error
+0x3F4051A0	0x51A0	DROM	E (%u) %s: %s(%d): rx fifo full threshold value error
+0x3F4054CF	0x54CF	DROM	phys_offs != SPI_FLASH_CACHE2PHYS_FAIL
+0x3F405720	0x5720	DROM	E (%u) %s: spi_flash_mmap failed: 0x%x
+0x3F4057E5	0x57E5	DROM	E (%u) %s: Checksum failed. Calculated 0x%x read 0x%x
+0x3F4058DE	0x58DE	DROM	E (%u) %s: bootloader_flash_read failed at 0x%08x
+0x3F40597F	0x597F	DROM	E (%u) %s: bootloader_mmap(0x%x, 0x%x) failed
+0x3F405A1D	0x5A1D	DROM	E (%u) %s: Image hash failed - image is corrupt
+0x3F405D7B	0x5D7B	DROM	E (%u) %s: unexpected spi flash error code: 0x%x
+0x3F405DAD	0x5DAD	DROM	E (%u) %s: failed to get chip size
+0x3F405EFB	0x5EFB	DROM	E (%u) %s: Detected size(%dk) smaller than the size in the binary image header(%dk). Probe failed.
+0x3F406374	0x6374	DROM	E (%u) %s: Failed to allocate task args!
+0x3F40639E	0x639E	DROM	E (%u) %s: Failed to allocate pthread data!
+0x3F4063CB	0x63CB	DROM	E (%u) %s: Failed to create task!
+0x3F4063EE	0x63EE	DROM	false && "Failed to lock threads list!"
+0x3F406457	0x6457	DROM	false && "Failed to release mutex!"
+0x3F40647B	0x647B	DROM	false && "Failed to unlock mutex!"
+0x3F4065E9	0x65E9	DROM	E (%u) %s: Aborting.
+0x3F4069AB	0x69AB	DROM	?Guru Meditation Error: Core 
+0x3F4069C9	0x69C9	DROM	 panic'ed (
+0x3F406A1A	0x6A1A	DROM	Re-entered core dump! Exception happened during core dump!
+0x3F406A66	0x6A66	DROM	vfs_err == ESP_OK && "Failed to register vfs console"
+0x3F406ACF	0x6ACF	DROM	err == ESP_OK && "Failed to init pthread module!"
+0x3F406B71	0x6B71	DROM	Debug exception reason: 
+0x3F406D99	0x6D99	DROM	m@?&m@?/m@?8m@?Am@?Exception was unhandled.
+0x3F406DD4	0x6DD4	DROM	Unhandled debug exception
+0x3F406DEE	0x6DEE	DROM	Double exception
+0x3F406DFF	0x6DFF	DROM	Unhandled kernel exception
+0x3F406E1A	0x6E1A	DROM	Coprocessor exception
+0x3F406EB8	0x6EB8	DROM	InstructionFetchError
+0x3F406ECE	0x6ECE	DROM	LoadStoreError
+0x3F406F2E	0x6F2E	DROM	InstrPDAddrError
+0x3F406F3F	0x6F3F	DROM	LoadStorePIFDataError
+0x3F406F55	0x6F55	DROM	InstrPIFAddrError
+0x3F406F67	0x6F67	DROM	LoadStorePIFAddrError
+0x3F40747F	0x747F	DROM	connected action: dhcpc failed
+0x3F407571	0x7571	DROM	E (%u) %s: Failed to lock esp-netif list with %d
+0x3F4076BD	0x76BD	DROM	E (%u) %s: dhcps cb: failed to post IP_EVENT_AP_STAIPASSIGNED (%x)
+0x3F40770B	0x770B	DROM	E (%u) %s: set ip info: failed to post got ip event (%x)
+0x3F407745	0x7745	DROM	E (%u) %s: dhcp client start failed
+0x3F40776A	0x776A	DROM	E (%u) %s: dhcpc cb: failed to post got ip event (%x)
+0x3F407996	0x7996	DROM	E (%u) %s: ip lost timer: failed to post lost ip event (%x)
+0x3F407A0C	0x7A0C	DROM	E (%u) %s: esp netif api sync sem init fail
+0x3F407A39	0x7A39	DROM	E (%u) %s: esp netif api lock sem init fail
+0x3F407A66	0x7A66	DROM	E (%u) %s: %s: Failed to configure netif with config=%p (config or if_key is NULL or duplicate key)
+0x3F407ACB	0x7ACB	DROM	E (%u) %s: Failed to allocate %d bytes (fee heap size %d)
+0x3F407B0B	0x7B0B	DROM	E (%u) %s: Initial configuration of esp_netif failed with %d
+0x3F407B49	0x7B49	DROM	E (%u) %s: Post-attach callback of driver(%p) failed with %d
+0x3F407BD8	0x7BD8	DROM	E (%u) %s: alloc for new id node failed
+0x3F407C05	0x7C05	DROM	E (%u) %s: alloc mem for new base node failed
+0x3F407C79	0x7C79	DROM	E (%u) %s: alloc for event loop failed
+0x3F407CA1	0x7CA1	DROM	E (%u) %s: create event loop queue failed
+0x3F407CCC	0x7CCC	DROM	E (%u) %s: create event loop mutex failed
+0x3F407CF7	0x7CF7	DROM	E (%u) %s: create task for loop failed
+0x3F407DCC	0x7DCC	DROM	E (%u) %s: alloc for new loop node failed
+0x3F4080A9	0x80A9	DROM	E (%u) %s: Send smartconfig ACK error: %d
+0x3F4080DD	0x80DD	DROM	E (%u) %s: Creat udp socket failed
+0x3F408101	0x8101	DROM	E (%u) %s: setsockopt SO_BROADCAST failed
+0x3F40812C	0x812C	DROM	E (%u) %s: setsockopt SO_REUSEADDR failed
+0x3F408157	0x8157	DROM	E (%u) %s: socket bind failed
+0x3F4081A9	0x81A9	DROM	E (%u) %s: ACK parameter malloc fail
+0x3F4081E0	0x81E0	DROM	E (%u) %s: Create sending smartconfig ACK task fail
+0x3F40824B	0x824B	DROM	E (%u) %s: Failed to deinit Wi-Fi driver (0x%x)
+0x3F40827C	0x827C	DROM	E (%u) %s: Failed to init supplicant (0x%x)
+0x3F4082A9	0x82A9	DROM	E (%u) %s: Failed to deinit Wi-Fi (0x%x)
+0x3F4082F0	0x82F0	DROM	E (%u) %s: esp_wifi_get_mac failed with %d
+0x3F40831C	0x831C	DROM	E (%u) %s: esp_wifi_register_if_rxcb for if=%p failed with %d
+0x3F40835B	0x835B	DROM	E (%u) %s: netstack cb reg failed with %d
+0x3F408386	0x8386	DROM	E (%u) %s: Failed to create wifi interface handle
+0x3F4084EC	0x84EC	DROM	E (%u) %s: esp_wifi_internal_reg_rxcb for if=%d failed with %d
+0x3F4088B1	0x88B1	DROM	failed to create tcpip_thread mbox
+0x3F409000	0x9000	DROM	pbuf_copy failed
+0x3F4093BF	0x93BF	DROM	don't call tcp_abort/tcp_abandon for listen-pcbs
+0x3F40A475	0xA475	DROM	pbuf_remove_header failed
+0x3F40A60A	0xA60A	DROM	dhcp_pcb_refcount(): refcount error
+0x3F40AA07	0xAA07	DROM	icmp_input: moving r->payload to icmp header failed
+0x3F40AA6A	0xAA6A	DROM	icmp_input: restoring original p->payload failed
+0x3F40AFBC	0xAFBC	DROM	failed to take the mutex
+0x3F40B008	0xB008	DROM	failed to give the mutex
+0x3F40B049	0xB049	DROM	sys_sem_new: initial give failed
+0x3F40B08C	0xB08C	DROM	taking semaphore failed
+0x3F40B0A4	0xB0A4	DROM	mbox post failed
+0x3F40B0B5	0xB0B5	DROM	mbox fetch failed
+0x3F40B0E7	0xB0E7	DROM	E (%u) %s: sys_init: failed to init lwip protect mutex
+0x3F40B43A	0xB43A	DROM	do_write failed to write all bytes
+0x3F40B59C	0xB59C	DROM	Closing a listen pcb may not fail!
+0x3F40B643	0xB643	DROM	unhandled error
+0x3F40B81A	0xB81A	DROM	netconn state error
+0x3F40C151	0xC151	DROM	sl_map && "internal error - second level bitmap is null"
+0x3F40D3DC	0xD3DC	DROM	E (%u) %s: Base MAC address from BLK0 of EFUSE CRC error, efuse_crc = 0x%02x; calc_crc = 0x%02x
+0x3F40D691	0xD691	DROM	ERROR
+0x3F40D697	0xD697	DROM	ESP_FAIL
+0x3F40D858	0xD858	DROM	ESP_ERR_NVS_REMOVE_FAILED
+0x3F40D944	0xD944	DROM	ESP_ERR_NVS_XTS_ENCR_FAILED
+0x3F40D960	0xD960	DROM	ESP_ERR_NVS_XTS_DECR_FAILED
+0x3F40D97C	0xD97C	DROM	ESP_ERR_NVS_XTS_CFG_FAILED
+0x3F40DB3B	0xDB3B	DROM	ESP_ERR_OTA_VALIDATE_FAILED
+0x3F40DB71	0xDB71	DROM	ESP_ERR_OTA_ROLLBACK_FAILED
+0x3F40DC64	0xDC64	DROM	ESP_ERR_IMAGE_FLASH_FAIL
+0x3F40DD93	0xDD93	DROM	ESP_ERR_WIFI_WAKE_FAIL
+0x3F40DF50	0xDF50	DROM	ESP_ERR_DPP_FAILURE
+0x3F40DF64	0xDF64	DROM	ESP_ERR_DPP_TX_FAILURE
+0x3F40E0AD	0xE0AD	DROM	ESP_ERR_MESH_QUEUE_FAIL
+0x3F40E270	0xE270	DROM	ESP_ERR_ESP_NETIF_DHCPC_START_FAILED
+0x3F40E31F	0xE31F	DROM	ESP_ERR_ESP_NETIF_DRIVER_ATTACH_FAILED
+0x3F40E346	0xE346	DROM	ESP_ERR_ESP_NETIF_INIT_FAILED
+0x3F40E389	0xE389	DROM	ESP_ERR_ESP_NETIF_MLD6_FAILED
+0x3F40E3A7	0xE3A7	DROM	ESP_ERR_ESP_NETIF_IP6_ADDR_FAILED
+0x3F40E3C9	0xE3C9	DROM	ESP_ERR_ESP_NETIF_DHCPS_START_FAILED
+0x3F40E401	0xE401	DROM	ESP_ERR_FLASH_OP_FAIL
+0x3F40E60F	0xE60F	DROM	ESP_ERR_ESP_TLS_FAILED_CONNECT_TO_HOST
+0x3F40E636	0xE636	DROM	ESP_ERR_ESP_TLS_SOCKET_SETOPT_FAILED
+0x3F40E67E	0xE67E	DROM	ESP_ERR_ESP_TLS_SE_FAILED
+0x3F40E6D6	0xE6D6	DROM	ESP_ERR_MBEDTLS_CTR_DRBG_SEED_FAILED
+0x3F40E6FB	0xE6FB	DROM	ESP_ERR_MBEDTLS_SSL_SET_HOSTNAME_FAILED
+0x3F40E723	0xE723	DROM	ESP_ERR_MBEDTLS_SSL_CONFIG_DEFAULTS_FAILED
+0x3F40E74E	0xE74E	DROM	ESP_ERR_MBEDTLS_SSL_CONF_ALPN_PROTOCOLS_FAILED
+0x3F40E77D	0xE77D	DROM	ESP_ERR_MBEDTLS_X509_CRT_PARSE_FAILED
+0x3F40E7A3	0xE7A3	DROM	ESP_ERR_MBEDTLS_SSL_CONF_OWN_CERT_FAILED
+0x3F40E7CC	0xE7CC	DROM	ESP_ERR_MBEDTLS_SSL_SETUP_FAILED
+0x3F40E7ED	0xE7ED	DROM	ESP_ERR_MBEDTLS_SSL_WRITE_FAILED
+0x3F40E80E	0xE80E	DROM	ESP_ERR_MBEDTLS_PK_PARSE_KEY_FAILED
+0x3F40E832	0xE832	DROM	ESP_ERR_MBEDTLS_SSL_HANDSHAKE_FAILED
+0x3F40E857	0xE857	DROM	ESP_ERR_MBEDTLS_SSL_CONF_PSK_FAILED
+0x3F40E87B	0xE87B	DROM	ESP_ERR_MBEDTLS_SSL_TICKET_SETUP_FAILED
+0x3F40E8A3	0xE8A3	DROM	ESP_ERR_WOLFSSL_SSL_SET_HOSTNAME_FAILED
+0x3F40E8CB	0xE8CB	DROM	ESP_ERR_WOLFSSL_SSL_CONF_ALPN_PROTOCOLS_FAILED
+0x3F40E8FA	0xE8FA	DROM	ESP_ERR_WOLFSSL_CERT_VERIFY_SETUP_FAILED
+0x3F40E923	0xE923	DROM	ESP_ERR_WOLFSSL_KEY_VERIFY_SETUP_FAILED
+0x3F40E94B	0xE94B	DROM	ESP_ERR_WOLFSSL_SSL_HANDSHAKE_FAILED
+0x3F40E970	0xE970	DROM	ESP_ERR_WOLFSSL_CTX_SETUP_FAILED
+0x3F40E991	0xE991	DROM	ESP_ERR_WOLFSSL_SSL_SETUP_FAILED
+0x3F40E9B2	0xE9B2	DROM	ESP_ERR_WOLFSSL_SSL_WRITE_FAILED
+0x3F40EB3C	0xEB3C	DROM	ESP_ERR_HW_CRYPTO_DS_HMAC_FAIL
+0x3F40F58C	0xF58C	DROM	E (%u) %s: esp_intr_alloc failed (0x%0x)
+0x3F40F73C	0xF73C	DROM	***ERROR*** A stack overflow in task 
+0x3F410906	0x10906	DROM	E (%u) %s: Failed to post event %d to default event loop
+0x3F4109A8	0x109A8	DROM	E (%u) %s: Failed to get count of scanned APs
+0x3F4109D7	0x109D7	DROM	E (%u) %s: Failed to allocate memory for AP list
+0x3F410A09	0x10A09	DROM	E (%u) %s: Failed to get scanned AP records
+0x3F410A36	0x10A36	DROM	E (%u) %s: Failed to start scan
+0x3F410A97	0x10A97	DROM	E (%u) %s: STA Auth Error
+0x3F410ACF	0x10ACF	DROM	E (%u) %s: Failed to post event WIFI_PROV_END
+0x3F410B0D	0x10B0D	DROM	E (%u) %s: Failed to create prov_stop_task!
+0x3F410B3A	0x10B3A	DROM	E (%u) %s: Failed to post event WIFI_PROV_DEINIT
+0x3F410CC6	0x10CC6	DROM	Coex register bt cb faild
+0x3F410CE1	0x10CE1	DROM	Coex register schm btdm cb faild
+0x3F410D03	0x10D03	DROM	Coex register Wi-Fi channel change btdm cb faild
+0x3F4117F5	0x117F5	DROM	(((uint32_t)prefetchaborttime << 16) & ~((uint32_t)0x03FF0000)) == 0
+0x3F411AAA	0x11AAA	DROM	scan channel select mode user input error
+0x3F411E50	0x11E50	DROM	NVDS MAGIC FAILED
+0x3F411F88	0x11F88	DROM	Send Queue Failed
+0x3F412413	0x12413	DROM	ADCADC_NUM_1 channel error
+0x3F4129A6	0x129A6	DROM	E (%u) %s: %s: failed to get cal_data(0x%x)
+0x3F4129D3	0x129D3	DROM	E (%u) %s: %s: store calibration data failed(0x%x)
+0x3F412A08	0x12A08	DROM	E (%u) %s: %s: store calibration mac failed(0x%x)
+0x3F412A3C	0x12A3C	DROM	E (%u) %s: %s: store calibration version failed(0x%x)
+0x3F412A74	0x12A74	DROM	E (%u) %s: %s: store calibration nvs commit failed(0x%x)
+0x3F412AAF	0x12AAF	DROM	E (%u) %s: failed to allocate memory for RF calibration data
+0x3F414034	0x14034	DROM	coexist adapter function version error! Version %x is expected, but it is %x
+0x3F414082	0x14082	DROM	coexist adapter function magic error! Magic %x is expected, but it is %x
+0x3F414117	0x14117	DROM	OS adapter function version error! Version %d is expected, but it is %x
+0x3F414160	0x14160	DROM	OS adapter function magic error! Magic %d is expected, but it is %x
+0x3F414CAB	0x14CAB	DROM	lmacProcessTxError
+0x3F414CBE	0x14CBE	DROM	lmacProcessTxRtsError
+0x3F414D00	0x14D00	DROM	lmacProcessLongRetryFail
+0x3F414D19	0x14D19	DROM	lmacProcessShortRetryFail
+0x3F415351	0x15351	DROM	E (%d) %s: set promiscuous fail
+0x3F4153EC	0x153EC	DROM	__gnu_cxx::__concurrence_lock_error
+0x3F415410	0x15410	DROM	__gnu_cxx::__concurrence_unlock_error
+0x3F415436	0x15436	DROM	St9exception
+0x3F415445	0x15445	DROM	UA?6TA?N9__gnu_cxx24__concurrence_lock_errorE
+0x3F415474	0x15474	DROM	\UA?LTA?DTA?N9__gnu_cxx26__concurrence_unlock_errorE
+0x3F4166F7	0x166F7	DROM	@0000000000000000                wifi ipc: failed to post wifi task
+0x3F41673B	0x1673B	DROM	failed to post event=%d ret=%d
+0x3F4167DA	0x167DA	DROM	alloc net80211 funcs fail
+0x3F416823	0x16823	DROM	MIC computation for BIP Failed(res=%d)
+0x3F416899	0x16899	DROM	MIC computation for BIP Failed(res=%d)
+0x3F4169DE	0x169DE	DROM	rxa_eb mem fail tid=%d
+0x3F4169F5	0x169F5	DROM	rap mem fail tid=%d
+0x3F416A10	0x16A10	DROM	failed to start addba timer
+0x3F416C5D	0x16C5D	DROM	wifi stop stage error, stage=%d
+0x3F416C7E	0x16C7E	DROM	In function %s, fail to register function!
+0x3F416CBE	0x16CBE	DROM	rx ba window %d error
+0x3F416D03	0x16D03	DROM	tx buf type %d error
+0x3F416E96	0x16E96	DROM	sta is connecting, return error
+0x3F416EB6	0x16EB6	DROM	init nvs: failed, ret=%x
+0x3F417057	0x17057	DROM	Mem alloc fail for SA Q req
+0x3F417073	0x17073	DROM	Mem alloc fail for SA Q req
+0x3F417132	0x17132	DROM	wpa michael mic failure cb empty
+0x3F417168	0x17168	DROM	fail to alloc timer, type=%d
+0x3F417185	0x17185	DROM	fail to post timer, type=%d
+0x3F4171C4	0x171C4	DROM	timeout but fail to get lock, type=%d
+0x3F417283	0x17283	DROM	ht2040 coex frame alloc fail
+0x3F4172A7	0x172A7	DROM	Failed to encrypt CCMP frame
+0x3F417559	0x17559	DROM	Error! Should enable WiFi modem sleep when both WiFi and Bluetooth are enabled!!!!!!
+0x3F4175B6	0x175B6	DROM	create wifi task: failed to create task
+0x3F4175DE	0x175DE	DROM	create wifi task: failed to create sem
+0x3F417605	0x17605	DROM	create wifi task: failed to create queue
+0x3F41762E	0x1762E	DROM	create wifi task: failed to create queue
+0x3F417673	0x17673	DROM	invalid micahel mic failure cb
+0x3F4176A0	0x176A0	DROM	wifi assert: %d
+0x3F4176D7	0x176D7	DROM	trc init fail, no mem
+0x3F4176ED	0x176ED	DROM	rc_enable_trc fail, no mem
+0x3F417848	0x17848	DROM	Failed to init rx desc space, buffer number=%d
+0x3FFC08C3	0x1FD3B	DRAM1	@Stack smashing protect failure!
+0x3FFC0990	0x1FE08	DRAM1	ASSERT_WARN(%d %d), in %s at line %d
+0x3FFC09B5	0x1FE2D	DRAM1	ASSERT_PARAM(%d %d), in %s at line %d
+0x3FFC0A3C	0x1FEB4	DRAM1	ASSERT_ERR(%s), in %s at line %d
+0x3FFC0C7D	0xB9165	DRAM2	E (%u) %s: Core dump write binary failed with error=%d
+0x3FFC0CFC	0xB91E4	DRAM2	E (%u) %s: Failed to read core dump data size (%d)!
+0x3FFC0D86	0xB926E	DRAM2	E (%u) %s: Core dump data check failed:
+0x3FFC0DAF	0xB9297	DRAM2	E (%u) %s: Failed to read checksum from core dump (%d)!
+0x3FFC0DE8	0xB92D0	DRAM2	E (%u) %s: Failed to read data from core dump (%d)!
+0x3FFC0E93	0xB937B	DRAM2	E (%u) %s: Failed to flush cached data to flash (%d)!
+0x3FFC0ECA	0xB93B2	DRAM2	E (%u) %s: Failed to flush cached data to flash (%d)!
+0x3FFC0F01	0xB93E9	DRAM2	E (%u) %s: Failed to erase flash (%d)!
+0x3FFC0F59	0xB9441	DRAM2	E (%u) %s: Failed to write data to flash (%d)!
+0x3FFC0F89	0xB9471	DRAM2	E (%u) %s: Failed to write cached data to flash (%d)!
+0x3FFC0FFE	0xB94E6	DRAM2	E (%u) %s: Failed to end core dump (%d)!
+0x3FFC1028	0xB9510	DRAM2	E (%u) %s: Failed to write core dump header (%d)!
+0x3FFC105B	0xB9543	DRAM2	E (%u) %s: Failed to start core dump (%d)!
+0x3FFC1087	0xB956F	DRAM2	E (%u) %s: Failed to prepare core dump storage (%d)!
+0x3FFC10E5	0xB95CD	DRAM2	E (%u) %s: %s(%u): Version info writing failed. Returned (%d).
+0x3FFC1125	0xB960D	DRAM2	E (%u) %s: %s(%u): memory regions writing error, returned (%d).
+0x3FFC1166	0xB964E	DRAM2	E (%u) %s: %s(%u): ELF Size writing error, returned (%d).
+0x3FFC11A1	0xB9689	DRAM2	E (%u) %s: %s(%u): ELF header writing error, returned (%d).
+0x3FFC11DE	0xB96C6	DRAM2	E (%u) %s: %s(%u): ELF header writing error, returned (%d).
+0x3FFC121B	0xB9703	DRAM2	E (%u) %s: %s(%u): EXTRA_INFO note segment processing failure, returned(%d).
+0x3FFC1269	0xB9751	DRAM2	E (%u) %s: %s(%u): Extra info note write failed. Returned (%d).
+0x3FFC12CC	0xB97B4	DRAM2	E (%u) %s: %s(%u): Version info note write failed. Returned (%d).
+0x3FFC130F	0xB97F7	DRAM2	E (%u) %s: %s(%u): memory region write failed. Returned (%d).
+0x3FFC1378	0xB9860	DRAM2	E (%u) %s: %s(%u): Interrupted task stack write failed, return (%d).
+0x3FFC13BE	0xB98A6	DRAM2	E (%u) %s: %s(%u): Task %x, TCB write failed, return (%d).
+0x3FFC13FA	0xB98E2	DRAM2	E (%u) %s: %s(%u): Tasks regs addition failed, return (%d).
+0x3FFC1437	0xB991F	DRAM2	E (%u) %s: %s(%u): Task %x, stack write failed, return (%d).
+0x3FFC1475	0xB995D	DRAM2	E (%u) %s: %s(%u): Task %x, TCB write failed, return (%d).
+0x3FFC14B1	0xB9999	DRAM2	E (%u) %s: %s(%u): PR_STATUS note segment processing failure, returned(%d).
+0x3FFC14FE	0xB99E6	DRAM2	E (%u) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+0x3FFC1540	0xB9A28	DRAM2	E (%u) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+0x3FFC1582	0xB9A6A	DRAM2	E (%u) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+0x3FFC15C4	0xB9AAC	DRAM2	E (%u) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+0x3FFC1606	0xB9AEE	DRAM2	E (%u) %s: %s(%u): NOTE segment header write failure, returned (%d).
+0x3FFC164C	0xB9B34	DRAM2	E (%u) %s: Task (TCB:%x), (Stack:%x), stack processing failure = %d.
+0x3FFC1692	0xB9B7A	DRAM2	E (%u) %s: Task (TCB:%x) processing failure = %d
+0x3FFC16F7	0xB9BDF	DRAM2	E (%u) %s: %s(%u): Write ELF note data failure, returned (%d)
+0x3FFC176B	0xB9C53	DRAM2	E (%u) %s: %s(%u): Write ELF note data failure (%d)
+0x3FFC17A0	0xB9C88	DRAM2	E (%u) %s: %s(%u): Write ELF note name failure (%d)
+0x3FFC17D5	0xB9CBD	DRAM2	E (%u) %s: %s(%u): Write ELF note header failure (%d)
+0x3FFC1842	0xB9D2A	DRAM2	E (%u) %s: %s(%u): Write ELF segment data failure (%d)
+0x3FFC187A	0xB9D62	DRAM2	E (%u) %s: %s(%u): Write ELF segment data failure (%d)
+0x3FFC18E0	0xB9DC8	DRAM2	E (%u) %s: %s(%u): Write ELF segment header failure (%d)
+0x3FFC191A	0xB9E02	DRAM2	E (%u) %s: %s(%u): Write ELF header failure (%d)
+0x3FFC195E	0xB9E46	DRAM2	E (%u) %s: Error while registers processing.
+0x3FFC1A50	0xB9F38	DRAM2	[%u] CO: create fwn mutex error!
+0x3FFC1A7E	0xB9F66	DRAM2	[%u] CO: init coex schm error!
+0x3FFC1A9E	0xB9F86	DRAM2	[%u] CO: create bb reset mutex error!
+0x3FFC1AC5	0xB9FAD	DRAM2	[%u] CO: create semaphore error!
+0x3FFC1AE7	0xB9FCF	DRAM2	[%u] Error! Should enable WiFi modem sleep when both WiFi and Bluetooth are enabled!!!!!!
+0x3FFC1B9D	0xBA085	DRAM2	[%u] CO: create schm semaphore error!
+0x3FFC1C36	0xBA11E	DRAM2	[%u] CO: create arbit mux error!
+0x3FFC1C58	0xBA140	DRAM2	[%u] CO: create arbit mem mux error!
+0x3FFC30D0	0xBB5B8	DRAM2	%s failed: esp_err_t 0x%x
+0x3FFC3128	0xBB610	DRAM2	ESP_ERROR_CHECK
+0x3FFC3138	0xBB620	DRAM2	abort() was called at PC 0x
+0x3FFC3172	0xBB65A	DRAM2	assert failed: 
+0x3FFC3188	0xBB670	DRAM2	set_chan error! %d
+0x3FFC319C	0xBB684	DRAM2	debug mode FAIL
+0x3FFC31B0	0xBB698	DRAM2	error: pll_cal exceeds 2ms!!!
+0x3FFC37A7	0xBBC8F	DRAM2	E (%u) %s: configure host io mode failed - unsupported

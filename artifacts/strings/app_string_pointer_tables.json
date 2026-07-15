@@ -1,0 +1,69 @@
+[
+  {
+    "start_code_va": "0x400D00D8",
+    "count": 3,
+    "entries": [
+      {
+        "code_va": "0x400D00D8",
+        "str_va": "0x3F4014C9",
+        "string": "                                                    !Educational purposes only!                                                     "
+      },
+      {
+        "code_va": "0x400D00DC",
+        "str_va": "0x3F40154E",
+        "string": "                                         https://github.com/EmenstaNougat/ESP32-BlueJammer                                          "
+      },
+      {
+        "code_va": "0x400D00E0",
+        "str_va": "0x3F4015D3",
+        "string": "                                               I'm not responsible for your actions!                                                "
+      }
+    ]
+  },
+  {
+    "start_code_va": "0x400D010C",
+    "count": 8,
+    "entries": [
+      {
+        "code_va": "0x400D010C",
+        "str_va": "0x3F401662",
+        "string": "State 1: Bluetooth"
+      },
+      {
+        "code_va": "0x400D0110",
+        "str_va": "0x3F401675",
+        "string": "bitmap1"
+      },
+      {
+        "code_va": "0x400D0114",
+        "str_va": "0x3F40167D",
+        "string": "State 2: Bluetooth Low Energy"
+      },
+      {
+        "code_va": "0x400D0118",
+        "str_va": "0x3F40169B",
+        "string": "bitmap2"
+      },
+      {
+        "code_va": "0x400D011C",
+        "str_va": "0x3F4016A3",
+        "string": "State 3: WiFi"
+      },
+      {
+        "code_va": "0x400D0120",
+        "str_va": "0x3F4016B1",
+        "string": "bitmap3"
+      },
+      {
+        "code_va": "0x400D0124",
+        "str_va": "0x3F4016B9",
+        "string": "State 4: RC"
+      },
+      {
+        "code_va": "0x400D0128",
+        "str_va": "0x3F4016C5",
+        "string": "bitmap4"
+      }
+    ]
+  }
+]

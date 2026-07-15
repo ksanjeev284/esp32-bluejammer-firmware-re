@@ -1,0 +1,52 @@
+{
+  "boot_g_state": 1,
+  "states": {
+    "0": {
+      "name": "Idle & Status",
+      "serial": "State 0: Idle & Status",
+      "oled": "R1=/R2=/USB/Connected",
+      "led_blinks": 0,
+      "hop_mod": 0,
+      "rf_hop": false
+    },
+    "1": {
+      "name": "Bluetooth",
+      "serial": "State 1: Bluetooth",
+      "bitmap": "bitmap1",
+      "led_blinks": 1,
+      "hop_mod": 79,
+      "channels": "0..78"
+    },
+    "2": {
+      "name": "BLE",
+      "serial": "State 2: Bluetooth Low Energy",
+      "bitmap": "bitmap2",
+      "led_blinks": 2,
+      "hop_mod": 39,
+      "channels": "0..38"
+    },
+    "3": {
+      "name": "WiFi",
+      "serial": "State 3: WiFi",
+      "bitmap": "bitmap3",
+      "led_blinks": 3,
+      "hop_mod": 14,
+      "channels": "0..13"
+    },
+    "4": {
+      "name": "RC",
+      "serial": "State 4: RC",
+      "bitmap": "bitmap4",
+      "led_blinks": 4,
+      "hop_mod": 125,
+      "channels": "0..124"
+    }
+  },
+  "short_press": "state = state+1; if state>4: state=1 (from non-idle) or idle->1",
+  "long_press_ms": 500,
+  "long_press": "save state; state=0; pauseRf=true",
+  "short_while_paused": "restore; pauseRf=false",
+  "hop": "100 iters then delay 1ms; independent RNG per radio",
+  "initial_carrier_ch": 45,
+  "begin_ch": 76
+}

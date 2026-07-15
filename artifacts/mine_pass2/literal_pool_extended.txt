@@ -1,0 +1,529 @@
+0x400D0020  0x3FFC3BFC    RAM         
+0x400D0024  0x3FFC3B88    RAM         
+0x400D0028  0x3FFC3DC0    RAM         
+0x400D002C  0x3F400120    DROM_STR    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0x400D0030  0x3F4001A5    DROM_STR    â¦ â¦âââââââ¦       ââ
+0x400D0034  0x3F400206    DROM_STR    â ââ£ââââ âââ  âââ
+0x400D0038  0x3F400265    DROM_STR    ╩ ╩╚═╝╩  ╩       ╚═╝
+0x400D003C  0x3F4002C4    DROM_STR    Hardware Serial Peripheral Interface sta
+0x400D0040  0x3FFBDB74    RAM         
+0x400D0044  0x3F40035E    DROM_STR    ╦ ╦╔═╗╔═╗╦       ╔═╗╔═╗╦╦  ╔═╗╔╦╗
+0x400D0048  0x3F4003AE    DROM_STR    â ââ£ââââ âââ  âââ
+0x400D004C  0x3F400400    DROM_STR    ╩ ╩╚═╝╩  ╩       ╚  ╩ ╩╩╩═╝╚═╝═╩╝
+0x400D0050  0x3F40044A    DROM_STR    !!! Hardware Serial Peripheral Interface
+0x400D0054  0x3FFC3B60    RAM         
+0x400D0058  0x3F4004E4    DROM_STR    â¦  â¦âââââââ¦       ââ
+0x400D005C  0x3F400546    DROM_STR    ââââââââ âââ  ââ
+0x400D0060  0x3F4005A8    DROM_STR     ââ ââââ©  â©       âââ
+0x400D0064  0x3F400608    DROM_STR    Variable Serial Peripheral Interface sta
+0x400D0068  0x3FFBDB70    RAM         
+0x400D006C  0x3F4006A2    DROM_STR    â¦  â¦âââââââ¦       ââ
+0x400D0070  0x3F4006F3    DROM_STR    ââââââââ âââ  ââ
+0x400D0074  0x3F400748    DROM_STR     ╚╝ ╚═╝╩  ╩       ╚  ╩ ╩╩╩═╝╚═╝═╩╝
+0x400D0078  0x3F400793    DROM_STR    !!! Variable Serial Peripheral Interface
+0x400D007C  0x3FFC3B38    RAM         
+0x400D0080  0x3FFBDB7C    RAM         
+0x400D0084  0x4014EDB8    IROM_PTR    
+0x400D0088  0x4014F5E4    IROM_PTR    
+0x400D008C  0x4014FF20    IROM_PTR    
+0x400D0090  0x0800001C    OTHER       
+0x400D0094  0x0001C200    IMM         115200
+0x400D0098  0x00004E20    IMM         20000
+0x400D009C  0x3FFC3B3C    RAM         
+0x400D00A0  0x3F40082D    DROM_STR    bitmapboot
+0x400D00A4  0x3F400838    DROM_STR    ########################################
+0x400D00A8  0x3F4008BD    DROM_STR    ███████ ██████
+0x400D00AC  0x3F4009E8    DROM_STR    ██      ██      ██   ██ 
+0x400D00B0  0x3F400AD5    DROM_STR    █████   ███████ 
+0x400D00B4  0x3F400C06    DROM_STR    ██           ██ ██          
+0x400D00B8  0x3F400CEB    DROM_STR    ███████ ██████
+0x400D00BC  0x3F400E16    DROM_STR                                            
+0x400D00C0  0x3F400E9B    DROM_STR                            ââââââ
+0x400D00C4  0x3F400FA6    DROM_STR                            ââââââ
+0x400D00C8  0x3F4010C1    DROM_STR                            ââââââ
+0x400D00CC  0x3F4011CA    DROM_STR                            ââââââ
+0x400D00D0  0x3F4012D1    DROM_STR                            ââââââ
+0x400D00D4  0x3F4013D2    DROM_STR                            ââââââ
+0x400D00D8  0x3F4014C9    DROM_STR                                            
+0x400D00DC  0x3F40154E    DROM_STR                                            
+0x400D00E0  0x3F4015D3    DROM_STR                                            
+0x400D00E4  0x3FFC3B28    RAM         
+0x400D00E8  0x00002000    IMM         8192
+0x400D00EC  0x3F401658    DROM_STR    RadioTask
+0x400D00F0  0x400D236C    IROM_PTR    
+0x400D00F4  0x4015E3C0    IROM_PTR    
+0x400D00F8  0x3FFBDB6C    RAM         
+0x400D00FC  0x3FFC3B24    RAM         
+0x400D0100  0x3FFC3B20    RAM         
+0x400D0104  0x3FFBDB68    RAM         
+0x400D0108  0x3FFC3B2C    RAM         
+0x400D010C  0x3F401662    DROM_STR    State 1: Bluetooth
+0x400D0110  0x3F401675    DROM_STR    bitmap1
+0x400D0114  0x3F40167D    DROM_STR    State 2: Bluetooth Low Energy
+0x400D0118  0x3F40169B    DROM_STR    bitmap2
+0x400D011C  0x3F4016A3    DROM_STR    State 3: WiFi
+0x400D0120  0x3F4016B1    DROM_STR    bitmap3
+0x400D0124  0x3F4016B9    DROM_STR    State 4: RC
+0x400D0128  0x3F4016C5    DROM_STR    bitmap4
+0x400D012C  0x00F42400    IMM         16000000
+0x400D0130  0x3FFC4018    RAM         
+0x400D0134  0x3F406B12    DROM_STR    OK
+0x400D0138  0x3F40EB56    DROM_STR    FAIL
+0x400D013C  0x3F4016CD    DROM_STR    State 0: Idle & Status
+0x400D0140  0x3FFC3B18    RAM         
+0x400D0144  0x3FFC3BB0    RAM         
+0x400D0148  0x3F4016E4    DROM_STR    R1=
+0x400D014C  0x00080000    IMM         524288
+0x400D0150  0x3F4016E8    DROM_STR    R2=
+0x400D0154  0x001A0037    IMM         1703991
+0x400D0158  0x3F4016EC    DROM_STR    USB
+0x400D015C  0x66666667    OTHER       
+0x400D0160  0x80000003    OTHER       
+0x400D0164  0x3F4016F0    DROM_STR    Connected
+0x400D0168  0x3F406DC3    DROM_STR    .
+0x400D016C  0x4015E7FC    IROM_PTR    
+0x400D0170  0x4015E79C    IROM_PTR    
+0x400D0174  0x4015EBE4    IROM_PTR    
+0x400D0178  0x3FFC3B34    RAM         
+0x400D017C  0x3FFC3B30    RAM         
+0x400D0180  0x3FFBDB78    RAM         
+0x400D0184  0x3FFC3B1C    RAM         
+0x400D0188  0x4015E3C8    IROM_PTR    
+0x400D018C  0x3FFC3CD4    RAM         
+0x400D0190  0x3F4016FA    DROM_STR    SSD1306 allocation failed
+0x400D0194  0x00010001    IMM         65537
+0x400D0198  0x3F40082D    DROM_STR    bitmapboot
+0x400D019C  0x3F4023A0    DROM_STR    
+0x400D01A0  0x3F401714    DROM_STR    by @emensta
+0x400D01A4  0x3F401675    DROM_STR    bitmap1
+0x400D01A8  0x3F402080    DROM_STR    
+0x400D01AC  0x3F40169B    DROM_STR    bitmap2
+0x400D01B0  0x3F401D60    DROM_STR    
+0x400D01B4  0x3F4016B1    DROM_STR    bitmap3
+0x400D01B8  0x3F401A40    DROM_STR    
+0x400D01BC  0x3F4016C5    DROM_STR    bitmap4
+0x400D01C0  0x3F401720    DROM_STR    
+0x400D01C4  0x4015E924    IROM_PTR    
+0x400D01C8  0x00061A80    IMM         400000
+0x400D01CC  0x000186A0    IMM         100000
+0x400D01D0  0x000088B8    IMM         35000
+0x400D01D4  0x00989680    IMM         10000000
+0x400D01D8  0x4015E3A0    IROM_PTR    
+0x400D01DC  0x00001388    IMM         5000
+0x400D01E0  0x000F4240    IMM         1000000
+0x400D01E4  0x4015ECA0    IROM_PTR    
+0x400D01E8  0x3FFC3C1C    RAM         
+0x400D01EC  0x4015E414    IROM_PTR    
+0x400D01F0  0x3F4027B0    DROM_STR    esp32-
+0x400D01F4  0x3F4027B7    DROM_STR    %s%02X%02X%02X
+0x400D01F8  0x3FFC3C3C    RAM         
+0x400D01FC  0x401514D0    IROM_PTR    
+0x400D0200  0x3FFC3C5C    RAM         
+0x400D0204  0x3FFC3C38    RAM         
+0x400D0208  0x3FFBDEE0    RAM         
+0x400D020C  0x3FFBDEC4    RAM         
+0x400D0210  0x3FFBDEC0    RAM         
+0x400D0214  0x3FFBDED4    RAM         
+0x400D0218  0x3FFBF698    RAM         
+0x400D021C  0x3FFC3C2F    RAM         
+0x400D0220  0x3FFC3C30    RAM         
+0x400D0224  0x3FFC3C34    RAM         
+0x400D0228  0x400D3944    IROM_PTR    
+0x400D022C  0x00001000    IMM         4096
+0x400D0230  0x3F4027C6    DROM_STR    arduino_events
+0x400D0234  0x400D44A0    IROM_PTR    
+0x400D0238  0x401664E4    IROM_PTR    
+0x400D023C  0x4016647C    IROM_PTR    
+0x400D0240  0x3FFC3C2E    RAM         
+0x400D0244  0x400E5244    IROM_PTR    
+0x400D0248  0x3FFBDF38    RAM         
+0x400D024C  0x1F2F3F4F    OTHER       
+0x400D0250  0x3F407F3C    DROM_STR    l
+0x400D0254  0x3FFBDED8    RAM         
+0x400D0258  0x3FFC3C2D    RAM         
+0x400D025C  0x3FFC3C2C    RAM         
+0x400D0260  0x3FFBDB88    RAM         
+0x400D0264  0x3FFC3C1D    RAM         
+0x400D0268  0xFFFFAFFB    OTHER       
+0x400D026C  0x3F4032E8    DROM_STR    ¸ë@Ä\@\@*
+0x400D0270  0x00FF0000    IMM         16711680
+0x400D0274  0x0000FF00    IMM         65280
+0x400D0278  0x4015F4F8    IROM_PTR    
+0x400D027C  0x4015F4D8    IROM_PTR    
+0x400D0280  0x4015E47C    IROM_PTR    
+0x400D0284  0x4015E400    IROM_PTR    
+0x400D0288  0x3FFBDB84    RAM         
+0x400D028C  0x3FFBDB80    RAM         
+0x400D0290  0x3FFC3C68    RAM         
+0x400D0294  0x3FFC3C20    RAM         
+0x400D0298  0x4015E41C    IROM_PTR    
+0x400D029C  0x3FFC3C6C    RAM         
+0x400D02A0  0x3FFBDB8C    RAM         
+0x400D02A4  0x00FFFFFF    IMM         16777215
+0x400D02A8  0x3FFBDB90    RAM         
+0x400D02AC  0x3FFC3C74    RAM         
+0x400D02B0  0x3FFC3C70    RAM         
+0x400D02B4  0x3FFC3C78    RAM         
+0x400D02B8  0x3FFC3E10    RAM         
+0x400D02BC  0x3FFBDB94    RAM         
+0x400D02C0  0x3FFC3C80    RAM         
+0x400D02C4  0x3FFC3C7C    RAM         
+0x400D02C8  0x3FFC3C84    RAM         
+0x400D02CC  0x00000800    IMM         2048
+0x400D02D0  0x4014F600    IROM_PTR    
+0x400D02D4  0x3F4027E0    DROM_STR     J@8J@ìä@å@äã@|å@4å@@å@`å@^@ìã@0^@
+0x400D02D8  0x4015E58C    IROM_PTR    
+0x400D02DC  0x3FFC3C88    RAM         
+0x400D02E0  0x3F402818    DROM_STR    
+0x400D02E4  0x01000101    OTHER       
+0x400D02E8  0x3F402870    DROM_STR    
+0x400D02EC  0x4015E9CC    IROM_PTR    
+0x400D02F0  0x3F402D78    DROM_STR    ìO@
+0x400D02F4  0x3F402FD7    DROM_STR    
+0x400D02F8  0x3F402DF7    DROM_STR    
+0x400D02FC  0x3F402DF3    DROM_STR    ®Õ¨
+0x400D0300  0x3F402DEF    DROM_STR    Ó
+0x400D0304  0x3F402DEB    DROM_STR     
+0x400D0308  0x00200080    IMM         2097280
+0x400D030C  0x00400080    IMM         4194432
+0x400D0310  0x00100060    IMM         1048672
+0x400D0314  0x3F402DE5    DROM_STR    Û@¤¦.¯ 
+0x400D0318  0x3F402DDD    DROM_STR    
+0x400D031C  0x3F402DD5    DROM_STR    
+0x400D0320  0x4015EAE0    IROM_PTR    
+0x400D0324  0x3F402DD0    DROM_STR    "
+0x400D0328  0x0000FFFF    IMM         65535
+0x400D032C  0x4015ECB0    IROM_PTR    
+0x400D0330  0x4014F64C    IROM_PTR    
+0x400D0334  0x4015EC24    IROM_PTR    
+0x400D0338  0x3FFC3D70    RAM         
+0x400D033C  0x3FFC3D20    RAM         
+0x400D0340  0x4015EBA0    IROM_PTR    
+0x400D0344  0x4015EBA8    IROM_PTR    
+0x400D0348  0x4015EBB0    IROM_PTR    
+0x400D034C  0x3F4032B0    DROM_STR    Z@°Z@
+0x400D0350  0x3F403297    DROM_STR    uart_event_task
+0x400D0354  0x400D57F0    IROM_PTR    
+0x400D0358  0x00002580    IMM         9600
+0x400D035C  0x0000E100    IMM         57600
+0x400D0360  0x4015EC10    IROM_PTR    
+0x400D0364  0x3F406B57    DROM_STR    
+
+0x400D0368  0x3F412EB0    DROM_STR    
+0x400D036C  0x3FFBDB95    RAM         
+0x400D0370  0x4015EC44    IROM_PTR    
+0x400D0374  0x4015EC2C    IROM_PTR    
+0x400D0378  0x3F412EB0    DROM_STR    
+0x400D037C  0x3FFC3E18    RAM         
+0x400D0380  0x0EFFFFFF    OTHER       
+0x400D0384  0x000000FF    IMM         255
+0x400D0388  0x00000001    IMM         1
+0x400D038C  0x00000000    IMM         
+0x400D0390  0x3FF44000    OTHER       
+0x400D0394  0x4000C84C    OTHER       
+0x400D0398  0x4000C818    OTHER       
+0x400D039C  0xFFFF8000    OTHER       
+0x400D03A0  0x7FFFFFFF    OTHER       
+0x400D03A4  0xFFFFC000    OTHER       
+0x400D03A8  0x00003FFF    IMM         16383
+0x400D03AC  0x40009F0C    OTHER       
+0x400D03B0  0x40009EDC    OTHER       
+0x400D03B4  0x3FFBDB98    RAM         
+0x400D03B8  0x3FFC3E28    RAM         
+0x400D03BC  0x000FFFFF    IMM         1048575
+0x400D03C0  0x4015ECC0    IROM_PTR    
+0x400D03C4  0x4015ECF0    IROM_PTR    
+0x400D03C8  0x3FF53000    OTHER       
+0x400D03CC  0x3FF67000    OTHER       
+0x400D03D0  0x000003E8    IMM         1000
+0x400D03D4  0x4000CFF8    OTHER       
+0x400D03D8  0x3F4032F4    DROM_STR    *
+0x400D03DC  0xFFFFEEF3    OTHER       
+0x400D03E0  0xFFFFEEF0    OTHER       
+0x400D03E4  0x4015EC98    IROM_PTR    
+0x400D03E8  0x4015EC90    IROM_PTR    
+0x400D03EC  0x40167A28    IROM_PTR    
+0x400D03F0  0x4015EC78    IROM_PTR    
+0x400D03F4  0x4015EC88    IROM_PTR    
+0x400D03F8  0x4015EC80    IROM_PTR    
+0x400D03FC  0xDFFFFFFF    OTHER       
+0x400D0400  0x20000000    OTHER       
+0x400D0404  0xFBFFFFFF    OTHER       
+0x400D0408  0xFDFFFFFF    OTHER       
+0x400D040C  0x04000000    OTHER       
+0x400D0410  0x02000000    OTHER       
+0x400D0414  0x400D70E4    IROM_PTR    
+0x400D0418  0x3FFBDBF8    RAM         
+0x400D041C  0x3FF000C0    OTHER       
+0x400D0420  0x3FF000C4    OTHER       
+0x400D0424  0x00010000    IMM         65536
+0x400D0428  0xFFFEFFFF    OTHER       
+0x400D042C  0x08000000    OTHER       
+0x400D0430  0x10000000    OTHER       
+0x400D0434  0xFF000000    OTHER       
+0x400D0438  0x00040000    IMM         262144
+0x400D043C  0x7FFFF000    OTHER       
+0x400D0440  0x80000000    OTHER       
+0x400D0444  0x00001FFF    IMM         8191
+0x400D0448  0x7FFC0000    OTHER       
+0x400D044C  0x8003FFFF    OTHER       
+0x400D0450  0x3FF40000    OTHER       
+0x400D0454  0x60000000    OTHER       
+0x400D0458  0x60010000    OTHER       
+0x400D045C  0x3FF50000    OTHER       
+0x400D0460  0x6002E000    OTHER       
+0x400D0464  0x3FF6E000    OTHER       
+0x400D0468  0x3F40CBA8    DROM_STR    Dô?ô?@ô?ô?Hô?lô?`ô?dô?hô?Tô?
+0x400D046C  0xC0100000    OTHER       
+0x400D0470  0x00013FFC    IMM         81916
+0x400D0474  0x3F4032F6    DROM_STR    "(Cannot use REG_SET_FIELD for DPORT reg
+0x400D0478  0x3F403632    DROM_STR    gpio_ll_iomux_func_sel
+0x400D047C  0x3F4033FD    DROM_STR    gpio_ll.h
+0x400D0480  0xFFFF8FFF    OTHER       
+0x400D0484  0x3F40D0F0    DROM_STR    
+0x400D0488  0x40009F0C    OTHER       
+0x400D048C  0x40009EDC    OTHER       
+0x400D0490  0x04C4B3FF    OTHER       
+0x400D0494  0x431BDE83    OTHER       
+0x400D0498  0x10624DD3    OTHER       
+0x400D049C  0x3F403498    DROM_STR    uart_flush_input(uart->num)
+0x400D04A0  0x3F403618    DROM_STR    uartFlushTxOnly
+0x400D04A4  0x3F40342F    DROM_STR    C:\Users\emens\AppData\Local\Arduino15\p
+0x400D04A8  0x3FFBDC28    RAM         
+0x400D04AC  0x3F4034B4    DROM_STR    uart_driver_install(uart_nr, rx_buffer_s
+0x400D04B0  0x3F403628    DROM_STR    uartBegin
+0x400D04B4  0x3F403513    DROM_STR    uart_param_config(uart_nr, &uart_config)
+0x400D04B8  0x3F40353C    DROM_STR    uart_set_pin(uart_nr, txPin, rxPin, UART_PIN_NO_CH…
+0x400D04BC  0x3F403588    DROM_STR    uart_set_line_inverse(uart_nr, UART_SIGNAL_TXD_INV…
+0x400D04C0  0x3FFC3E44    RAM         
+0x400D04C4  0x400D7138    IROM_PTR    
+0x400D04C8  0x400D7160    IROM_PTR    
+0x400D04CC  0x400D7194    IROM_PTR    
+0x400D04D0  0x40007D18    OTHER       
+0x400D04D4  0x40008534    OTHER       
+0x400D04D8  0xFFFF00FF    OTHER       
+0x400D04DC  0x3FFC3E40    RAM         
+0x400D04E0  0x3F4035D4    DROM_STR    ,
+0x400D04E4  0x3FFC3E48    RAM         
+0x400D04E8  0x400D5924    IROM_PTR    
+0x400D04EC  0x3FFC3E4C    RAM         
+0x400D04F0  0x3F403649    DROM_STR    loopTask
+0x400D04F4  0x400D7954    IROM_PTR    
+0x400D04F8  0x3FFC3E50    RAM         
+0x400D04FC  0x3FFC3E54    RAM         
+0x400D0500  0x3FFC3E58    RAM         
+0x400D0504  0x04C4B400    OTHER       
+0x400D0508  0x3FF5A00C    OTHER       
+0x400D050C  0x3FFC4B50    RAM         
+0x400D0510  0x3F40D050    DROM_STR    
+0x400D0514  0x3F404405    DROM_STR    gpio_input_disable
+0x400D0518  0x3F403F48    DROM_STR    gpio
+0x400D051C  0x3F403F4D    DROM_STR    E (%u) %s: %s(%d): %s
+
+0x400D0520  0x3F403F64    DROM_STR    GPIO number error
+0x400D0524  0x3FFC0911    RAM         
+0x400D0528  0x3FF49000    OTHER       
+0x400D052C  0x3F4043DE    DROM_STR    gpio_output_disable
+0x400D0530  0x3FFBDC4C    RAM         
+0x400D0534  0x0FFD114C    OTHER       
+0x400D0538  0x3F403F76    DROM_STR    "(Cannot use REG_WRITE for DPORT registe
+0x400D053C  0x3F4043C7    DROM_STR    gpio_ll_output_disable
+0x400D0540  0x3F40405C    DROM_STR    gpio_ll.h
+0x400D0544  0x3F4043B8    DROM_STR    gpio_od_enable
+0x400D0548  0x3F4043A8    DROM_STR    gpio_od_disable
+0x400D054C  0x3F40442D    DROM_STR    gpio_input_enable
+0x400D0550  0x3F404066    DROM_STR    "(Cannot use SET_PERI_REG_MASK for DPORT
+0x400D0554  0x3F404418    DROM_STR    gpio_ll_input_enable
+0x400D0558  0x3F404486    DROM_STR    gpio_intr_enable_on_core
+0x400D055C  0x00000003    IMM         3
+0x400D0560  0x3F4043F2    DROM_STR    gpio_output_enable
+0x400D0564  0x3F40411E    DROM_STR    GPIO output gpio_num error
+0x400D0568  0x3F40451C    DROM_STR    gpio_pullup_en
+0x400D056C  0x3FFBDC50    RAM         
+0x400D0570  0x3F404139    DROM_STR    "(Cannot use REG_SET_BIT for DPORT regis
+0x400D0574  0x3F40450A    DROM_STR    gpio_ll_pullup_en
+0x400D0578  0x3F4044FA    DROM_STR    gpio_pullup_dis
+0x400D057C  0x3F4044E9    DROM_STR    gpio_pulldown_en
+0x400D0580  0x3F4044D5    DROM_STR    gpio_ll_pulldown_en
+0x400D0584  0x3F4044C3    DROM_STR    gpio_pulldown_dis
+0x400D0588  0x3F4044B0    DROM_STR    gpio_set_intr_type
+0x400D058C  0x3F4041E5    DROM_STR    GPIO interrupt type error
+0x400D0590  0x3F40449F    DROM_STR    gpio_intr_enable
+0x400D0594  0x3F404474    DROM_STR    gpio_intr_disable
+0x400D0598  0x3F404465    DROM_STR    gpio_set_level
+0x400D059C  0x3F404452    DROM_STR    gpio_set_pull_mode
+0x400D05A0  0x3F4041FF    DROM_STR    GPIO pull mode error
+0x400D05A4  0x3F40443F    DROM_STR    gpio_set_direction
+0x400D05A8  0x3F404214    DROM_STR    E (%u) %s: io_num=%d can only be input
+
+0x400D05AC  0xF1000000    OTHER       
+0x400D05B0  0x3F40423C    DROM_STR    E (%u) %s: GPIO_PIN mask error 
+
+0x400D05B4  0x3F40425D    DROM_STR    E (%u) %s: GPIO can only be used as input mode
+
+0x400D05B8  0x3F40428D    DROM_STR    io_reg != (intptr_t)NULL
+0x400D05BC  0x3F40439C    DROM_STR    gpio_config
+0x400D05C0  0x3F4042BD    DROM_STR    gpio.c
+0x400D05C4  0x3F4032F6    DROM_STR    "(Cannot use REG_SET_FIELD for DPORT reg
+0x400D05C8  0x3F404385    DROM_STR    gpio_ll_iomux_func_sel
+0x400D05CC  0x3F4042C4    DROM_STR    "(Cannot use SET_PERI_REG_MASK for DPORT
+0x400D05D0  0x3F404374    DROM_STR    gpio_ll_iomux_in
+0x400D05D4  0xFFFFF7FF    OTHER       
+0x400D05D8  0x00007000    IMM         28672
+0x400D05DC  0x3FFBDC6C    RAM         
+0x400D05E0  0x3F40CC48    DROM_STR    1
+0x400D05E4  0x3F40455D    DROM_STR    i2c
+0x400D05E8  0x3F404561    DROM_STR    E (%u) %s: i2c command link allocation e
+0x400D05EC  0x3F4045B2    DROM_STR    E (%u) %s: i2c command link malloc error
+
+0x400D05F0  0x3F4045DC    DROM_STR    cmd_desc != NULL
+0x400D05F4  0x3F4049B9    DROM_STR    i2c_cmd_link_append
+0x400D05F8  0x3F404557    DROM_STR    i2c.c
+0x400D05FC  0x00000804    IMM         2052
+0x400D0600  0x3F4045ED    DROM_STR    cmd_desc->cur != NULL
+0x400D0604  0x3F404A57    DROM_STR    i2c_driver_delete
+0x400D0608  0x3F404603    DROM_STR    E (%u) %s: %s(%d): i2c number error
+
+0x400D060C  0x3FFC3E60    RAM         
+0x400D0610  0x3F404628    DROM_STR    E (%u) %s: %s(%d): i2c driver install error
+
+0x400D0614  0x4015F188    IROM_PTR    
+0x400D0618  0x3F404A45    DROM_STR    i2c_reset_tx_fifo
+0x400D061C  0x3F404A33    DROM_STR    i2c_reset_rx_fifo
+0x400D0620  0x3F404A12    DROM_STR    i2c_set_timeout
+0x400D0624  0x000FFFFE    IMM         1048574
+0x400D0628  0x3F404655    DROM_STR    E (%u) %s: %s(%d): i2c timing value error
+
+0x400D062C  0x3F404A01    DROM_STR    i2c_isr_register
+0x400D0630  0x3F404680    DROM_STR    E (%u) %s: %s(%d): i2c null address error
+
+0x400D0634  0x3F404A85    DROM_STR    i2c_driver_install
+0x400D0638  0x3F4046AB    DROM_STR    E (%u) %s: %s(%d): i2c buffer size too small for s…
+0x400D063C  0x3F4046E8    DROM_STR    E (%u) %s: i2c driver malloc error
+
+0x400D0640  0x3F40470C    DROM_STR    E (%u) %s: i2c ringbuffer error
+
+0x400D0644  0x3F40472D    DROM_STR    E (%u) %s: i2c semaphore error
+
+0x400D0648  0x3F40474D    DROM_STR    E (%u) %s: i2c driver install error
+
+0x400D064C  0x40081528    IRAM_PTR    
+0x400D0650  0x4015F178    IROM_PTR    
+0x400D0654  0x4015F2C4    IROM_PTR    
+0x400D0658  0x3F4049F5    DROM_STR    i2c_set_pin
+0x400D065C  0x3F404772    DROM_STR    E (%u) %s: %s(%d): sda gpio number error
+
+0x400D0660  0x3F40479C    DROM_STR    E (%u) %s: %s(%d): scl gpio number error
+
+0x400D0664  0x3F4047C6    DROM_STR    E (%u) %s: %s(%d): this i2c pin does not support i…
+0x400D0668  0x3F404809    DROM_STR    E (%u) %s: %s(%d): scl and sda gpio numbers are th…
+0x400D066C  0x3F4032F6    DROM_STR    "(Cannot use REG_SET_FIELD for DPORT reg
+0x400D0670  0x3F4049DE    DROM_STR    gpio_ll_iomux_func_sel
+0x400D0674  0x3F40405C    DROM_STR    gpio_ll.h
+0x400D0678  0x3F404A22    DROM_STR    i2c_param_config
+0x400D067C  0x3F404843    DROM_STR    E (%u) %s: %s(%d): i2c mode error
+
+0x400D0680  0x003D0900    IMM         4000000
+0x400D0684  0x3F404866    DROM_STR    E (%u) %s: %s(%d): i2c clock choice is i
+0x400D0688  0x00007D00    IMM         32000
+0x400D068C  0x4015F234    IROM_PTR    
+0x400D0690  0x4015F210    IROM_PTR    
+0x400D0694  0x4015F1DC    IROM_PTR    
+0x400D0698  0x4015F0E0    IROM_PTR    
+0x400D069C  0x4015F284    IROM_PTR    
+0x400D06A0  0x4015F2A4    IROM_PTR    
+0x400D06A4  0x4015F264    IROM_PTR    
+0x400D06A8  0x4015F15C    IROM_PTR    
+0x400D06AC  0x40008534    OTHER       
+0x400D06B0  0x4015F1A4    IROM_PTR    
+0x400D06B4  0x3F4049CD    DROM_STR    i2c_master_start
+0x400D06B8  0x3F4048B7    DROM_STR    E (%u) %s: %s(%d): i2c command link error
+
+0x400D06BC  0x3F4049A9    DROM_STR    i2c_master_stop
+0x400D06C0  0x00001800    IMM         6144
+0x400D06C4  0x3F404982    DROM_STR    i2c_master_write_byte
+0x400D06C8  0x3F404998    DROM_STR    i2c_master_write
+0x400D06CC  0x3F40496D    DROM_STR    i2c_master_cmd_begin
+0x400D06D0  0x3F4048E2    DROM_STR    E (%u) %s: %s(%d): i2c driver not installed
+
+0x400D06D4  0x3F40490F    DROM_STR    E (%u) %s: %s(%d): Only allowed in master mode
+
+0x400D06D8  0x00003800    IMM         14336
+0x400D06DC  0xC0070000    OTHER       
+0x400D06E0  0x00131FFF    IMM         1253375
+0x400D06E4  0xB0000000    OTHER       
+0x400D06E8  0x3F40493F    DROM_STR    E (%u) %s: Using buffer allocated from psram
+
+0x400D06EC  0x3FFC3E5C    RAM         
+0x400D06F0  0x4015F254    IROM_PTR    
+0x400D06F4  0x00800000    IMM         8388608
+0x400D06F8  0x00200000    IMM         2097152
+0x400D06FC  0x00008000    IMM         32768
+0x400D0700  0x00020000    IMM         131072
+0x400D0704  0x00100000    IMM         1048576
+0x400D0708  0x00400000    IMM         4194304
+0x400D070C  0x00004000    IMM         16384
+0x400D0710  0x00030800    IMM         198656
+0x400D0714  0x00030000    IMM         196608
+0x400D0718  0x3FF00020    OTHER       
+0x400D071C  0x3FF000D0    OTHER       
+0x400D0720  0x3FF0001C    OTHER       
+0x400D0724  0x3FF000CC    OTHER       
+0x400D0728  0x3F404A98    DROM_STR    periph < PERIPH_MODULE_MAX
+0x400D072C  0x3F404B02    DROM_STR    periph_module_enable
+0x400D0730  0x3F404ACA    DROM_STR    periph_ctrl.c
+0x400D0734  0x3FFBDCA4    RAM         
+0x400D0738  0x3FFC3E68    RAM         
+0x400D073C  0x3F404AEC    DROM_STR    periph_module_disable
+0x400D0740  0x3F404AD8    DROM_STR    periph_module_reset
+0x400D0744  0x3F404D9E    DROM_STR    rtc_gpio_deinit
+0x400D0748  0x3F404B17    DROM_STR    RTCIO
+0x400D074C  0x3F404B1D    DROM_STR    E (%u) %s: %s(%d): RTCIO number error
+
+0x400D0750  0x3FFBDCB4    RAM         
+0x400D0754  0x3F40CC60    DROM_STR    |ô?
+0x400D0758  0x3F404C2E    DROM_STR    "(Cannot use CLEAR_PERI_REG_MASK for DPO
+0x400D075C  0x3F404DAE    DROM_STR    rtcio_ll_function_select
+0x400D0760  0x3F404C22    DROM_STR    rtc_io_ll.h
+0x400D0764  0x3F404D8B    DROM_STR    rtc_gpio_pullup_en
+0x400D0768  0x3F404B44    DROM_STR    "(Cannot use SET_PERI_REG_MASK for DPORT
+0x400D076C  0x3F404D74    DROM_STR    rtcio_ll_pullup_enable
+0x400D0770  0x3F404D60    DROM_STR    rtc_gpio_pullup_dis
+0x400D0774  0x3F404D48    DROM_STR    rtcio_ll_pullup_disable
+0x400D0778  0x3F404D33    DROM_STR    rtc_gpio_pulldown_en
+0x400D077C  0x3F404D1A    DROM_STR    rtcio_ll_pulldown_enable
+0x400D0780  0x3F404D04    DROM_STR    rtc_gpio_pulldown_dis
+0x400D0784  0x3F404CEA    DROM_STR    rtcio_ll_pulldown_disable
+0x400D0788  0x3FF48044    OTHER       
+0x400D078C  0x3FFBDCAC    RAM         
+0x400D0790  0x3FFC3E90    RAM         
+0x400D0794  0x3FF48048    OTHER       
+0x400D0798  0x3FFC3E8C    RAM         
+0x400D079C  0x3FF4803C    OTHER       
+0x400D07A0  0x400DA09C    IROM_PTR    
+0x400D07A4  0x3FFC3E98    RAM         
+0x400D07A8  0x00078000    IMM         491520
+0x400D07AC  0x00007FFF    IMM         32767
+0x400D07B0  0x3FFBDCC4    RAM         
+0x400D07B4  0x00040101    IMM         262401
+0x400D07B8  0x3FFC3E94    RAM         
+0x400D07BC  0x3FFBDCBC    RAM         
+0x400D07C0  0xFFFFEFFF    OTHER       
+0x400D07C4  0xFFFFDFFF    OTHER       
+0x400D07C8  0x00038000    IMM         229376
+0x400D07CC  0xFFFFBFFF    OTHER       
+0x400D07D0  0x3F4052D7    DROM_STR    uart_reenable_intr_mask
+0x400D07D4  0x3F407221    DROM_STR    uart
+0x400D07D8  0x3F404DC7    DROM_STR    E (%u) %s: %s(%d): uart_num error
+
+0x400D07DC  0x3F405466    DROM_STR    uart_set_word_length
+0x400D07E0  0x3F404DEA    DROM_STR    E (%u) %s: %s(%d): data bit error
+
+0x400D07E4  0x4015F368    IROM_PTR    
+0x400D07E8  0x3F405451    DROM_STR    uart_get_word_length
+0x400D07EC  0x4015F38C    IROM_PTR    
+0x400D07F0  0x3F40543E    DROM_STR    uart_set_stop_bits
+0x400D07F4  0x3F404E0D    DROM_STR    E (%u) %s: %s(%d): stop bit error
+
+0x400D07F8  0x4015F2E0    IROM_PTR    
+0x400D07FC  0x3F40542B    DROM_STR    uart_get_stop_bits

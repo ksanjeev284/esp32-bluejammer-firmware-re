@@ -1,0 +1,5 @@
+0x3F401662	0x1662	DROM	State 1: Bluetooth
+0x3F40167D	0x167D	DROM	State 2: Bluetooth Low Energy
+0x3F4016A3	0x16A3	DROM	State 3: WiFi
+0x3F4016B9	0x16B9	DROM	State 4: RC
+0x3F4016CD	0x16CD	DROM	State 0: Idle & Status

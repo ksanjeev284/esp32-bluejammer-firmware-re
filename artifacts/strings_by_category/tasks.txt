@@ -1,0 +1,76 @@
+0x3F401658	0x1658	DROM	RadioTask
+0x3F403297	0x3297	DROM	uart_event_task
+0x3F403649	0x3649	DROM	loopTask
+0x3F40452B	0x452B	DROM	HPTaskAwoken != NULL
+0x3F406007	0x6007	DROM	esp_task_stack_is_sane_cache_disabled()
+0x3F4060D1	0x60D1	DROM	!(xTaskGetSchedulerState() == taskSCHEDULER_NOT_STARTED && cpuid != 0)
+0x3F4063CB	0x63CB	DROM	E (%u) %s: Failed to create task!
+0x3F406542	0x6542	DROM	task_wdt
+0x3F40654B	0x654B	DROM	E (%u) %s: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+0x3F4066B4	0x66B4	DROM	IDF/components/esp_system/task_wdt.c
+0x3F406712	0x6712	DROM	esp_task_wdt_add
+0x3F406723	0x6723	DROM	esp_task_wdt_init
+0x3F407CF7	0x7CF7	DROM	E (%u) %s: create task for loop failed
+0x3F407D50	0x7D50	DROM	E (%u) %s: suspended task for loop %p
+0x3F4081CF	0x81CF	DROM	sc_ack_send_task
+0x3F40F73C	0xF73C	DROM	***ERROR*** A stack overflow in task 
+0x3F40F80B	0xF80B	DROM	esp_task_wdt_add(idle_0)
+0x3F40F895	0xF895	DROM	vApplicationGetIdleTaskMemory
+0x3F40F8B3	0xF8B3	DROM	main_task
+0x3F40F97E	0xF97E	DROM	!( ( xTaskGetSchedulerState() == ( ( BaseType_t ) 0 ) ) && ( xTicksToWait != 0 ) )
+0x3F40FA1B	0xFA1B	DROM	pxTasksWaitingForBits->xListEnd.pxNext != ( const ListItem_t * ) &( pxTasksWaitingForBits->xListEnd )
+0x3F40FD89	0xFD89	DROM	pxQueue->pcHead != ((void *)0) || pxQueue->u.xSemaphore.xMutexHolder == ((void *)0) || pxQueue->u.xSemaphore.xMutexHolder == xTaskGetCurrentTaskHandle()
+0x3F4100CA	0x100CA	DROM	/IDF/components/freertos/tasks.c
+0x3F41011D	0x1011D	DROM	xPortCheckValidTCBMem(pxTaskBuffer)
+0x3F4101C2	0x101C2	DROM	( xIdleTaskHandle[cpuid] != ((void *)0) )
+0x3F4101EC	0x101EC	DROM	( ( ( ( pxDelayedTaskList )->uxNumberOfItems == ( UBaseType_t ) 0 ) ? ( ( BaseType_t ) 1 ) : ( ( BaseType_t ) 0 ) ) )
+0x3F410262	0x10262	DROM	xTaskScheduled == pdTRUE
+0x3F4102D8	0x102D8	DROM	xTaskGetSchedulerState() != ( ( BaseType_t ) 0 )
+0x3F410309	0x10309	DROM	xTaskGetSchedulerState() != ( ( BaseType_t ) 2 )
+0x3F41033A	0x1033A	DROM	xNextTaskUnblockTime >= xTickCount
+0x3F4103E8	0x103E8	DROM	xTaskToNotify
+0x3F4104D2	0x104D2	DROM	prvTaskPriorityRaise
+0x3F4104E7	0x104E7	DROM	vTaskGenericNotifyGiveFromISR
+0x3F410505	0x10505	DROM	ulTaskGenericNotifyTake
+0x3F41051D	0x1051D	DROM	vTaskPriorityDisinheritAfterTimeout
+0x3F410541	0x10541	DROM	xTaskPriorityDisinherit
+0x3F410559	0x10559	DROM	xTaskCheckForTimeOut
+0x3F41056E	0x1056E	DROM	vTaskRemoveFromUnorderedEventList
+0x3F410590	0x10590	DROM	xTaskRemoveFromEventList
+0x3F4105A9	0x105A9	DROM	vTaskPlaceOnUnorderedEventList
+0x3F4105C8	0x105C8	DROM	vTaskPlaceOnEventList
+0x3F4105DE	0x105DE	DROM	taskSelectHighestPriorityTaskSMP
+0x3F410613	0x10613	DROM	xTaskIncrementTick
+0x3F410626	0x10626	DROM	xTaskGetIdleTaskHandleForCPU
+0x3F410643	0x10643	DROM	pcTaskGetName
+0x3F410651	0x10651	DROM	xTaskResumeAll
+0x3F410660	0x10660	DROM	vTaskStartScheduler
+0x3F410674	0x10674	DROM	vTaskSuspend
+0x3F410681	0x10681	DROM	vTaskPrioritySet
+0x3F410692	0x10692	DROM	vTaskDelay
+0x3F4106B7	0x106B7	DROM	vTaskDelete
+0x3F4106C3	0x106C3	DROM	xTaskCreateStaticPinnedToCore
+0x3F410AFE	0x10AFE	DROM	prov_stop_task
+0x3F410B6C	0x10B6C	DROM	prov_stop_task
+0x3F410F3A	0x10F3A	DROM	ke_task.c
+0x3F411018	0x11018	DROM	lc_task.c
+0x3F411D87	0x11D87	DROM	lm_task.c
+0x3F41236B	0x1236B	DROM	ipc_task
+0x3F4125CA	0x125CA	DROM	elf_save_task
+0x3F412626	0x12626	DROM	elf_process_tasks_regs
+0x3F41263D	0x1263D	DROM	elf_write_tasks_data
+0x3F412741	0x12741	DROM	esp_core_dump_get_task_regs_dump
+0x3F4175B6	0x175B6	DROM	create wifi task: failed to create task
+0x3F4175DE	0x175DE	DROM	create wifi task: failed to create sem
+0x3FFC08E4	0x1FD5C	DRAM1	Tasks currently running:
+0x3FFC09F4	0x1FE6C	DRAM1	lc_task.c
+0x3FFC13BE	0xB98A6	DRAM2	E (%u) %s: %s(%u): Task %x, TCB write failed, return (%d).
+0x3FFC13FA	0xB98E2	DRAM2	E (%u) %s: %s(%u): Tasks regs addition failed, return (%d).
+0x3FFC1437	0xB991F	DRAM2	E (%u) %s: %s(%u): Task %x, stack write failed, return (%d).
+0x3FFC1475	0xB995D	DRAM2	E (%u) %s: %s(%u): Task %x, TCB write failed, return (%d).
+0x3FFC14FE	0xB99E6	DRAM2	E (%u) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+0x3FFC1540	0xB9A28	DRAM2	E (%u) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+0x3FFC1582	0xB9A6A	DRAM2	E (%u) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+0x3FFC15C4	0xB9AAC	DRAM2	E (%u) %s: %s(%u): Task %x, PR_STATUS write failed, return (%d).
+0x3FFC164C	0xB9B34	DRAM2	E (%u) %s: Task (TCB:%x), (Stack:%x), stack processing failure = %d.
+0x3FFC1692	0xB9B7A	DRAM2	E (%u) %s: Task (TCB:%x) processing failure = %d
