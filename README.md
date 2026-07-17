@@ -3,6 +3,7 @@
 [![Educational](https://img.shields.io/badge/purpose-education%20%2F%20lab-blue)](DISCLAIMER.md)
 [![License](https://img.shields.io/badge/license-see%20LICENSE-lightgrey)](LICENSE)
 [![Lab Ultimate](https://img.shields.io/badge/lab%20ultimate-v0.5-success)](packages/06-lab-ultimate/)
+[![Release](https://img.shields.io/github/v/release/ksanjeev284/esp32-combo-channel-select-re?filter=lab-ultimate*)](https://github.com/ksanjeev284/esp32-combo-channel-select-re/releases/tag/lab-ultimate-v0.5.0)
 
 > **Independent educational reverse engineering and dual-nRF24 lab tooling.**  
 > Not affiliated with any commercial product brand.  
@@ -21,6 +22,8 @@
 | **Contribute findings** | [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`community/findings/`](community/findings/) |
 
 ### Flash Lab Ultimate (recommended)
+
+**Download prebuilt bins:** [Release lab-ultimate-v0.5.0](https://github.com/ksanjeev284/esp32-combo-channel-select-re/releases/tag/lab-ultimate-v0.5.0)
 
 ```bash
 # Full lab TX (PA+LNA friendly, SoftAP, experiments, OTA, …)
