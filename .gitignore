@@ -1,35 +1,20 @@
-# OS / editor
+# Build intermediates
+**/build/
+**/build_safe/
+**/*.elf
+**/*.map
+**/.pio/
+**/.vscode/
+**/.idea/
+**/__pycache__/
+*.pyc
+
+# OS
 .DS_Store
 Thumbs.db
-*.swp
-.idea/
-.vscode/
+desktop.ini
 
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
-
-# Local Arduino compile trees (prebuilt bins kept under firmware/reconstructed/)
-reconstruction/**/build/
-*.elf
-*.map
-
-# Ghidra local projects (regenerate with scripts)
-ghidra_project/
-**/rep/
-*.lock
-*.gpr
-*.rep/
-
-# Large local-only analysis noise
-artifacts/ghidra/*_log.txt
-artifacts/ghidra/headless_log*.txt
-artifacts/ghidra/find_everything_log.txt
-artifacts/ghidra_out/
-
-# Don't ship entire Ghidra installs (but keep this repo's ghidra_scripts/)
-tools/
-/ghidra_[0-9]*/
-*.zip
+# Secrets / local
+.env
+*.pem
+secrets.*

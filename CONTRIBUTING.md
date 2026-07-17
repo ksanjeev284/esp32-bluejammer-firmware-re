@@ -17,9 +17,11 @@ We welcome **additional research, measurements, corrections, and documentation**
 
 1. Fork: https://github.com/ksanjeev284/esp32-combo-channel-select-re  
 2. Create a branch: `findings/short-topic-name`  
-3. Add your material under the paths below  
+3. Add your material under **`community/findings/YYYY-MM-DD_topic/`** (or improve `packages/`)  
 4. Open a **Pull Request** with a clear title and short summary  
 5. Maintainers will review for accuracy, safety, and fit  
+
+**Firmware kits** live in numbered folders: [`packages/`](packages/) (`01-rebuild` … `06-lab-ultimate`).
 
 ### Option B — GitHub Issue (when you are not ready for a PR)
 

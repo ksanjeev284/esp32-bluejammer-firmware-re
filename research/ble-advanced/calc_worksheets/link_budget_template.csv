@@ -1,0 +1,7 @@
+case_id,description,Pt_dBm,Gt_dBi,Gr_dBi,L_misc_dB,EIRP_like_dBm,Pr_min_dBm,FSPL_max_dB,d_freespace_m,n_path,d_anchor_m,delta_P_vs_anchor_dB,d_scaled_m,notes
+S0,Original stock nRF,0,-2,0,6,-8,-80,72,39,2.5,120,-24,13,Replace Pt with measured
+P0,Original PA+LNA,18,2,0,4,16,-80,96,617,2.5,120,0,120,Anchor outdoor
+R0,Research PA better PSU,18,2,0,3,17,-80,97,692,2.5,120,1,132,Firmware+power integrity
+R1,Research +5dBi,18,5,0,3,20,-80,100,977,2.5,120,4,173,Antenna upgrade
+B0,Native BLE phone-class,4,-2,0,2,0,-80,80,98,2.5,120,-16,27,Illustrative
+B1,Native BLE lab FE,10,2,0,2,10,-80,90,309,2.5,120,-6,69,Illustrative

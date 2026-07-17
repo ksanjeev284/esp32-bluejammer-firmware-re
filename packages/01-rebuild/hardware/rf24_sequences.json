@@ -1,0 +1,115 @@
+{
+  "begin_chipInit": [
+    {
+      "op": "delay_ms",
+      "arg": 5
+    },
+    {
+      "op": "write_reg",
+      "reg": 4,
+      "name": "SETUP_RETR",
+      "val": "0x5F"
+    },
+    {
+      "op": "setDataRate",
+      "arg": "1Mbps_temp"
+    },
+    {
+      "op": "FEATURE_probe",
+      "reg": "0x1D"
+    },
+    {
+      "op": "write_reg",
+      "reg": "0x1D",
+      "name": "FEATURE",
+      "val": 0
+    },
+    {
+      "op": "write_reg",
+      "reg": "0x1C",
+      "name": "DYNPD",
+      "val": 0
+    },
+    {
+      "op": "write_reg",
+      "reg": 1,
+      "name": "EN_AA",
+      "val": "0x3F"
+    },
+    {
+      "op": "write_reg",
+      "reg": 2,
+      "name": "EN_RXADDR",
+      "val": 3
+    },
+    {
+      "op": "setPayloadSize",
+      "arg": 32
+    },
+    {
+      "op": "setAddressWidth",
+      "arg": 5
+    },
+    {
+      "op": "setChannel",
+      "arg": 76
+    },
+    {
+      "op": "write_reg",
+      "reg": 7,
+      "name": "STATUS",
+      "val": "0x70"
+    },
+    {
+      "op": "flushRx"
+    },
+    {
+      "op": "flushTx"
+    },
+    {
+      "op": "write_reg",
+      "reg": 0,
+      "name": "CONFIG",
+      "val": "0x0C"
+    },
+    {
+      "op": "read_reg",
+      "reg": 0,
+      "expect": "0x0E"
+    },
+    {
+      "op": "powerUp"
+    }
+  ],
+  "app_configure": [
+    {
+      "op": "stopListening"
+    },
+    {
+      "op": "powerUp"
+    },
+    {
+      "op": "setRetries",
+      "delay": 0,
+      "count": 0
+    },
+    {
+      "op": "setPALevel",
+      "level": "MAX",
+      "lna": true
+    },
+    {
+      "op": "setDataRate",
+      "arg": "2Mbps"
+    },
+    {
+      "op": "setCRCLength",
+      "arg": "disabled"
+    },
+    {
+      "op": "startConstCarrier",
+      "pa": "MAX",
+      "channel": 45
+    }
+  ]
+}
