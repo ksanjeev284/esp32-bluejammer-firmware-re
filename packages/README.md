@@ -43,6 +43,8 @@ Serial **115200**. Lab Ultimate boots **disarmed** — triple short BOOT to arm.
 | OLED SDA / SCL | 4 / 5 |
 | LED / BOOT | 27 / 0 |
 
+**SPI default:** ≤ **10 MHz** on all packages (original binary used 16 MHz; that often breaks HSPI on Dupont/clone hardware). See [docs/SPI_HSPI_COMPAT.md](../docs/SPI_HSPI_COMPAT.md).
+
 ## Legal
 
 Educational / authorized lab only. See root [DISCLAIMER.md](../DISCLAIMER.md).

@@ -46,7 +46,8 @@
 
 - nRF24 modules need solid 3.3 V; brownouts → FAIL banners.  
 - PA+LNA modules draw more current — good PSU / caps required.  
-- SPI rate in firmware: **16 MHz**.  
+- SPI rate in firmware: **10 MHz** (original binary used 16 MHz; reduced so both HSPI+VSPI nRF24s init on typical Dupont wiring / clone modules).  
+- If HSPI fails at boot but VSPI succeeds, check SPI speed / wire length first (not only pinout).
 - I2C: **400 kHz** during transfer, **100 kHz** after.  
 
 Machine-readable: `hardware_bom.json`

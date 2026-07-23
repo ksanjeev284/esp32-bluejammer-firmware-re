@@ -13,6 +13,7 @@ After flash, confirm:
 - [ ] HSPI SUCCESS or FAIL line (UTF-8 art + English)  
 - [ ] VSPI SUCCESS or FAIL line  
 - [ ] FAIL both → check wiring / 3.3 V / caps  
+- [ ] HSPI FAIL + VSPI SUCCESS with correct pinout → SPI bus too fast / long wires (runtime default is **10 MHz**; original RE was 16 MHz).
 
 ## Modes (BOOT short)
 

@@ -22,7 +22,8 @@
 #define INITIAL_CARRIER_CH 45
 #endif
 
-// SPI: original used 16 MHz; 10 MHz is more reliable on long/jumper wires
+// SPI: original used 16 MHz. On-device diag: clone HSPI nRF often fails begin() at
+// 16 MHz but passes at ≤10 MHz; VSPI may still pass at 16 MHz. Keep ≤10 MHz default.
 #ifndef RF24_SPI_HZ
 #define RF24_SPI_HZ 10000000UL
 #endif

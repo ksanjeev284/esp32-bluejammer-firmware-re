@@ -18,3 +18,8 @@ desktop.ini
 .env
 *.pem
 secrets.*
+
+# local build trees
+_build_faithful/
+*.elf
+*.map

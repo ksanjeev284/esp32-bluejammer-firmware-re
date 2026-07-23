@@ -52,7 +52,8 @@
 #define RF_PA_LNA_ENABLE 1
 #endif
 
-// SPI Hz — PA modules on Dupont wires often need slower SPI
+// SPI Hz — PA modules / Dupont wires: never default above 10 MHz.
+// On-device: HSPI clone modules often fail RF24 begin() at 16 MHz, OK at ≤10 MHz.
 #ifndef RF24_SPI_HZ
 #if HW_PROFILE >= 2
 #define RF24_SPI_HZ 8000000UL

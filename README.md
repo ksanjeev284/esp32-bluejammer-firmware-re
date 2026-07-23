@@ -73,6 +73,12 @@ Details: [`packages/06-lab-ultimate/docs/`](packages/06-lab-ultimate/docs/)
 
 ---
 
+## Dual nRF SPI note (important)
+
+Original closed firmware used **16 MHz** SPI. On many DevKit + jumper + clone nRF setups, **HSPI fails** at 16 MHz while **VSPI still works**. All open packages now default to **≤10 MHz** so both modules initialize. Details: [`docs/SPI_HSPI_COMPAT.md`](docs/SPI_HSPI_COMPAT.md). Diagnostic sketch: [`scripts/nrf_diag/`](scripts/nrf_diag/).
+
+---
+
 ## Hardware (BlueJammer-class)
 
 | Function | GPIO |

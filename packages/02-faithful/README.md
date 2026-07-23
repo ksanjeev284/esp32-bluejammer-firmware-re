@@ -65,7 +65,7 @@ esptool.py --chip esp32 -p COMx write_flash ^
 | LED | GPIO 27 blinks = mode |
 | BOOT button | short = cycle modes · long = pause RF |
 | Serial | 115200 · original-style UTF-8 banners |
-| RF config | const carrier · PA_MAX · 2 Mbps · CRC off · SPI 16 MHz |
+| RF config | const carrier · PA_MAX · 2 Mbps · CRC off · **SPI 10 MHz** (was 16 MHz in original; 10 MHz fixes HSPI fail on clone nRF + jumpers) |
 
 Wiring must match BlueJammer pinout (see main RE package hardware docs).
 

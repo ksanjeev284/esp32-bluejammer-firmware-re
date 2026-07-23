@@ -51,7 +51,8 @@ All values recovered from original firmware image analysis.
 | Pause poll | 10 ms |
 | SPI settle | 5 ms |
 | powerUp settle | 5000 µs |
-| RF24 SPI Hz | 16000000 |
+| RF24 SPI Hz (original binary) | 16000000 |
+| RF24 SPI Hz (**runtime rebuild default**) | **10000000** — see `docs/SPI_HSPI_COMPAT.md` |
 | RF24 SPI min floor | 10000000 (if ctor speed ≤ 35000) |
 | I2C during | 400000 Hz |
 | I2C after | 100000 Hz |

@@ -62,7 +62,10 @@ static const uint8_t OLED_ADDR = 0x3C;
 
 // Literal-pool constants from original IROM
 static const uint32_t SERIAL_BAUD   = 115200;
-static const uint32_t RF24_SPI_HZ   = 16000000UL;  // 0x400D012C
+// Original binary used 16 MHz (IROM 0x400D012C). Clone nRF24 + jumper wires often
+// fail HSPI begin() at 16 MHz but succeed at ≤10 MHz (on-device dual-bus diag).
+// Runtime default: 10 MHz so both modules init on typical DevKit wiring.
+static const uint32_t RF24_SPI_HZ   = 10000000UL;
 static const uint32_t RADIO_STACK   = 8192;          // 0x2000
 static const UBaseType_t RADIO_PRIO = 1;
 

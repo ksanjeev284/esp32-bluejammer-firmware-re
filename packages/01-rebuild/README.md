@@ -117,7 +117,7 @@ Set `REBUILD_SAFE 1` for UI-only (no RF TX compile).
 | Hop moduli | BT **79** · BLE **39** · WiFi **14** · RC **125** |
 | Hop style | Independent `random()%N` **per radio** |
 | RF mode | `startConstCarrier` · PA_MAX+LNA · 2 Mbps · CRC off |
-| SPI rate | **16 MHz** |
+| SPI rate | **10 MHz** runtime (original RE: 16 MHz; 10 MHz for HSPI reliability on jumper/clone modules) |
 | I2C | **400 kHz** during / **100 kHz** after |
 | Task | `RadioTask` stack **8192** prio **1** |
 | Idle UI | **`R1=` `R2=` `USB` `Connected`** |

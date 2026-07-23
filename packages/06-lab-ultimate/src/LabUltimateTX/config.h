@@ -165,6 +165,7 @@
 #define RF_PA_LNA_ENABLE 1
 #endif
 
+// Cap default SPI at 10 MHz (HSPI clone nRF + jumpers fail at 16 MHz on-device).
 #ifndef RF24_SPI_HZ
 #if HW_PROFILE >= 1
 #define RF24_SPI_HZ 8000000UL
